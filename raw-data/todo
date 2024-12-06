@@ -1,4 +1,30 @@
-1) Historical unemployment rate by province : Population, Employment Rate, Participation Rate
-2) GDP: Gross domestic product, Gross fixed capital formation
-3) CPI: All Item
+1) Historical unemployment rate by province : 
+   "Labour force characteristics": {"Population", "Employment Rate", "Participation Rate"}, 
+   "VALUE", 
+   "UOM",
+   "SCALAR_FACTOR"
+2) GDP: 
+   "Estimates" : {"Gross domestic product at market prices", "Gross fixed capital formation"}
+   "VALUE",
+   "SCALAR_FACTOR"
+3) CPI: 
+   "Products and product groups" : {'All-items'},
+   "VALUE",
+   "UOM",
+   "SCALAR_FACTOR"
 4) minimum wage
+
+
+name:'Newfoundland and Labrador', label:'NL'
+name:'Prince Edward Island', label:'PEI'
+name:'Nova Scotia', label:'NS'
+name:'New Brunswick', label:'NB'
+name:'Quebec', label:'QC'
+name:'Ontario', label:'ON'
+name:'Manitoba', label:'MB'
+name:'Saskatchewan', label:'SK'
+name:'Alberta', label:'AB'
+name:'British Columbia', label:'BC'
+name:'Yukon', label:'YT'
+# name:'Northwest Territories', label:'NWT'
+# name:'Nunavut', label:'NU'
