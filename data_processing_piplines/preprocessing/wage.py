@@ -18,10 +18,6 @@ def process_wage_data(base_path, output_path):
     # Drop rows with invalid Effective Date
     minimum_wage_data = minimum_wage_data.dropna(subset=['Effective Date'])
 
-    # # Filter out rows where Effective Date is outside 2013-2024 range
-    # minimum_wage_data = minimum_wage_data[(minimum_wage_data['Effective Date'].dt.year >= 2013) & 
-    #                                       (minimum_wage_data['Effective Date'].dt.year <= 2024)]
-
     # Replace 'Jurisdiction' column with 'GEO' and map the names
     jurisdiction_mapping = {
         'NL': 'Newfoundland and Labrador',
@@ -50,9 +46,11 @@ def process_wage_data(base_path, output_path):
     # Remove '$' symbol from Minimum Wage and convert to numeric
     minimum_wage_data['Minimum Wage'] = minimum_wage_data['Minimum Wage'].replace({'\$': ''}, regex=True).astype(float)
 
+    # Remove rows where Minimum Wage is 0 or NaN
+    minimum_wage_data = minimum_wage_data[minimum_wage_data['Minimum Wage'] > 0].dropna(subset=['Minimum Wage'])
+
     # Drop the 'Note' column if it exists
-    if 'Note' in minimum_wage_data.columns:
-        minimum_wage_data = minimum_wage_data.drop(columns=['Note'])
+    minimum_wage_data = minimum_wage_data.drop(columns=['Note'])
 
     # Sort by Effective Date
     minimum_wage_data = minimum_wage_data.sort_values(by='Effective Date')
