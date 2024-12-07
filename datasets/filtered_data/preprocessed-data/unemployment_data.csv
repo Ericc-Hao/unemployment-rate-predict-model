@@ -1,4 +1,136 @@
 REF_DATE,GEO,Participation Rate_SCALAR_FACTOR,Population_SCALAR_FACTOR,Unemployment Rate_SCALAR_FACTOR,Participation Rate,Population,Unemployment Rate,Year
+2021-01,Alberta,units,thousands,units,69.4,3527.7,10.3,2021
+2021-01,British Columbia,units,thousands,units,65.8,4320.6,7.7,2021
+2021-01,Canada,units,thousands,units,64.8,31191.1,9.2,2021
+2021-01,Manitoba,units,thousands,units,65.5,1049.4,8.2,2021
+2021-01,New Brunswick,units,thousands,units,62.0,648.3,8.7,2021
+2021-01,Newfoundland and Labrador,units,thousands,units,58.5,445.2,12.3,2021
+2021-01,Nova Scotia,units,thousands,units,62.8,817.2,8.9,2021
+2021-01,Ontario,units,thousands,units,64.3,12280.5,10.3,2021
+2021-01,Prince Edward Island,units,thousands,units,64.3,133.1,8.4,2021
+2021-01,Quebec,units,thousands,units,63.3,7081.0,8.2,2021
+2021-01,Saskatchewan,units,thousands,units,67.1,888.1,7.0,2021
+2021-02,Alberta,units,thousands,units,69.7,3531.4,9.8,2021
+2021-02,British Columbia,units,thousands,units,65.9,4323.3,7.2,2021
+2021-02,Canada,units,thousands,units,65.1,31216.3,8.5,2021
+2021-02,Manitoba,units,thousands,units,66.1,1050.3,7.1,2021
+2021-02,New Brunswick,units,thousands,units,61.8,648.4,9.5,2021
+2021-02,Newfoundland and Labrador,units,thousands,units,56.3,445.1,15.3,2021
+2021-02,Nova Scotia,units,thousands,units,62.8,817.4,8.6,2021
+2021-02,Ontario,units,thousands,units,64.8,12292.5,9.6,2021
+2021-02,Prince Edward Island,units,thousands,units,64.8,133.2,9.7,2021
+2021-02,Quebec,units,thousands,units,63.7,7085.5,6.5,2021
+2021-02,Saskatchewan,units,thousands,units,67.1,889.1,7.2,2021
+2021-03,Alberta,units,thousands,units,70.3,3533.5,9.1,2021
+2021-03,British Columbia,units,thousands,units,66.2,4326.0,7.0,2021
+2021-03,Canada,units,thousands,units,65.4,31234.8,7.7,2021
+2021-03,Manitoba,units,thousands,units,66.5,1050.8,7.1,2021
+2021-03,New Brunswick,units,thousands,units,61.9,648.6,9.5,2021
+2021-03,Newfoundland and Labrador,units,thousands,units,57.6,445.1,13.3,2021
+2021-03,Nova Scotia,units,thousands,units,63.1,817.7,9.1,2021
+2021-03,Ontario,units,thousands,units,65.0,12301.9,7.9,2021
+2021-03,Prince Edward Island,units,thousands,units,65.0,133.4,8.8,2021
+2021-03,Quebec,units,thousands,units,64.1,7088.2,6.7,2021
+2021-03,Saskatchewan,units,thousands,units,67.1,889.5,7.0,2021
+2021-04,Alberta,units,thousands,units,69.4,3535.3,8.8,2021
+2021-04,British Columbia,units,thousands,units,65.3,4329.4,7.0,2021
+2021-04,Canada,units,thousands,units,65.1,31252.0,8.2,2021
+2021-04,Manitoba,units,thousands,units,67.5,1050.9,7.3,2021
+2021-04,New Brunswick,units,thousands,units,61.8,648.9,8.9,2021
+2021-04,Newfoundland and Labrador,units,thousands,units,57.6,445.0,13.1,2021
+2021-04,Nova Scotia,units,thousands,units,62.4,818.0,8.3,2021
+2021-04,Ontario,units,thousands,units,64.7,12311.4,9.3,2021
+2021-04,Prince Edward Island,units,thousands,units,65.4,133.5,9.5,2021
+2021-04,Quebec,units,thousands,units,63.8,7090.1,6.8,2021
+2021-04,Saskatchewan,units,thousands,units,67.3,889.5,6.5,2021
+2021-05,Alberta,units,thousands,units,69.2,3536.2,8.6,2021
+2021-05,British Columbia,units,thousands,units,65.4,4334.6,7.1,2021
+2021-05,Canada,units,thousands,units,64.9,31266.1,8.3,2021
+2021-05,Manitoba,units,thousands,units,66.9,1050.7,7.0,2021
+2021-05,New Brunswick,units,thousands,units,61.8,649.3,9.3,2021
+2021-05,Newfoundland and Labrador,units,thousands,units,56.9,445.0,13.1,2021
+2021-05,Nova Scotia,units,thousands,units,61.1,818.7,10.4,2021
+2021-05,Ontario,units,thousands,units,64.4,12317.2,9.3,2021
+2021-05,Prince Edward Island,units,thousands,units,66.2,133.6,10.5,2021
+2021-05,Quebec,units,thousands,units,63.9,7091.4,6.7,2021
+2021-05,Saskatchewan,units,thousands,units,67.7,889.4,6.6,2021
+2021-06,Alberta,units,thousands,units,69.6,3537.7,8.8,2021
+2021-06,British Columbia,units,thousands,units,65.7,4340.5,6.6,2021
+2021-06,Canada,units,thousands,units,65.5,31283.5,7.9,2021
+2021-06,Manitoba,units,thousands,units,66.8,1050.5,7.6,2021
+2021-06,New Brunswick,units,thousands,units,61.8,649.8,10.1,2021
+2021-06,Newfoundland and Labrador,units,thousands,units,57.7,444.9,12.8,2021
+2021-06,Nova Scotia,units,thousands,units,62.1,819.6,8.8,2021
+2021-06,Ontario,units,thousands,units,65.1,12324.0,8.7,2021
+2021-06,Prince Edward Island,units,thousands,units,67.2,133.7,12.5,2021
+2021-06,Quebec,units,thousands,units,64.7,7093.7,6.2,2021
+2021-06,Saskatchewan,units,thousands,units,68.0,889.1,7.0,2021
+2021-07,Alberta,units,thousands,units,69.3,3540.8,8.4,2021
+2021-07,British Columbia,units,thousands,units,65.7,4347.5,6.4,2021
+2021-07,Canada,units,thousands,units,65.5,31315.4,7.4,2021
+2021-07,Manitoba,units,thousands,units,66.8,1051.4,6.1,2021
+2021-07,New Brunswick,units,thousands,units,61.6,650.3,9.5,2021
+2021-07,Newfoundland and Labrador,units,thousands,units,58.0,445.0,13.2,2021
+2021-07,Nova Scotia,units,thousands,units,62.5,820.5,8.5,2021
+2021-07,Ontario,units,thousands,units,65.4,12338.8,7.9,2021
+2021-07,Prince Edward Island,units,thousands,units,67.1,133.9,11.0,2021
+2021-07,Quebec,units,thousands,units,64.5,7097.9,6.2,2021
+2021-07,Saskatchewan,units,thousands,units,67.6,889.5,6.9,2021
+2021-08,Alberta,units,thousands,units,69.6,3545.3,8.0,2021
+2021-08,British Columbia,units,thousands,units,65.7,4357.7,6.4,2021
+2021-08,Canada,units,thousands,units,65.5,31356.8,7.1,2021
+2021-08,Manitoba,units,thousands,units,66.2,1052.3,5.7,2021
+2021-08,New Brunswick,units,thousands,units,60.8,651.2,9.6,2021
+2021-08,Newfoundland and Labrador,units,thousands,units,57.8,445.2,13.2,2021
+2021-08,Nova Scotia,units,thousands,units,62.2,822.3,8.1,2021
+2021-08,Ontario,units,thousands,units,65.4,12354.7,7.7,2021
+2021-08,Prince Edward Island,units,thousands,units,66.4,134.7,10.7,2021
+2021-08,Quebec,units,thousands,units,64.2,7103.4,5.7,2021
+2021-08,Saskatchewan,units,thousands,units,68.4,889.9,6.7,2021
+2021-09,Alberta,units,thousands,units,70.3,3550.2,7.8,2021
+2021-09,British Columbia,units,thousands,units,65.6,4367.1,6.2,2021
+2021-09,Canada,units,thousands,units,65.9,31391.6,7.0,2021
+2021-09,Manitoba,units,thousands,units,67.3,1052.4,5.8,2021
+2021-09,New Brunswick,units,thousands,units,61.6,652.3,9.6,2021
+2021-09,Newfoundland and Labrador,units,thousands,units,58.0,445.4,14.0,2021
+2021-09,Nova Scotia,units,thousands,units,62.5,824.1,7.9,2021
+2021-09,Ontario,units,thousands,units,65.9,12367.7,7.4,2021
+2021-09,Prince Edward Island,units,thousands,units,66.7,135.2,11.3,2021
+2021-09,Quebec,units,thousands,units,64.6,7107.4,5.9,2021
+2021-09,Saskatchewan,units,thousands,units,68.4,889.9,6.5,2021
+2021-10,Alberta,units,thousands,units,69.6,3556.0,7.7,2021
+2021-10,British Columbia,units,thousands,units,65.1,4375.6,5.7,2021
+2021-10,Canada,units,thousands,units,65.6,31430.0,6.5,2021
+2021-10,Manitoba,units,thousands,units,66.8,1052.8,5.0,2021
+2021-10,New Brunswick,units,thousands,units,61.6,653.2,9.3,2021
+2021-10,Newfoundland and Labrador,units,thousands,units,57.7,445.5,13.6,2021
+2021-10,Nova Scotia,units,thousands,units,62.2,825.4,8.0,2021
+2021-10,Ontario,units,thousands,units,65.7,12383.8,6.7,2021
+2021-10,Prince Edward Island,units,thousands,units,65.6,135.6,9.4,2021
+2021-10,Quebec,units,thousands,units,64.4,7112.1,5.3,2021
+2021-10,Saskatchewan,units,thousands,units,67.6,890.0,6.0,2021
+2021-11,Alberta,units,thousands,units,69.8,3562.0,7.4,2021
+2021-11,British Columbia,units,thousands,units,65.4,4383.8,5.7,2021
+2021-11,Canada,units,thousands,units,65.7,31466.2,6.1,2021
+2021-11,Manitoba,units,thousands,units,66.9,1053.2,5.1,2021
+2021-11,New Brunswick,units,thousands,units,61.3,653.9,8.4,2021
+2021-11,Newfoundland and Labrador,units,thousands,units,57.5,445.7,11.1,2021
+2021-11,Nova Scotia,units,thousands,units,62.6,826.6,8.7,2021
+2021-11,Ontario,units,thousands,units,65.9,12399.2,6.5,2021
+2021-11,Prince Edward Island,units,thousands,units,66.9,135.9,8.9,2021
+2021-11,Quebec,units,thousands,units,64.4,7115.9,4.5,2021
+2021-11,Saskatchewan,units,thousands,units,67.0,890.1,5.4,2021
+2021-12,Alberta,units,thousands,units,70.1,3568.1,6.9,2021
+2021-12,British Columbia,units,thousands,units,64.9,4391.3,5.3,2021
+2021-12,Canada,units,thousands,units,65.8,31510.1,5.9,2021
+2021-12,Manitoba,units,thousands,units,67.2,1054.3,5.2,2021
+2021-12,New Brunswick,units,thousands,units,60.4,654.9,7.5,2021
+2021-12,Newfoundland and Labrador,units,thousands,units,57.6,446.0,12.1,2021
+2021-12,Nova Scotia,units,thousands,units,61.9,828.4,7.6,2021
+2021-12,Ontario,units,thousands,units,66.2,12419.9,6.3,2021
+2021-12,Prince Edward Island,units,thousands,units,67.3,136.4,8.4,2021
+2021-12,Quebec,units,thousands,units,64.4,7119.9,4.6,2021
+2021-12,Saskatchewan,units,thousands,units,67.7,890.9,5.5,2021
 2022-01,Alberta,units,thousands,units,69.9,3573.9,6.8,2022
 2022-01,British Columbia,units,thousands,units,64.8,4396.3,5.1,2022
 2022-01,Canada,units,thousands,units,65.4,31546.7,6.5,2022

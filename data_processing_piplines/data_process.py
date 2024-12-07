@@ -69,7 +69,7 @@ data_c_g_u.drop(columns=["REF_DATE_y"], inplace=True)
 data_c_g_u.rename(columns={"REF_DATE_x": "REF_DATE"}, inplace=True)
 
 
-#  3) merge cpi & gdp & unemployee data with wage data
+# 3) merge cpi & gdp & unemployee data with wage data
 data_c_g_u['REF_DATE'] = pd.to_datetime(data_c_g_u['REF_DATE'], errors='coerce').dt.strftime('%Y-%m')
 wage_data['Effective Date'] = pd.to_datetime(wage_data['Effective Date'], errors='coerce').dt.strftime('%Y-%m')
 
@@ -97,6 +97,8 @@ final_merged_data['Minimum Wage'] = final_merged_data.apply(
     lambda row: row['Minimum Wage'] if not pd.isna(row['Minimum Wage']) else get_latest_wage(row, wage_data), axis=1
 )
 final_merged_data = final_merged_data.drop(columns=['Effective Date'])
+final_merged_data = final_merged_data.drop(columns=['Year'])
+
 # Save the merged data
 final_merged_data.to_csv('./datasets/filtered_data/final_merged_data.csv', index=False)
 
