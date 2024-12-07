@@ -36,7 +36,7 @@ print(f'mergering data...')
 
 # 1) merge cpi & gdp data
 data_c_g = pd.merge(cpi_data, gdp_data, on=["REF_DATE", "GEO"], how="inner")
-data_c_g.sort_values(by="REF_DATE", inplace=True)
+# data_c_g.sort_values(by="REF_DATE", inplace=True)
 
 unemployment_data['Year'] = unemployment_data['Year'].astype(int)
 data_c_g['REF_DATE'] = pd.to_datetime(data_c_g['REF_DATE'])
@@ -53,7 +53,7 @@ data_c_g_u = pd.merge(
 
 # fill the year data to mounthly
 if data_c_g_u.isnull().any().any():
-    data_c_g = data_c_g.sort_values(by=["GEO", "Year"])
+    # data_c_g = data_c_g.sort_values(by=["GEO", "Year"])
     for index, row in data_c_g_u[data_c_g_u.isnull().any(axis=1)].iterrows():
         nearest = data_c_g[
             (data_c_g["GEO"] == row["GEO"]) &
@@ -81,7 +81,7 @@ final_merged_data = pd.merge(
     how='left'
 )
 
-final_merged_data.sort_values(by=['GEO', 'REF_DATE'], inplace=True) 
+# final_merged_data.sort_values(by=['GEO', 'REF_DATE'], inplace=True) 
 
 # Define the function to get the most recent wage data before REF_DATE
 def get_latest_wage(row, wage_data):
