@@ -1,0 +1,155 @@
+REF_DATE,GEO,Gross domestic product at market prices,Gross fixed capital formation,GDP_SCALE,GCGF_SCALE
+2013,Alberta,322960.0,134491.0,millions,millions
+2014,Alberta,341998.0,140637.0,millions,millions
+2015,Alberta,329332.0,112731.0,millions,millions
+2016,Alberta,317951.0,91260.0,millions,millions
+2017,Alberta,332256.0,91903.0,millions,millions
+2018,Alberta,338965.0,90904.0,millions,millions
+2019,Alberta,339281.0,84688.0,millions,millions
+2020,Alberta,312726.0,72365.0,millions,millions
+2021,Alberta,329067.0,79296.0,millions,millions
+2022,Alberta,348686.0,87281.0,millions,millions
+2023,Alberta,356761.0,85519.0,millions,millions
+2013,British Columbia,250066.0,61126.0,millions,millions
+2014,British Columbia,259251.0,65205.0,millions,millions
+2015,British Columbia,264523.0,63164.0,millions,millions
+2016,British Columbia,271919.0,66743.0,millions,millions
+2017,British Columbia,282283.0,69871.0,millions,millions
+2018,British Columbia,292182.0,72019.0,millions,millions
+2019,British Columbia,299857.0,79152.0,millions,millions
+2020,British Columbia,290575.0,78549.0,millions,millions
+2021,British Columbia,312961.0,85419.0,millions,millions
+2022,British Columbia,325364.0,86148.0,millions,millions
+2023,British Columbia,333100.0,87515.0,millions,millions
+2013,Canada,1985911.0,508722.0,millions,millions
+2014,Canada,2042976.0,520168.0,millions,millions
+2015,Canada,2056255.0,493068.0,millions,millions
+2016,Canada,2077610.0,470125.0,millions,millions
+2017,Canada,2140641.0,485847.0,millions,millions
+2018,Canada,2199358.0,497330.0,millions,millions
+2019,Canada,2241331.0,501192.0,millions,millions
+2020,Canada,2128408.0,482321.0,millions,millions
+2021,Canada,2255059.0,524821.0,millions,millions
+2022,Canada,2349525.0,518285.0,millions,millions
+2023,Canada,2385443.0,509843.0,millions,millions
+2013,Manitoba,65845.0,15084.0,millions,millions
+2014,Manitoba,67203.0,15654.0,millions,millions
+2015,Manitoba,68032.0,15789.0,millions,millions
+2016,Manitoba,69017.0,15143.0,millions,millions
+2017,Manitoba,71285.0,15791.0,millions,millions
+2018,Manitoba,72648.0,15656.0,millions,millions
+2019,Manitoba,73505.0,15411.0,millions,millions
+2020,Manitoba,70493.0,14205.0,millions,millions
+2021,Manitoba,71498.0,14259.0,millions,millions
+2022,Manitoba,74505.0,13902.0,millions,millions
+2023,Manitoba,75764.0,13452.0,millions,millions
+2013,New Brunswick,34414.0,6208.0,millions,millions
+2014,New Brunswick,34454.0,6088.0,millions,millions
+2015,New Brunswick,34679.0,6013.0,millions,millions
+2016,New Brunswick,34959.0,5938.0,millions,millions
+2017,New Brunswick,35828.0,6648.0,millions,millions
+2018,New Brunswick,36218.0,7137.0,millions,millions
+2019,New Brunswick,36704.0,6479.0,millions,millions
+2020,New Brunswick,35393.0,6497.0,millions,millions
+2021,New Brunswick,37271.0,6942.0,millions,millions
+2022,New Brunswick,38027.0,7454.0,millions,millions
+2023,New Brunswick,38636.0,7174.0,millions,millions
+2013,Newfoundland and Labrador,33486.0,12468.0,millions,millions
+2014,Newfoundland and Labrador,33096.0,12604.0,millions,millions
+2015,Newfoundland and Labrador,32709.0,12344.0,millions,millions
+2016,Newfoundland and Labrador,33201.0,13348.0,millions,millions
+2017,Newfoundland and Labrador,33689.0,10258.0,millions,millions
+2018,Newfoundland and Labrador,32836.0,8736.0,millions,millions
+2019,Newfoundland and Labrador,34157.0,9186.0,millions,millions
+2020,Newfoundland and Labrador,32512.0,8187.0,millions,millions
+2021,Newfoundland and Labrador,32836.0,7294.0,millions,millions
+2022,Newfoundland and Labrador,32199.0,7461.0,millions,millions
+2023,Newfoundland and Labrador,31358.0,8004.0,millions,millions
+2013,Nova Scotia,41189.0,8682.0,millions,millions
+2014,Nova Scotia,41589.0,8223.0,millions,millions
+2015,Nova Scotia,41868.0,8234.0,millions,millions
+2016,Nova Scotia,42531.0,8854.0,millions,millions
+2017,Nova Scotia,43314.0,8854.0,millions,millions
+2018,Nova Scotia,44077.0,9299.0,millions,millions
+2019,Nova Scotia,45586.0,9995.0,millions,millions
+2020,Nova Scotia,43513.0,9585.0,millions,millions
+2021,Nova Scotia,46290.0,10122.0,millions,millions
+2022,Nova Scotia,47888.0,10367.0,millions,millions
+2023,Nova Scotia,48849.0,10158.0,millions,millions
+2013,Nunavut,2589.0,1303.0,millions,millions
+2014,Nunavut,2557.0,1008.0,millions,millions
+2015,Nunavut,2549.0,1045.0,millions,millions
+2016,Nunavut,2679.0,1075.0,millions,millions
+2017,Nunavut,3032.0,1552.0,millions,millions
+2018,Nunavut,3170.0,2003.0,millions,millions
+2019,Nunavut,3416.0,1832.0,millions,millions
+2020,Nunavut,3493.0,1064.0,millions,millions
+2021,Nunavut,3724.0,1240.0,millions,millions
+2022,Nunavut,3770.0,1257.0,millions,millions
+2023,Nunavut,3915.0,1431.0,millions,millions
+2013,Northwest Territories,4295.0,1529.0,millions,millions
+2014,Northwest Territories,4497.0,1599.0,millions,millions
+2015,Northwest Territories,4539.0,1833.0,millions,millions
+2016,Northwest Territories,4475.0,1633.0,millions,millions
+2017,Northwest Territories,4628.0,1168.0,millions,millions
+2018,Northwest Territories,4684.0,1115.0,millions,millions
+2019,Northwest Territories,4502.0,923.0,millions,millions
+2020,Northwest Territories,4097.0,684.0,millions,millions
+2021,Northwest Territories,4238.0,743.0,millions,millions
+2022,Northwest Territories,4352.0,829.0,millions,millions
+2023,Northwest Territories,4330.0,891.0,millions,millions
+2013,Ontario,748281.0,151463.0,millions,millions
+2014,Ontario,767050.0,158110.0,millions,millions
+2015,Ontario,785866.0,168127.0,millions,millions
+2016,Ontario,802365.0,167607.0,millions,millions
+2017,Ontario,824979.0,173225.0,millions,millions
+2018,Ontario,852029.0,179851.0,millions,millions
+2019,Ontario,869792.0,182038.0,millions,millions
+2020,Ontario,830265.0,183967.0,millions,millions
+2021,Ontario,880652.0,201656.0,millions,millions
+2022,Ontario,916916.0,188205.0,millions,millions
+2023,Ontario,932757.0,183210.0,millions,millions
+2013,Prince Edward Island,6256.0,1137.0,millions,millions
+2014,Prince Edward Island,6263.0,1037.0,millions,millions
+2015,Prince Edward Island,6351.0,963.0,millions,millions
+2016,Prince Edward Island,6487.0,1076.0,millions,millions
+2017,Prince Edward Island,6791.0,1314.0,millions,millions
+2018,Prince Edward Island,6906.0,1332.0,millions,millions
+2019,Prince Edward Island,7222.0,1471.0,millions,millions
+2020,Prince Edward Island,7003.0,1511.0,millions,millions
+2021,Prince Edward Island,7552.0,1728.0,millions,millions
+2022,Prince Edward Island,7886.0,1654.0,millions,millions
+2023,Prince Edward Island,8062.0,1510.0,millions,millions
+2013,Quebec,390851.0,83920.0,millions,millions
+2014,Quebec,397068.0,78651.0,millions,millions
+2015,Quebec,400611.0,77084.0,millions,millions
+2016,Quebec,407036.0,75738.0,millions,millions
+2017,Quebec,418675.0,82752.0,millions,millions
+2018,Quebec,430244.0,86996.0,millions,millions
+2019,Quebec,442435.0,89936.0,millions,millions
+2020,Quebec,421445.0,89095.0,millions,millions
+2021,Quebec,452009.0,99335.0,millions,millions
+2022,Quebec,467245.0,97003.0,millions,millions
+2023,Quebec,470252.0,93397.0,millions,millions
+2013,Saskatchewan,77398.0,27176.0,millions,millions
+2014,Saskatchewan,78958.0,28200.0,millions,millions
+2015,Saskatchewan,78293.0,23945.0,millions,millions
+2016,Saskatchewan,78232.0,20825.0,millions,millions
+2017,Saskatchewan,80257.0,21694.0,millions,millions
+2018,Saskatchewan,81590.0,21212.0,millions,millions
+2019,Saskatchewan,81221.0,19286.0,millions,millions
+2020,Saskatchewan,77761.0,16374.0,millions,millions
+2021,Saskatchewan,75722.0,16716.0,millions,millions
+2022,Saskatchewan,81201.0,17341.0,millions,millions
+2023,Saskatchewan,83105.0,18614.0,millions,millions
+2013,Yukon,2840.0,930.0,millions,millions
+2014,Yukon,2861.0,821.0,millions,millions
+2015,Yukon,2637.0,706.0,millions,millions
+2016,Yukon,2832.0,687.0,millions,millions
+2017,Yukon,2883.0,793.0,millions,millions
+2018,Yukon,2952.0,1148.0,millions,millions
+2019,Yukon,2912.0,991.0,millions,millions
+2020,Yukon,2962.0,692.0,millions,millions
+2021,Yukon,3239.0,850.0,millions,millions
+2022,Yukon,3480.0,1087.0,millions,millions
+2023,Yukon,3531.0,1068.0,millions,millions
