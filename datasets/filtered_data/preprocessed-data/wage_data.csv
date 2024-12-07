@@ -1,257 +1,136 @@
-GEO,Effective Date,Minimum Wage,Note
-,2024-04-01,$17.30,"An employee should be paid at least the federal minimum wage. If the minimum wage of the province or territory where the employee usually works is higher than the federal minimum wage, the employer is to pay the higher minimum wage."
-,2023-04-01,$16.65,"An employee should be paid at least the federal minimum wage. If the minimum wage of the province or territory where the employee usually works is higher than the federal minimum wage, the employer is to pay the higher minimum wage."
-,2022-04-01,$15.55,"An employee should be paid at least the federal minimum wage. If the minimum wage of the province or territory where the employee usually works is higher than the federal minimum wage, the employer is to pay the higher minimum wage."
-,2021-12-29,$15.00,"An employee should be paid at least the federal minimum wage. If the minimum wage of the province or territory where the employee usually works is higher than the federal minimum wage, the employer is to pay the higher minimum wage."
-,2072-11-01,$1.90,
-,2071-07-01,$1.75,
-,2070-07-01,$1.65,
-,2065-07-01,$1.25,First legislated rate for federal jurisdiction.
-Alberta,2019-06-26,$15.00,
-Alberta,2018-10-01,$15.00,
-Alberta,2017-10-01,$13.60,
-Alberta,2016-10-01,$12.20,
-Alberta,2015-10-01,$11.20,
-Alberta,2014-09-01,$10.20,
-Alberta,2013-09-01,$9.95,
-Alberta,2073-10-01,$1.90,
-Alberta,2073-01-01,$1.75,
-Alberta,2070-10-01,$1.55,
-Alberta,2070-04-01,$1.40,
-Alberta,2068-01-01,$1.25,
-Alberta,2067-08-01,$1.15,
-Alberta,2066-07-01,$1.00,Applicable in all regions of the province.
-Alberta,2065-01-01,$1.00,"Urban centres over 5,000 population. (Existing rate as of January 1, 1965)"
-Alberta,2065-01-01,$0.95,"Non-Urban areas. (Existing rate as of January 1, 1965)"
-Prince Edward Island,2024-10-01,$16.00,
-Prince Edward Island,2024-04-01,$15.40,
-Prince Edward Island,2023-10-01,$15.00,
-Prince Edward Island,2023-01-01,$14.50,
-Prince Edward Island,2022-04-01,$13.70,
-Prince Edward Island,2021-04-01,$13.00,
-Prince Edward Island,2020-04-01,$12.85,
-Prince Edward Island,2019-04-01,$12.25,
-Prince Edward Island,2018-04-01,$11.55,
-Prince Edward Island,2017-04-01,$11.25,
-Prince Edward Island,2016-10-01,$11.00,
-Prince Edward Island,2016-06-01,$10.75,
-Prince Edward Island,2015-07-01,$10.50,
-Prince Edward Island,2014-10-01,$10.35,
-Prince Edward Island,2014-06-01,$10.20,
-Prince Edward Island,2073-07-01,$1.40,Men
-Prince Edward Island,2073-07-01,$1.30,Women
-Prince Edward Island,2072-07-01,$1.10,Women
-Prince Edward Island,2069-09-01,$1.25,Men
-Prince Edward Island,2069-07-01,$0.95,Women
-Prince Edward Island,2069-01-01,$0.85,Women
-Prince Edward Island,2068-07-01,$0.80,Women
-Prince Edward Island,2066-04-16,$1.10,Men
-Prince Edward Island,2065-01-01,$1.00,"Men. (Existing rate as of January 1, 1965)"
-Quebec,2024-05-01,$15.75,
-Quebec,2023-05-01,$15.25,
-Quebec,2022-05-01,$14.25,
-Quebec,2021-05-01,$13.50,
-Quebec,2020-05-01,$13.10,
-Quebec,2019-05-01,$12.50,
-Quebec,2018-05-01,$12.00,
-Quebec,2017-05-01,$11.25,
-Quebec,2016-05-01,$10.75,
-Quebec,2015-05-01,$10.55,
-Quebec,2014-05-01,$10.35,
-Quebec,2013-05-01,$10.15,
-Quebec,2073-11-01,$1.85,
-Quebec,2073-05-01,$1.70,
-Quebec,2072-11-01,$1.65,
-Quebec,2072-08-01,$1.60,
-Quebec,2071-11-01,$1.50,
-Quebec,2071-05-01,$1.45,
-Quebec,2070-11-01,$1.40,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $1.35 on November 1, 1970."
-Quebec,2070-05-01,$1.35,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $1.30 on May 1, 1970."
-Quebec,2068-11-01,$1.25,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $1.15 on November 1, 1968."
-Quebec,2067-04-01,$1.05,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $1.00 on April 1, 1967."
-Quebec,2066-11-01,$1.00,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $0.90 on November 1, 1966."
-Quebec,2065-10-01,$0.85,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was set at $0.80 on October 1, 1965."
-Quebec,2065-01-01,$0.70,"Montreal metropolitan area. The rate outside the Montreal metropolitan area was $0.64 on January 1, 1965."
-Saskatchewan,2024-10-01,$15.00,
-Saskatchewan,2023-10-01,$14.00,
-Saskatchewan,2022-10-01,$13.00,
-Saskatchewan,2021-10-01,$11.81,
-Saskatchewan,2020-10-01,$11.45,
-Saskatchewan,2019-10-01,$11.32,
-Saskatchewan,2018-10-01,$11.06,
-Saskatchewan,2017-10-01,$10.96,
-Saskatchewan,2016-10-01,$10.72,
-Saskatchewan,2015-10-01,$10.50,
-Saskatchewan,2014-10-01,$10.20,
-Saskatchewan,2073-12-01,$2.00,
-Saskatchewan,2072-07-01,$1.75,
-Saskatchewan,2072-01-02,$1.70,
-Saskatchewan,2071-06-01,$1.50,"Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $0.10 less."
-Saskatchewan,2069-10-01,$1.25,"Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $0.10 less."
-Saskatchewan,2068-10-01,$1.05,"Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $0.10 less."
-Saskatchewan,2066-09-01,$40.00,"Weekly. Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $2.00 less per week."
-Saskatchewan,2065-05-01,$38.00,"Weekly. Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $2.00 less per week."
-Saskatchewan,2065-01-01,$36.50,"Weekly. Metropolitan areas (Estevan, Melville, Moose Jaw, North Battleford, Prince Albert, Regina, Saskatoon, Swift Current, Weyburn and Yorktown). The rate outside metropolitan areas was set at $2.00 less per week."
-Yukon,2024-04-01,$17.59,
-Yukon,2023-04-01,$16.77,
-Yukon,2022-04-01,$15.70,
-Yukon,2021-08-01,$15.20,
-Yukon,2021-04-01,$13.85,
-Yukon,2020-04-01,$13.71,
-Yukon,2019-04-01,$12.71,
-Yukon,2018-04-01,$11.51,
-Yukon,2017-04-01,$11.32,
-Yukon,2016-04-01,$11.07,
-Yukon,2015-04-01,$10.86,
-Yukon,2014-04-01,$10.72,
-Yukon,2013-04-01,$10.54,
-Yukon,2073-06-01,$2.00,
-Yukon,2072-01-01,$1.75,
-Yukon,2070-05-01,$1.50,
-Yukon,2068-07-01,$1.25,
-British Columbia,2024-06-01,$17.40,
-British Columbia,2023-06-01,$16.75,
-British Columbia,2022-06-01,$15.65,
-British Columbia,2021-06-01,$15.20,
-British Columbia,2020-06-01,$14.60,
-British Columbia,2019-06-01,$13.85,
-British Columbia,2018-06-01,$12.65,
-British Columbia,2017-09-15,$11.35,
-British Columbia,2016-09-15,$10.85,
-British Columbia,2015-09-15,$10.45,
-British Columbia,2073-12-03,$2.25,
-British Columbia,2072-12-04,$2.00,
-British Columbia,2070-05-04,$1.50,
-British Columbia,2067-11-01,$1.25,
-British Columbia,2067-05-01,$1.10,
-British Columbia,2065-01-01,$1.00,"Existing rate as of January 1, 1965."
-Manitoba,2024-10-01,$15.80,
-Manitoba,2023-10-01,$15.30,
-Manitoba,2023-04-01,$14.15,
-Manitoba,2022-10-01,$13.50,
-Manitoba,2021-10-01,$11.95,
-Manitoba,2020-10-01,$11.90,
-Manitoba,2019-10-01,$11.65,
-Manitoba,2018-10-01,$11.35,
-Manitoba,2017-10-01,$11.15,
-Manitoba,2015-10-01,$11.00,
-Manitoba,2014-10-01,$10.70,
-Manitoba,2013-10-01,$10.45,
-Manitoba,2073-10-01,$1.90,
-Manitoba,2072-10-01,$1.75,
-Manitoba,2071-11-01,$1.65,
-Manitoba,2070-10-01,$1.50,
-Manitoba,2069-12-01,$1.35,
-Manitoba,2068-12-01,$1.25,
-Manitoba,2068-08-01,$1.20,
-Manitoba,2068-04-01,$1.15,
-Manitoba,2067-12-01,$1.10,
-Manitoba,2066-12-01,$1.00,
-Manitoba,2066-07-01,$0.92,Urban areas
-Manitoba,2066-07-01,$0.90,Rural areas
-Manitoba,2065-12-01,$0.85,Urban areas
-Manitoba,2065-12-01,$0.80,Rural areas
-Manitoba,2065-01-01,$0.75,"Urban areas. (Existing rate as of Jan. 1, 1965)"
-Manitoba,2065-01-01,$0.70,"Non-urban areas (Existing rate as of Jan. 1, 1965)"
-New Brunswick,2024-04-01,$15.30,
-New Brunswick,2023-04-01,$14.75,
-New Brunswick,2022-10-01,$13.75,
-New Brunswick,2022-04-01,$12.75,
-New Brunswick,2021-04-01,$11.75,
-New Brunswick,2020-04-01,$11.70,
-New Brunswick,2019-04-01,$11.50,
-New Brunswick,2018-04-01,$11.25,
-New Brunswick,2017-04-01,$11.00,
-New Brunswick,2016-04-01,$10.65,
-New Brunswick,2014-12-31,$10.30,
-New Brunswick,2073-01-01,$1.50,
-New Brunswick,2072-03-01,$1.40,
-New Brunswick,2071-09-01,$1.25,
-New Brunswick,2070-01-01,$1.15,
-New Brunswick,2068-01-01,$1.00,
-New Brunswick,2066-07-01,$0.90,"Wholesale, retail and manufacturing. Other rates for other sectors."
-New Brunswick,2065-07-01,$0.80,"Wholesale, retail and manufacturing. Other rates for other sectors."
-New Brunswick,2065-01-01,$0.75,"Wholesale, retail and manufacturing. Other rates for other sectors."
-Newfoundland and Labrador,2024-04-01,$15.60,
-Newfoundland and Labrador,2023-10-01,$15.00,
-Newfoundland and Labrador,2023-04-01,$14.50,
-Newfoundland and Labrador,2022-10-01,$13.70,
-Newfoundland and Labrador,2022-04-01,$13.20,
-Newfoundland and Labrador,2021-10-01,$12.75,
-Newfoundland and Labrador,2021-04-01,$12.50,
-Newfoundland and Labrador,2020-10-01,$12.15,
-Newfoundland and Labrador,2020-04-01,$11.65,
-Newfoundland and Labrador,2019-04-01,$11.40,
-Newfoundland and Labrador,2018-04-01,$11.15,
-Newfoundland and Labrador,2017-10-01,$11.00,
-Newfoundland and Labrador,2017-04-01,$10.75,
-Newfoundland and Labrador,2015-10-01,$10.50,
-Newfoundland and Labrador,2014-10-01,$10.25,
-Newfoundland and Labrador,2072-06-01,$1.40,Employees 18 years of age or older
-Newfoundland and Labrador,2070-07-01,$1.25,Men
-Newfoundland and Labrador,2070-07-01,$1.00,Women
-Newfoundland and Labrador,2068-05-01,$1.10,Men
-Newfoundland and Labrador,2068-05-01,$0.85,Women
-Newfoundland and Labrador,2065-01-01,$0.70,"Men. (Existing rate as of January 1, 1965)"
-Newfoundland and Labrador,2065-01-01,$0.50,"Women. (Existing rate as of January 1, 1965)"
-,2024-09-01,$16.70,
-,2023-09-01,$16.05,
-,2021-09-01,$15.20,
-,2018-04-01,$13.46,
-,2015-06-01,$12.50,
-,2073-09-01,$2.00,
-,2070-09-01,$1.50,
-,2068-07-01,$1.25,
-Nova Scotia,2024-04-01,$15.20,
-Nova Scotia,2023-10-01,$15.00,
-Nova Scotia,2023-04-01,$14.50,
-Nova Scotia,2022-10-01,$13.60,
-Nova Scotia,2022-04-01,$13.35,
-Nova Scotia,2021-04-01,$12.95,
-Nova Scotia,2020-04-01,$12.55,
-Nova Scotia,2019-04-01,$11.55,
-Nova Scotia,2018-04-01,$11.00,
-Nova Scotia,2017-04-01,$10.85,
-Nova Scotia,2016-04-01,$10.70,Employees 16 years of age or older.
-Nova Scotia,2015-04-01,$10.60,Employees 16 years of age or older.
-Nova Scotia,2014-04-01,$10.40,
-Nova Scotia,2013-04-01,$10.30,
-Nova Scotia,2073-07-01,$1.65,
-Nova Scotia,2072-07-01,$1.55,
-Nova Scotia,2071-07-01,$1.35,"Men. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst,Yarmouth, Antigonish and Port Hawksbury. $1.25 elsewhere."
-Nova Scotia,2071-07-01,$1.20,"Women. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst,Yarmouth, Antigonish and Port Hawksbury. $1.10 elsewhere."
-Nova Scotia,2071-01-01,$1.30,"Men. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst,Yarmouth, Antigonish and Port Hawksbury. $1.20 elsewhere."
-Nova Scotia,2071-01-01,$1.10,"Women. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst,Yarmouth, Antigonish and Port Hawksbury. $1.00 elsewhere."
-Nova Scotia,2068-08-01,$1.25,"Men. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst and Yarmouth. $1.15 elsewhere."
-Nova Scotia,2068-08-01,$1.00,"Women. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst and Yarmouth. $0.90 elsewhere."
-Nova Scotia,2068-04-01,$1.15,"Men. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst and Yarmouth. $1.05 elsewhere."
-Nova Scotia,2068-04-01,$0.90,"Women. In Halifax, Dartmouth, New Glasgow, Sydney, Truro, Amherst and Yarmouth. $0.80 elsewhere."
-Nova Scotia,2066-06-01,$1.10,"Men. In Halifax, Dartmouth, New Glasgow and Sydney. $1.00 in Truro, Amherst and Yarmouth. $0.90 elsewhere."
-Nova Scotia,2066-06-01,$0.85,"Women. In Halifax, Dartmouth, New Glasgow and Sydney. $0.75 in Truro, Amherst and Yarmouth. $0.65 elsewhere."
-Nova Scotia,2065-02-20,$1.05,"Men. In Halifax, Dartmouth, New Glasgow and Sydney. $0.95 in Truro, Amherst and Yarmouth. $0.85 elsewhere."
-Nova Scotia,2065-02-20,$0.80,"Women. In Halifax, Dartmouth, New Glasgow and Sydney. $0.70 in Truro, Amherst and Yarmouth. $0.60 elsewhere."
-Nova Scotia,2065-01-01,$21.60,"Per week. For women only, in Halifax, Dartmouth, New Glasgow, and Sydney. $19.20 in Truro, Amherst and Yarmouth. $14.40 elsewhere. (Existing rates as of January 1, 1965)"
-,2024-01-01,$19.00,
-,2020-04-01,$16.00,
-,2016-04-01,$13.00,
-Ontario,2024-10-01,$17.20,
-Ontario,2023-10-01,$16.55,
-Ontario,2022-10-01,$15.50,
-Ontario,2022-01-01,$15.00,
-Ontario,2021-10-01,$14.35,
-Ontario,2020-10-01,$14.25,
-Ontario,2018-01-01,$14.00,
-Ontario,2017-10-01,$11.60,
-Ontario,2016-10-01,$11.40,
-Ontario,2015-10-01,$11.25,
-Ontario,2014-06-01,$11.00,
-Ontario,2073-02-01,$1.80,
-Ontario,2071-04-01,$1.65,
-Ontario,2070-10-01,$1.50,
-Ontario,2069-01-01,$1.30,
-Ontario,2065-12-27,$1.00,Northern Ontario Zone.
-Ontario,2065-03-30,$1.00,Women. Southern Ontario Zone
-Ontario,2065-01-01,$1.00,"Oshawa-Toronto-Hamilton area. (Existing rate as of January 1, 1965)"
-Ontario,2065-01-01,$1.00,Men. Southern Ontario Zone.
-Ontario,2065-01-01,$0.95,Women. Southern Ontario Zone.
-Ontario,2065-01-01,$0.90,"Northern Ontario Zone. (Existing rate as of January 1, 1965)"
+GEO,Effective Date,Minimum Wage
+Yukon,2013-04,10.54
+Nova Scotia,2013-04,10.3
+Quebec,2013-05,10.15
+Alberta,2013-09,9.95
+Manitoba,2013-10,10.45
+Nova Scotia,2014-04,10.4
+Yukon,2014-04,10.72
+Quebec,2014-05,10.35
+Prince Edward Island,2014-06,10.2
+Ontario,2014-06,11.0
+Alberta,2014-09,10.2
+Saskatchewan,2014-10,10.2
+Prince Edward Island,2014-10,10.35
+Manitoba,2014-10,10.7
+Newfoundland and Labrador,2014-10,10.25
+New Brunswick,2014-12,10.3
+Nova Scotia,2015-04,10.6
+Yukon,2015-04,10.86
+Quebec,2015-05,10.55
+Prince Edward Island,2015-07,10.5
+British Columbia,2015-09,10.45
+Saskatchewan,2015-10,10.5
+Manitoba,2015-10,11.0
+Newfoundland and Labrador,2015-10,10.5
+Ontario,2015-10,11.25
+Alberta,2015-10,11.2
+New Brunswick,2016-04,10.65
+Nova Scotia,2016-04,10.7
+Yukon,2016-04,11.07
+Quebec,2016-05,10.75
+Prince Edward Island,2016-06,10.75
+British Columbia,2016-09,10.85
+Prince Edward Island,2016-10,11.0
+Alberta,2016-10,12.2
+Saskatchewan,2016-10,10.72
+Ontario,2016-10,11.4
+Prince Edward Island,2017-04,11.25
+Newfoundland and Labrador,2017-04,10.75
+Nova Scotia,2017-04,10.85
+New Brunswick,2017-04,11.0
+Yukon,2017-04,11.32
+Quebec,2017-05,11.25
+British Columbia,2017-09,11.35
+Newfoundland and Labrador,2017-10,11.0
+Saskatchewan,2017-10,10.96
+Alberta,2017-10,13.6
+Manitoba,2017-10,11.15
+Ontario,2017-10,11.6
+Ontario,2018-01,14.0
+New Brunswick,2018-04,11.25
+Nova Scotia,2018-04,11.0
+Newfoundland and Labrador,2018-04,11.15
+Prince Edward Island,2018-04,11.55
+Yukon,2018-04,11.51
+Quebec,2018-05,12.0
+British Columbia,2018-06,12.65
+Manitoba,2018-10,11.35
+Alberta,2018-10,15.0
+Saskatchewan,2018-10,11.06
+Yukon,2019-04,12.71
+New Brunswick,2019-04,11.5
+Nova Scotia,2019-04,11.55
+Prince Edward Island,2019-04,12.25
+Newfoundland and Labrador,2019-04,11.4
+Quebec,2019-05,12.5
+British Columbia,2019-06,13.85
+Alberta,2019-06,15.0
+Saskatchewan,2019-10,11.32
+Manitoba,2019-10,11.65
+New Brunswick,2020-04,11.7
+Newfoundland and Labrador,2020-04,11.65
+Yukon,2020-04,13.71
+Nova Scotia,2020-04,12.55
+Prince Edward Island,2020-04,12.85
+Quebec,2020-05,13.1
+British Columbia,2020-06,14.6
+Newfoundland and Labrador,2020-10,12.15
+Ontario,2020-10,14.25
+Saskatchewan,2020-10,11.45
+Manitoba,2020-10,11.9
+New Brunswick,2021-04,11.75
+Prince Edward Island,2021-04,13.0
+Yukon,2021-04,13.85
+Newfoundland and Labrador,2021-04,12.5
+Nova Scotia,2021-04,12.95
+Quebec,2021-05,13.5
+British Columbia,2021-06,15.2
+Yukon,2021-08,15.2
+Ontario,2021-10,14.35
+Saskatchewan,2021-10,11.81
+Newfoundland and Labrador,2021-10,12.75
+Manitoba,2021-10,11.95
+Canada,2021-12,15.0
+Ontario,2022-01,15.0
+New Brunswick,2022-04,12.75
+Nova Scotia,2022-04,13.35
+Canada,2022-04,15.55
+Newfoundland and Labrador,2022-04,13.2
+Yukon,2022-04,15.7
+Prince Edward Island,2022-04,13.7
+Quebec,2022-05,14.25
+British Columbia,2022-06,15.65
+Nova Scotia,2022-10,13.6
+New Brunswick,2022-10,13.75
+Manitoba,2022-10,13.5
+Newfoundland and Labrador,2022-10,13.7
+Saskatchewan,2022-10,13.0
+Ontario,2022-10,15.5
+Prince Edward Island,2023-01,14.5
+Canada,2023-04,16.65
+Manitoba,2023-04,14.15
+Nova Scotia,2023-04,14.5
+Yukon,2023-04,16.77
+Newfoundland and Labrador,2023-04,14.5
+New Brunswick,2023-04,14.75
+Quebec,2023-05,15.25
+British Columbia,2023-06,16.75
+Saskatchewan,2023-10,14.0
+Manitoba,2023-10,15.3
+Newfoundland and Labrador,2023-10,15.0
+Prince Edward Island,2023-10,15.0
+Nova Scotia,2023-10,15.0
+Ontario,2023-10,16.55
+Nova Scotia,2024-04,15.2
+Newfoundland and Labrador,2024-04,15.6
+Canada,2024-04,17.3
+Prince Edward Island,2024-04,15.4
+New Brunswick,2024-04,15.3
+Yukon,2024-04,17.59
+Quebec,2024-05,15.75
+British Columbia,2024-06,17.4
+Prince Edward Island,2024-10,16.0
+Manitoba,2024-10,15.8
+Saskatchewan,2024-10,15.0
+Ontario,2024-10,17.2
