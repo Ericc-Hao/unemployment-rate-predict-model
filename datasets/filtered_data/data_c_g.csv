@@ -1,0 +1,122 @@
+REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed capital formation,GDP_SCALE,GCGF_SCALE,Year
+2013,Alberta,128.9,units,322960.0,134491.0,millions,millions,2013
+2014,Alberta,132.2,units,341998.0,140637.0,millions,millions,2014
+2015,Alberta,133.7,units,329332.0,112731.0,millions,millions,2015
+2016,Alberta,135.2,units,317951.0,91260.0,millions,millions,2016
+2017,Alberta,137.3,units,332256.0,91903.0,millions,millions,2017
+2018,Alberta,140.6,units,338965.0,90904.0,millions,millions,2018
+2019,Alberta,143.1,units,339281.0,84688.0,millions,millions,2019
+2020,Alberta,144.7,units,312726.0,72365.0,millions,millions,2020
+2021,Alberta,149.3,units,329067.0,79296.0,millions,millions,2021
+2022,Alberta,158.9,units,348686.0,87281.0,millions,millions,2022
+2023,Alberta,164.1,units,356761.0,85519.0,millions,millions,2023
+2013,British Columbia,117.7,units,250066.0,61126.0,millions,millions,2013
+2014,British Columbia,118.9,units,259251.0,65205.0,millions,millions,2014
+2015,British Columbia,120.2,units,264523.0,63164.0,millions,millions,2015
+2016,British Columbia,122.4,units,271919.0,66743.0,millions,millions,2016
+2017,British Columbia,125.0,units,282283.0,69871.0,millions,millions,2017
+2018,British Columbia,128.4,units,292182.0,72019.0,millions,millions,2018
+2019,British Columbia,131.4,units,299857.0,79152.0,millions,millions,2019
+2020,British Columbia,132.4,units,290575.0,78549.0,millions,millions,2020
+2021,British Columbia,136.1,units,312961.0,85419.0,millions,millions,2021
+2022,British Columbia,145.5,units,325364.0,86148.0,millions,millions,2022
+2023,British Columbia,151.2,units,333100.0,87515.0,millions,millions,2023
+2013,Canada,122.8,units,1985911.0,508722.0,millions,millions,2013
+2014,Canada,125.2,units,2042976.0,520168.0,millions,millions,2014
+2015,Canada,126.6,units,2056255.0,493068.0,millions,millions,2015
+2016,Canada,128.4,units,2077610.0,470125.0,millions,millions,2016
+2017,Canada,130.4,units,2140641.0,485847.0,millions,millions,2017
+2018,Canada,133.4,units,2199358.0,497330.0,millions,millions,2018
+2019,Canada,136.0,units,2241331.0,501192.0,millions,millions,2019
+2020,Canada,137.0,units,2128408.0,482321.0,millions,millions,2020
+2021,Canada,141.6,units,2255059.0,524821.0,millions,millions,2021
+2022,Canada,151.2,units,2349525.0,518285.0,millions,millions,2022
+2023,Canada,157.1,units,2385443.0,509843.0,millions,millions,2023
+2013,Manitoba,123.0,units,65845.0,15084.0,millions,millions,2013
+2014,Manitoba,125.3,units,67203.0,15654.0,millions,millions,2014
+2015,Manitoba,126.8,units,68032.0,15789.0,millions,millions,2015
+2016,Manitoba,128.4,units,69017.0,15143.0,millions,millions,2016
+2017,Manitoba,130.5,units,71285.0,15791.0,millions,millions,2017
+2018,Manitoba,133.8,units,72648.0,15656.0,millions,millions,2018
+2019,Manitoba,136.8,units,73505.0,15411.0,millions,millions,2019
+2020,Manitoba,137.5,units,70493.0,14205.0,millions,millions,2020
+2021,Manitoba,142.0,units,71498.0,14259.0,millions,millions,2021
+2022,Manitoba,153.2,units,74505.0,13902.0,millions,millions,2022
+2023,Manitoba,158.6,units,75764.0,13452.0,millions,millions,2023
+2013,New Brunswick,123.0,units,34414.0,6208.0,millions,millions,2013
+2014,New Brunswick,124.8,units,34454.0,6088.0,millions,millions,2014
+2015,New Brunswick,125.4,units,34679.0,6013.0,millions,millions,2015
+2016,New Brunswick,128.2,units,34959.0,5938.0,millions,millions,2016
+2017,New Brunswick,131.2,units,35828.0,6648.0,millions,millions,2017
+2018,New Brunswick,134.0,units,36218.0,7137.0,millions,millions,2018
+2019,New Brunswick,136.3,units,36704.0,6479.0,millions,millions,2019
+2020,New Brunswick,136.6,units,35393.0,6497.0,millions,millions,2020
+2021,New Brunswick,141.8,units,37271.0,6942.0,millions,millions,2021
+2022,New Brunswick,152.1,units,38027.0,7454.0,millions,millions,2022
+2023,New Brunswick,157.5,units,38636.0,7174.0,millions,millions,2023
+2013,Newfoundland and Labrador,126.0,units,33486.0,12468.0,millions,millions,2013
+2014,Newfoundland and Labrador,128.4,units,33096.0,12604.0,millions,millions,2014
+2015,Newfoundland and Labrador,129.0,units,32709.0,12344.0,millions,millions,2015
+2016,Newfoundland and Labrador,132.5,units,33201.0,13348.0,millions,millions,2016
+2017,Newfoundland and Labrador,135.7,units,33689.0,10258.0,millions,millions,2017
+2018,Newfoundland and Labrador,137.9,units,32836.0,8736.0,millions,millions,2018
+2019,Newfoundland and Labrador,139.3,units,34157.0,9186.0,millions,millions,2019
+2020,Newfoundland and Labrador,139.6,units,32512.0,8187.0,millions,millions,2020
+2021,Newfoundland and Labrador,144.7,units,32836.0,7294.0,millions,millions,2021
+2022,Newfoundland and Labrador,153.9,units,32199.0,7461.0,millions,millions,2022
+2023,Newfoundland and Labrador,159.0,units,31358.0,8004.0,millions,millions,2023
+2013,Nova Scotia,126.6,units,41189.0,8682.0,millions,millions,2013
+2014,Nova Scotia,128.8,units,41589.0,8223.0,millions,millions,2014
+2015,Nova Scotia,129.3,units,41868.0,8234.0,millions,millions,2015
+2016,Nova Scotia,130.9,units,42531.0,8854.0,millions,millions,2016
+2017,Nova Scotia,132.4,units,43314.0,8854.0,millions,millions,2017
+2018,Nova Scotia,135.3,units,44077.0,9299.0,millions,millions,2018
+2019,Nova Scotia,137.5,units,45586.0,9995.0,millions,millions,2019
+2020,Nova Scotia,137.9,units,43513.0,9585.0,millions,millions,2020
+2021,Nova Scotia,143.5,units,46290.0,10122.0,millions,millions,2021
+2022,Nova Scotia,154.3,units,47888.0,10367.0,millions,millions,2022
+2023,Nova Scotia,160.5,units,48849.0,10158.0,millions,millions,2023
+2013,Ontario,123.0,units,748281.0,151463.0,millions,millions,2013
+2014,Ontario,125.9,units,767050.0,158110.0,millions,millions,2014
+2015,Ontario,127.4,units,785866.0,168127.0,millions,millions,2015
+2016,Ontario,129.7,units,802365.0,167607.0,millions,millions,2016
+2017,Ontario,131.9,units,824979.0,173225.0,millions,millions,2017
+2018,Ontario,135.0,units,852029.0,179851.0,millions,millions,2018
+2019,Ontario,137.5,units,869792.0,182038.0,millions,millions,2019
+2020,Ontario,138.4,units,830265.0,183967.0,millions,millions,2020
+2021,Ontario,143.2,units,880652.0,201656.0,millions,millions,2021
+2022,Ontario,152.9,units,916916.0,188205.0,millions,millions,2022
+2023,Ontario,158.7,units,932757.0,183210.0,millions,millions,2023
+2013,Prince Edward Island,128.0,units,6256.0,1137.0,millions,millions,2013
+2014,Prince Edward Island,130.1,units,6263.0,1037.0,millions,millions,2014
+2015,Prince Edward Island,129.3,units,6351.0,963.0,millions,millions,2015
+2016,Prince Edward Island,130.8,units,6487.0,1076.0,millions,millions,2016
+2017,Prince Edward Island,133.2,units,6791.0,1314.0,millions,millions,2017
+2018,Prince Edward Island,136.3,units,6906.0,1332.0,millions,millions,2018
+2019,Prince Edward Island,137.9,units,7222.0,1471.0,millions,millions,2019
+2020,Prince Edward Island,137.9,units,7003.0,1511.0,millions,millions,2020
+2021,Prince Edward Island,144.9,units,7552.0,1728.0,millions,millions,2021
+2022,Prince Edward Island,157.8,units,7886.0,1654.0,millions,millions,2022
+2023,Prince Edward Island,162.3,units,8062.0,1510.0,millions,millions,2023
+2013,Quebec,121.7,units,390851.0,83920.0,millions,millions,2013
+2014,Quebec,123.4,units,397068.0,78651.0,millions,millions,2014
+2015,Quebec,124.7,units,400611.0,77084.0,millions,millions,2015
+2016,Quebec,125.6,units,407036.0,75738.0,millions,millions,2016
+2017,Quebec,126.9,units,418675.0,82752.0,millions,millions,2017
+2018,Quebec,129.0,units,430244.0,86996.0,millions,millions,2018
+2019,Quebec,131.7,units,442435.0,89936.0,millions,millions,2019
+2020,Quebec,132.8,units,421445.0,89095.0,millions,millions,2020
+2021,Quebec,137.8,units,452009.0,99335.0,millions,millions,2021
+2022,Quebec,147.0,units,467245.0,97003.0,millions,millions,2022
+2023,Quebec,153.6,units,470252.0,93397.0,millions,millions,2023
+2013,Saskatchewan,125.7,units,77398.0,27176.0,millions,millions,2013
+2014,Saskatchewan,128.7,units,78958.0,28200.0,millions,millions,2014
+2015,Saskatchewan,130.8,units,78293.0,23945.0,millions,millions,2015
+2016,Saskatchewan,132.2,units,78232.0,20825.0,millions,millions,2016
+2017,Saskatchewan,134.4,units,80257.0,21694.0,millions,millions,2017
+2018,Saskatchewan,137.5,units,81590.0,21212.0,millions,millions,2018
+2019,Saskatchewan,139.9,units,81221.0,19286.0,millions,millions,2019
+2020,Saskatchewan,140.7,units,77761.0,16374.0,millions,millions,2020
+2021,Saskatchewan,144.4,units,75722.0,16716.0,millions,millions,2021
+2022,Saskatchewan,153.9,units,81201.0,17341.0,millions,millions,2022
+2023,Saskatchewan,160.0,units,83105.0,18614.0,millions,millions,2023

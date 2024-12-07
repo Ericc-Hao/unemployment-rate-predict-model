@@ -36,11 +36,10 @@ print(f'mergering data...')
 
 # 1) merge cpi & gdp data
 data_c_g = pd.merge(cpi_data, gdp_data, on=["REF_DATE", "GEO"], how="inner")
-# data_c_g.sort_values(by="REF_DATE", inplace=True)
+data_c_g['Year'] = data_c_g['REF_DATE']
 
-unemployment_data['Year'] = unemployment_data['Year'].astype(int)
-data_c_g['REF_DATE'] = pd.to_datetime(data_c_g['REF_DATE'])
-data_c_g['Year'] = data_c_g['REF_DATE'].dt.year
+data_c_g.to_csv('./datasets/filtered_data/data_c_g.csv', index=False)
+print(f'mergering data[CPI&GDP]')
 
 # 2) merge cpi & gdp data with unemployee data
 data_c_g_u = pd.merge(
@@ -68,6 +67,11 @@ if data_c_g_u.isnull().any().any():
 data_c_g_u.drop(columns=["REF_DATE_y"], inplace=True)
 data_c_g_u.rename(columns={"REF_DATE_x": "REF_DATE"}, inplace=True)
 
+data_c_g_u.to_csv('./datasets/filtered_data/data_c_g_u.csv', index=False)
+print(f'mergering data[CPI&GDP&Uncemployemnt]')
+
+
+
 
 # 3) merge cpi & gdp & unemployee data with wage data
 data_c_g_u['REF_DATE'] = pd.to_datetime(data_c_g_u['REF_DATE'], errors='coerce').dt.strftime('%Y-%m')
@@ -87,7 +91,7 @@ final_merged_data = pd.merge(
 def get_latest_wage(row, wage_data):
     relevant_wages = wage_data[
         (wage_data['GEO'] == row['GEO']) & (wage_data['Effective Date'] <= row['REF_DATE'])
-    ]
+    ].sort_values(by='Effective Date')
     if not relevant_wages.empty:
         return relevant_wages.iloc[-1]['Minimum Wage']
     return None
@@ -101,5 +105,6 @@ final_merged_data = final_merged_data.drop(columns=['Year'])
 
 # Save the merged data
 final_merged_data.to_csv('./datasets/filtered_data/final_merged_data.csv', index=False)
+print(f'mergering data[CPI&GDP&Uncemployemnt&wage]')
 
 print(f'All data have been merged!')
