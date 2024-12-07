@@ -1,4 +1,664 @@
 REF_DATE,GEO,Participation Rate_SCALAR_FACTOR,Population_SCALAR_FACTOR,Unemployment Rate_SCALAR_FACTOR,Participation Rate,Population,Unemployment Rate,Year
+2013-01,Alberta,units,thousands,units,73.6,3117.7,4.6,2013
+2013-01,British Columbia,units,thousands,units,65.1,3799.0,6.5,2013
+2013-01,Canada,units,thousands,units,66.9,28399.4,7.1,2013
+2013-01,Manitoba,units,thousands,units,69.1,957.9,4.6,2013
+2013-01,New Brunswick,units,thousands,units,64.0,624.5,11.5,2013
+2013-01,Newfoundland and Labrador,units,thousands,units,62.2,444.0,12.1,2013
+2013-01,Nova Scotia,units,thousands,units,64.8,779.3,9.5,2013
+2013-01,Ontario,units,thousands,units,66.5,11031.9,7.7,2013
+2013-01,Prince Edward Island,units,thousands,units,70.6,119.2,12.0,2013
+2013-01,Quebec,units,thousands,units,65.6,6694.3,7.3,2013
+2013-01,Saskatchewan,units,thousands,units,70.7,831.6,3.9,2013
+2013-02,Alberta,units,thousands,units,73.6,3123.4,4.6,2013
+2013-02,British Columbia,units,thousands,units,65.5,3802.9,6.5,2013
+2013-02,Canada,units,thousands,units,67.1,28417.6,7.0,2013
+2013-02,Manitoba,units,thousands,units,69.3,958.5,5.1,2013
+2013-02,New Brunswick,units,thousands,units,63.7,624.6,10.6,2013
+2013-02,Newfoundland and Labrador,units,thousands,units,62.2,444.1,11.9,2013
+2013-02,Nova Scotia,units,thousands,units,64.7,779.0,9.1,2013
+2013-02,Ontario,units,thousands,units,66.7,11038.6,7.5,2013
+2013-02,Prince Edward Island,units,thousands,units,70.8,119.2,11.8,2013
+2013-02,Quebec,units,thousands,units,65.5,6695.2,7.5,2013
+2013-02,Saskatchewan,units,thousands,units,70.8,832.1,4.2,2013
+2013-03,Alberta,units,thousands,units,73.3,3131.3,4.7,2013
+2013-03,British Columbia,units,thousands,units,65.2,3807.6,7.0,2013
+2013-03,Canada,units,thousands,units,66.9,28442.3,7.3,2013
+2013-03,Manitoba,units,thousands,units,69.2,959.2,5.1,2013
+2013-03,New Brunswick,units,thousands,units,63.7,624.5,10.8,2013
+2013-03,Newfoundland and Labrador,units,thousands,units,62.1,444.2,12.4,2013
+2013-03,Nova Scotia,units,thousands,units,65.0,778.7,9.2,2013
+2013-03,Ontario,units,thousands,units,66.5,11047.1,7.6,2013
+2013-03,Prince Edward Island,units,thousands,units,70.8,119.1,11.6,2013
+2013-03,Quebec,units,thousands,units,65.5,6697.7,8.0,2013
+2013-03,Saskatchewan,units,thousands,units,70.7,832.9,4.0,2013
+2013-04,Alberta,units,thousands,units,73.2,3141.0,4.3,2013
+2013-04,British Columbia,units,thousands,units,65.2,3813.7,6.8,2013
+2013-04,Canada,units,thousands,units,66.9,28475.0,7.2,2013
+2013-04,Manitoba,units,thousands,units,68.9,959.9,5.7,2013
+2013-04,New Brunswick,units,thousands,units,63.8,624.5,10.6,2013
+2013-04,Newfoundland and Labrador,units,thousands,units,61.7,444.1,12.9,2013
+2013-04,Nova Scotia,units,thousands,units,65.0,778.5,8.8,2013
+2013-04,Ontario,units,thousands,units,66.4,11058.9,7.6,2013
+2013-04,Prince Edward Island,units,thousands,units,70.8,119.0,11.0,2013
+2013-04,Quebec,units,thousands,units,65.6,6701.2,8.0,2013
+2013-04,Saskatchewan,units,thousands,units,70.6,834.0,4.4,2013
+2013-05,Alberta,units,thousands,units,73.4,3148.7,4.6,2013
+2013-05,British Columbia,units,thousands,units,65.0,3819.3,6.4,2013
+2013-05,Canada,units,thousands,units,66.9,28503.8,7.0,2013
+2013-05,Manitoba,units,thousands,units,68.9,960.6,5.7,2013
+2013-05,New Brunswick,units,thousands,units,64.0,624.6,10.2,2013
+2013-05,Newfoundland and Labrador,units,thousands,units,61.4,444.2,12.0,2013
+2013-05,Nova Scotia,units,thousands,units,64.6,778.4,8.7,2013
+2013-05,Ontario,units,thousands,units,66.5,11069.3,7.5,2013
+2013-05,Prince Edward Island,units,thousands,units,70.4,119.1,11.1,2013
+2013-05,Quebec,units,thousands,units,65.7,6704.4,7.5,2013
+2013-05,Saskatchewan,units,thousands,units,70.6,835.2,4.5,2013
+2013-06,Alberta,units,thousands,units,73.5,3155.4,4.7,2013
+2013-06,British Columbia,units,thousands,units,64.8,3825.0,6.6,2013
+2013-06,Canada,units,thousands,units,66.9,28533.4,7.2,2013
+2013-06,Manitoba,units,thousands,units,69.2,961.7,5.5,2013
+2013-06,New Brunswick,units,thousands,units,63.8,624.8,10.9,2013
+2013-06,Newfoundland and Labrador,units,thousands,units,62.0,444.4,11.7,2013
+2013-06,Nova Scotia,units,thousands,units,64.7,778.4,9.1,2013
+2013-06,Ontario,units,thousands,units,66.6,11080.7,7.6,2013
+2013-06,Prince Edward Island,units,thousands,units,69.3,119.0,10.7,2013
+2013-06,Quebec,units,thousands,units,65.6,6707.8,7.8,2013
+2013-06,Saskatchewan,units,thousands,units,70.6,836.3,4.0,2013
+2013-07,Alberta,units,thousands,units,73.4,3163.8,4.6,2013
+2013-07,British Columbia,units,thousands,units,65.0,3831.9,6.7,2013
+2013-07,Canada,units,thousands,units,66.8,28566.9,7.3,2013
+2013-07,Manitoba,units,thousands,units,69.1,962.9,5.5,2013
+2013-07,New Brunswick,units,thousands,units,63.6,624.9,9.7,2013
+2013-07,Newfoundland and Labrador,units,thousands,units,61.6,444.5,12.1,2013
+2013-07,Nova Scotia,units,thousands,units,64.2,778.2,8.6,2013
+2013-07,Ontario,units,thousands,units,66.4,11093.4,7.7,2013
+2013-07,Prince Edward Island,units,thousands,units,70.0,119.0,11.9,2013
+2013-07,Quebec,units,thousands,units,65.5,6710.9,8.2,2013
+2013-07,Saskatchewan,units,thousands,units,70.8,837.3,4.4,2013
+2013-08,Alberta,units,thousands,units,73.9,3170.8,4.8,2013
+2013-08,British Columbia,units,thousands,units,65.0,3837.5,6.7,2013
+2013-08,Canada,units,thousands,units,66.8,28592.4,7.2,2013
+2013-08,Manitoba,units,thousands,units,68.6,963.6,5.3,2013
+2013-08,New Brunswick,units,thousands,units,63.9,625.0,10.7,2013
+2013-08,Newfoundland and Labrador,units,thousands,units,61.1,444.7,11.0,2013
+2013-08,Nova Scotia,units,thousands,units,64.4,778.0,9.0,2013
+2013-08,Ontario,units,thousands,units,66.5,11102.7,7.7,2013
+2013-08,Prince Edward Island,units,thousands,units,69.1,119.0,10.5,2013
+2013-08,Quebec,units,thousands,units,65.2,6712.9,8.0,2013
+2013-08,Saskatchewan,units,thousands,units,70.4,838.3,4.2,2013
+2013-09,Alberta,units,thousands,units,73.0,3178.9,4.3,2013
+2013-09,British Columbia,units,thousands,units,64.8,3843.8,6.5,2013
+2013-09,Canada,units,thousands,units,66.6,28622.0,7.1,2013
+2013-09,Manitoba,units,thousands,units,69.0,964.4,5.6,2013
+2013-09,New Brunswick,units,thousands,units,64.1,625.1,10.5,2013
+2013-09,Newfoundland and Labrador,units,thousands,units,60.9,444.8,10.7,2013
+2013-09,Nova Scotia,units,thousands,units,64.0,778.0,8.7,2013
+2013-09,Ontario,units,thousands,units,66.4,11113.2,7.5,2013
+2013-09,Prince Edward Island,units,thousands,units,69.6,118.9,11.7,2013
+2013-09,Quebec,units,thousands,units,65.2,6715.7,7.9,2013
+2013-09,Saskatchewan,units,thousands,units,69.5,839.1,4.3,2013
+2013-10,Alberta,units,thousands,units,73.0,3185.1,4.6,2013
+2013-10,British Columbia,units,thousands,units,64.5,3849.1,6.8,2013
+2013-10,Canada,units,thousands,units,66.7,28646.5,7.2,2013
+2013-10,Manitoba,units,thousands,units,68.6,965.3,5.7,2013
+2013-10,New Brunswick,units,thousands,units,63.8,625.3,10.1,2013
+2013-10,Newfoundland and Labrador,units,thousands,units,61.9,445.0,11.4,2013
+2013-10,Nova Scotia,units,thousands,units,63.8,778.1,9.2,2013
+2013-10,Ontario,units,thousands,units,66.4,11121.6,7.6,2013
+2013-10,Prince Edward Island,units,thousands,units,70.2,119.0,12.1,2013
+2013-10,Quebec,units,thousands,units,65.6,6717.9,7.8,2013
+2013-10,Saskatchewan,units,thousands,units,69.0,840.1,3.9,2013
+2013-11,Alberta,units,thousands,units,73.2,3190.5,4.7,2013
+2013-11,British Columbia,units,thousands,units,64.5,3854.0,6.9,2013
+2013-11,Canada,units,thousands,units,66.6,28668.6,7.1,2013
+2013-11,Manitoba,units,thousands,units,68.5,966.1,6.0,2013
+2013-11,New Brunswick,units,thousands,units,64.0,625.6,9.9,2013
+2013-11,Newfoundland and Labrador,units,thousands,units,61.9,445.2,12.3,2013
+2013-11,Nova Scotia,units,thousands,units,62.9,778.1,8.8,2013
+2013-11,Ontario,units,thousands,units,66.3,11129.6,7.5,2013
+2013-11,Prince Edward Island,units,thousands,units,69.6,118.9,12.2,2013
+2013-11,Quebec,units,thousands,units,65.5,6719.7,7.6,2013
+2013-11,Saskatchewan,units,thousands,units,69.4,840.9,4.1,2013
+2013-12,Alberta,units,thousands,units,73.0,3195.4,4.9,2013
+2013-12,British Columbia,units,thousands,units,64.9,3858.6,6.9,2013
+2013-12,Canada,units,thousands,units,66.6,28689.2,7.4,2013
+2013-12,Manitoba,units,thousands,units,68.3,967.0,5.6,2013
+2013-12,New Brunswick,units,thousands,units,64.2,625.7,10.6,2013
+2013-12,Newfoundland and Labrador,units,thousands,units,62.0,445.3,11.6,2013
+2013-12,Nova Scotia,units,thousands,units,63.5,778.1,9.4,2013
+2013-12,Ontario,units,thousands,units,66.3,11136.9,7.8,2013
+2013-12,Prince Edward Island,units,thousands,units,69.4,119.0,11.6,2013
+2013-12,Quebec,units,thousands,units,65.4,6721.3,8.1,2013
+2013-12,Saskatchewan,units,thousands,units,69.8,841.7,4.4,2013
+2014-01,Alberta,units,thousands,units,72.8,3201.0,4.8,2014
+2014-01,British Columbia,units,thousands,units,64.8,3863.2,6.9,2014
+2014-01,Canada,units,thousands,units,66.5,28708.4,7.2,2014
+2014-01,Manitoba,units,thousands,units,68.5,967.8,5.5,2014
+2014-01,New Brunswick,units,thousands,units,63.4,625.9,9.8,2014
+2014-01,Newfoundland and Labrador,units,thousands,units,62.2,445.5,12.3,2014
+2014-01,Nova Scotia,units,thousands,units,63.0,778.0,9.1,2014
+2014-01,Ontario,units,thousands,units,66.0,11143.1,7.5,2014
+2014-01,Prince Edward Island,units,thousands,units,69.5,119.1,11.1,2014
+2014-01,Quebec,units,thousands,units,65.5,6722.5,8.0,2014
+2014-01,Saskatchewan,units,thousands,units,70.0,842.4,4.5,2014
+2014-02,Alberta,units,thousands,units,72.9,3206.9,4.6,2014
+2014-02,British Columbia,units,thousands,units,64.5,3868.0,6.6,2014
+2014-02,Canada,units,thousands,units,66.5,28726.5,7.2,2014
+2014-02,Manitoba,units,thousands,units,68.3,968.3,5.3,2014
+2014-02,New Brunswick,units,thousands,units,63.8,626.0,10.1,2014
+2014-02,Newfoundland and Labrador,units,thousands,units,62.1,445.5,12.2,2014
+2014-02,Nova Scotia,units,thousands,units,63.3,777.6,8.9,2014
+2014-02,Ontario,units,thousands,units,66.2,11149.0,7.6,2014
+2014-02,Prince Edward Island,units,thousands,units,69.2,119.1,11.7,2014
+2014-02,Quebec,units,thousands,units,65.2,6722.9,8.1,2014
+2014-02,Saskatchewan,units,thousands,units,69.8,843.1,4.0,2014
+2014-03,Alberta,units,thousands,units,73.1,3214.4,5.0,2014
+2014-03,British Columbia,units,thousands,units,64.5,3874.2,6.2,2014
+2014-03,Canada,units,thousands,units,66.4,28750.6,7.1,2014
+2014-03,Manitoba,units,thousands,units,68.1,969.1,5.4,2014
+2014-03,New Brunswick,units,thousands,units,64.0,626.0,9.8,2014
+2014-03,Newfoundland and Labrador,units,thousands,units,61.9,445.5,11.7,2014
+2014-03,Nova Scotia,units,thousands,units,63.2,777.4,9.0,2014
+2014-03,Ontario,units,thousands,units,65.9,11156.8,7.4,2014
+2014-03,Prince Edward Island,units,thousands,units,69.0,119.1,11.4,2014
+2014-03,Quebec,units,thousands,units,65.2,6724.3,7.9,2014
+2014-03,Saskatchewan,units,thousands,units,70.1,843.8,4.5,2014
+2014-04,Alberta,units,thousands,units,72.9,3224.3,5.0,2014
+2014-04,British Columbia,units,thousands,units,64.4,3882.3,6.4,2014
+2014-04,Canada,units,thousands,units,66.3,28782.0,7.1,2014
+2014-04,Manitoba,units,thousands,units,68.2,970.1,5.7,2014
+2014-04,New Brunswick,units,thousands,units,63.7,625.9,10.8,2014
+2014-04,Newfoundland and Labrador,units,thousands,units,61.3,445.6,12.2,2014
+2014-04,Nova Scotia,units,thousands,units,63.4,777.1,9.1,2014
+2014-04,Ontario,units,thousands,units,66.1,11166.5,7.4,2014
+2014-04,Prince Edward Island,units,thousands,units,68.1,119.2,10.8,2014
+2014-04,Quebec,units,thousands,units,64.8,6726.6,7.9,2014
+2014-04,Saskatchewan,units,thousands,units,69.4,844.5,3.5,2014
+2014-05,Alberta,units,thousands,units,73.0,3231.4,4.8,2014
+2014-05,British Columbia,units,thousands,units,64.6,3888.8,6.7,2014
+2014-05,Canada,units,thousands,units,66.4,28808.4,7.3,2014
+2014-05,Manitoba,units,thousands,units,68.1,971.1,5.6,2014
+2014-05,New Brunswick,units,thousands,units,63.7,625.9,10.6,2014
+2014-05,Newfoundland and Labrador,units,thousands,units,61.0,445.7,13.3,2014
+2014-05,Nova Scotia,units,thousands,units,63.5,777.2,9.1,2014
+2014-05,Ontario,units,thousands,units,66.1,11174.5,7.6,2014
+2014-05,Prince Edward Island,units,thousands,units,69.1,119.2,11.3,2014
+2014-05,Quebec,units,thousands,units,64.9,6729.6,8.1,2014
+2014-05,Saskatchewan,units,thousands,units,69.7,845.1,3.8,2014
+2014-06,Alberta,units,thousands,units,73.3,3238.9,4.9,2014
+2014-06,British Columbia,units,thousands,units,64.3,3896.4,6.4,2014
+2014-06,Canada,units,thousands,units,66.3,28841.3,7.1,2014
+2014-06,Manitoba,units,thousands,units,68.1,972.4,5.4,2014
+2014-06,New Brunswick,units,thousands,units,63.3,625.8,9.4,2014
+2014-06,Newfoundland and Labrador,units,thousands,units,60.5,445.8,12.8,2014
+2014-06,Nova Scotia,units,thousands,units,63.5,777.4,9.3,2014
+2014-06,Ontario,units,thousands,units,66.0,11185.5,7.5,2014
+2014-06,Prince Edward Island,units,thousands,units,68.0,119.2,10.0,2014
+2014-06,Quebec,units,thousands,units,65.0,6733.7,7.9,2014
+2014-06,Saskatchewan,units,thousands,units,69.6,845.9,4.0,2014
+2014-07,Alberta,units,thousands,units,72.7,3244.6,4.4,2014
+2014-07,British Columbia,units,thousands,units,64.2,3902.4,6.3,2014
+2014-07,Canada,units,thousands,units,66.4,28866.5,7.1,2014
+2014-07,Manitoba,units,thousands,units,68.2,973.4,5.3,2014
+2014-07,New Brunswick,units,thousands,units,63.1,625.9,9.9,2014
+2014-07,Newfoundland and Labrador,units,thousands,units,61.5,445.8,13.1,2014
+2014-07,Nova Scotia,units,thousands,units,63.4,777.4,9.6,2014
+2014-07,Ontario,units,thousands,units,66.3,11194.3,7.5,2014
+2014-07,Prince Edward Island,units,thousands,units,67.8,119.2,9.2,2014
+2014-07,Quebec,units,thousands,units,65.1,6737.0,8.0,2014
+2014-07,Saskatchewan,units,thousands,units,69.4,846.5,3.5,2014
+2014-08,Alberta,units,thousands,units,72.7,3249.6,5.1,2014
+2014-08,British Columbia,units,thousands,units,64.1,3908.4,6.4,2014
+2014-08,Canada,units,thousands,units,66.1,28888.9,7.0,2014
+2014-08,Manitoba,units,thousands,units,68.3,974.2,5.6,2014
+2014-08,New Brunswick,units,thousands,units,63.3,626.0,9.2,2014
+2014-08,Newfoundland and Labrador,units,thousands,units,61.0,445.9,13.7,2014
+2014-08,Nova Scotia,units,thousands,units,63.3,777.4,8.8,2014
+2014-08,Ontario,units,thousands,units,65.9,11202.1,7.3,2014
+2014-08,Prince Edward Island,units,thousands,units,68.3,119.2,9.7,2014
+2014-08,Quebec,units,thousands,units,64.7,6738.9,7.5,2014
+2014-08,Saskatchewan,units,thousands,units,69.8,847.1,4.4,2014
+2014-09,Alberta,units,thousands,units,72.5,3254.5,4.5,2014
+2014-09,British Columbia,units,thousands,units,64.2,3915.1,6.3,2014
+2014-09,Canada,units,thousands,units,66.2,28913.0,7.0,2014
+2014-09,Manitoba,units,thousands,units,68.2,975.3,5.6,2014
+2014-09,New Brunswick,units,thousands,units,63.5,626.2,10.2,2014
+2014-09,Newfoundland and Labrador,units,thousands,units,61.3,446.0,12.9,2014
+2014-09,Nova Scotia,units,thousands,units,63.1,777.3,9.2,2014
+2014-09,Ontario,units,thousands,units,66.0,11210.0,7.3,2014
+2014-09,Prince Edward Island,units,thousands,units,68.0,119.3,9.9,2014
+2014-09,Quebec,units,thousands,units,64.9,6741.7,7.9,2014
+2014-09,Saskatchewan,units,thousands,units,69.7,847.8,3.7,2014
+2014-10,Alberta,units,thousands,units,72.7,3257.6,5.0,2014
+2014-10,British Columbia,units,thousands,units,64.1,3920.0,6.0,2014
+2014-10,Canada,units,thousands,units,66.1,28930.2,6.8,2014
+2014-10,Manitoba,units,thousands,units,68.7,976.0,5.4,2014
+2014-10,New Brunswick,units,thousands,units,63.1,626.3,10.0,2014
+2014-10,Newfoundland and Labrador,units,thousands,units,61.3,446.2,12.9,2014
+2014-10,Nova Scotia,units,thousands,units,63.6,777.3,9.0,2014
+2014-10,Ontario,units,thousands,units,65.8,11216.2,6.8,2014
+2014-10,Prince Edward Island,units,thousands,units,68.1,119.3,9.3,2014
+2014-10,Quebec,units,thousands,units,64.6,6743.0,7.8,2014
+2014-10,Saskatchewan,units,thousands,units,69.8,848.2,3.7,2014
+2014-11,Alberta,units,thousands,units,72.7,3260.6,4.7,2014
+2014-11,British Columbia,units,thousands,units,63.9,3924.7,5.6,2014
+2014-11,Canada,units,thousands,units,66.1,28946.7,6.8,2014
+2014-11,Manitoba,units,thousands,units,68.6,976.9,5.0,2014
+2014-11,New Brunswick,units,thousands,units,63.0,626.5,10.3,2014
+2014-11,Newfoundland and Labrador,units,thousands,units,61.1,446.2,11.8,2014
+2014-11,Nova Scotia,units,thousands,units,63.3,777.3,8.6,2014
+2014-11,Ontario,units,thousands,units,65.7,11222.5,7.2,2014
+2014-11,Prince Edward Island,units,thousands,units,69.0,119.4,10.6,2014
+2014-11,Quebec,units,thousands,units,64.9,6743.8,7.8,2014
+2014-11,Saskatchewan,units,thousands,units,69.0,848.8,3.6,2014
+2014-12,Alberta,units,thousands,units,73.1,3263.0,4.9,2014
+2014-12,British Columbia,units,thousands,units,63.9,3928.8,5.4,2014
+2014-12,Canada,units,thousands,units,66.1,28962.0,6.7,2014
+2014-12,Manitoba,units,thousands,units,68.9,977.8,5.5,2014
+2014-12,New Brunswick,units,thousands,units,62.8,626.8,10.0,2014
+2014-12,Newfoundland and Labrador,units,thousands,units,61.1,446.3,12.0,2014
+2014-12,Nova Scotia,units,thousands,units,63.2,777.3,8.3,2014
+2014-12,Ontario,units,thousands,units,65.7,11228.9,7.0,2014
+2014-12,Prince Edward Island,units,thousands,units,68.7,119.4,11.5,2014
+2014-12,Quebec,units,thousands,units,64.7,6744.4,7.5,2014
+2014-12,Saskatchewan,units,thousands,units,69.6,849.2,3.7,2014
+2015-01,Alberta,units,thousands,units,73.4,3265.5,4.7,2015
+2015-01,British Columbia,units,thousands,units,64.0,3932.5,5.7,2015
+2015-01,Canada,units,thousands,units,66.1,28972.0,6.8,2015
+2015-01,Manitoba,units,thousands,units,69.2,978.2,6.0,2015
+2015-01,New Brunswick,units,thousands,units,63.2,626.9,10.0,2015
+2015-01,Newfoundland and Labrador,units,thousands,units,61.4,446.3,11.9,2015
+2015-01,Nova Scotia,units,thousands,units,63.5,777.0,8.7,2015
+2015-01,Ontario,units,thousands,units,65.5,11233.2,6.9,2015
+2015-01,Prince Edward Island,units,thousands,units,68.8,119.4,10.6,2015
+2015-01,Quebec,units,thousands,units,64.8,6743.5,7.7,2015
+2015-01,Saskatchewan,units,thousands,units,69.6,849.5,4.8,2015
+2015-02,Alberta,units,thousands,units,73.4,3269.0,5.4,2015
+2015-02,British Columbia,units,thousands,units,64.0,3937.1,6.0,2015
+2015-02,Canada,units,thousands,units,66.2,28984.8,6.9,2015
+2015-02,Manitoba,units,thousands,units,68.9,978.6,5.6,2015
+2015-02,New Brunswick,units,thousands,units,63.5,627.0,10.1,2015
+2015-02,Newfoundland and Labrador,units,thousands,units,61.4,446.4,12.5,2015
+2015-02,Nova Scotia,units,thousands,units,63.2,776.6,9.3,2015
+2015-02,Ontario,units,thousands,units,65.7,11238.5,7.0,2015
+2015-02,Prince Edward Island,units,thousands,units,68.5,119.3,9.9,2015
+2015-02,Quebec,units,thousands,units,65.1,6742.8,7.6,2015
+2015-02,Saskatchewan,units,thousands,units,69.9,849.5,5.1,2015
+2015-03,Alberta,units,thousands,units,73.4,3273.2,5.5,2015
+2015-03,British Columbia,units,thousands,units,64.0,3942.3,5.8,2015
+2015-03,Canada,units,thousands,units,66.3,29000.3,6.8,2015
+2015-03,Manitoba,units,thousands,units,69.2,979.1,5.3,2015
+2015-03,New Brunswick,units,thousands,units,63.4,626.8,10.1,2015
+2015-03,Newfoundland and Labrador,units,thousands,units,61.9,446.5,13.6,2015
+2015-03,Nova Scotia,units,thousands,units,63.1,776.2,9.5,2015
+2015-03,Ontario,units,thousands,units,65.8,11244.1,6.8,2015
+2015-03,Prince Edward Island,units,thousands,units,68.8,119.4,11.1,2015
+2015-03,Quebec,units,thousands,units,65.3,6743.2,7.8,2015
+2015-03,Saskatchewan,units,thousands,units,69.8,849.6,4.3,2015
+2015-04,Alberta,units,thousands,units,73.7,3277.5,5.7,2015
+2015-04,British Columbia,units,thousands,units,63.8,3947.3,6.4,2015
+2015-04,Canada,units,thousands,units,66.2,29017.2,6.9,2015
+2015-04,Manitoba,units,thousands,units,69.1,979.7,5.4,2015
+2015-04,New Brunswick,units,thousands,units,63.3,626.8,10.0,2015
+2015-04,Newfoundland and Labrador,units,thousands,units,61.6,446.5,13.6,2015
+2015-04,Nova Scotia,units,thousands,units,62.7,776.1,9.7,2015
+2015-04,Ontario,units,thousands,units,65.5,11250.4,6.8,2015
+2015-04,Prince Edward Island,units,thousands,units,68.3,119.3,10.6,2015
+2015-04,Quebec,units,thousands,units,65.2,6743.9,7.6,2015
+2015-04,Saskatchewan,units,thousands,units,70.2,849.7,4.4,2015
+2015-05,Alberta,units,thousands,units,73.9,3281.1,6.2,2015
+2015-05,British Columbia,units,thousands,units,64.0,3952.2,5.9,2015
+2015-05,Canada,units,thousands,units,66.2,29035.9,6.8,2015
+2015-05,Manitoba,units,thousands,units,68.8,980.4,5.8,2015
+2015-05,New Brunswick,units,thousands,units,62.5,626.6,9.9,2015
+2015-05,Newfoundland and Labrador,units,thousands,units,61.7,446.6,14.4,2015
+2015-05,Nova Scotia,units,thousands,units,62.6,776.2,8.9,2015
+2015-05,Ontario,units,thousands,units,65.3,11258.3,6.3,2015
+2015-05,Prince Edward Island,units,thousands,units,67.7,119.3,11.0,2015
+2015-05,Quebec,units,thousands,units,65.2,6745.2,7.9,2015
+2015-05,Saskatchewan,units,thousands,units,70.2,850.0,4.9,2015
+2015-06,Alberta,units,thousands,units,73.5,3285.3,6.1,2015
+2015-06,British Columbia,units,thousands,units,64.1,3958.4,5.9,2015
+2015-06,Canada,units,thousands,units,66.1,29063.9,6.9,2015
+2015-06,Manitoba,units,thousands,units,68.6,981.7,5.2,2015
+2015-06,New Brunswick,units,thousands,units,63.0,626.6,11.2,2015
+2015-06,Newfoundland and Labrador,units,thousands,units,62.0,446.6,12.8,2015
+2015-06,Nova Scotia,units,thousands,units,62.1,776.4,8.5,2015
+2015-06,Ontario,units,thousands,units,65.4,11271.2,6.5,2015
+2015-06,Prince Edward Island,units,thousands,units,68.3,119.4,11.3,2015
+2015-06,Quebec,units,thousands,units,64.8,6747.7,8.0,2015
+2015-06,Saskatchewan,units,thousands,units,70.0,850.7,4.8,2015
+2015-07,Alberta,units,thousands,units,73.6,3288.2,6.0,2015
+2015-07,British Columbia,units,thousands,units,63.9,3962.9,6.3,2015
+2015-07,Canada,units,thousands,units,66.1,29085.4,6.9,2015
+2015-07,Manitoba,units,thousands,units,68.4,983.0,5.8,2015
+2015-07,New Brunswick,units,thousands,units,63.1,626.6,11.4,2015
+2015-07,Newfoundland and Labrador,units,thousands,units,61.6,446.5,12.0,2015
+2015-07,Nova Scotia,units,thousands,units,62.7,776.4,8.2,2015
+2015-07,Ontario,units,thousands,units,65.5,11281.0,6.7,2015
+2015-07,Prince Edward Island,units,thousands,units,68.0,119.5,11.3,2015
+2015-07,Quebec,units,thousands,units,65.1,6750.0,7.6,2015
+2015-07,Saskatchewan,units,thousands,units,69.6,851.3,5.4,2015
+2015-08,Alberta,units,thousands,units,73.4,3290.1,6.2,2015
+2015-08,British Columbia,units,thousands,units,64.3,3968.0,6.3,2015
+2015-08,Canada,units,thousands,units,66.2,29106.6,7.0,2015
+2015-08,Manitoba,units,thousands,units,68.7,984.0,6.1,2015
+2015-08,New Brunswick,units,thousands,units,62.8,626.8,10.1,2015
+2015-08,Newfoundland and Labrador,units,thousands,units,61.8,446.6,12.2,2015
+2015-08,Nova Scotia,units,thousands,units,62.1,776.7,8.1,2015
+2015-08,Ontario,units,thousands,units,65.7,11290.7,6.9,2015
+2015-08,Prince Edward Island,units,thousands,units,67.6,119.6,11.1,2015
+2015-08,Quebec,units,thousands,units,65.1,6752.2,7.8,2015
+2015-08,Saskatchewan,units,thousands,units,69.8,851.9,5.2,2015
+2015-09,Alberta,units,thousands,units,73.9,3293.0,6.6,2015
+2015-09,British Columbia,units,thousands,units,64.6,3974.3,6.4,2015
+2015-09,Canada,units,thousands,units,66.2,29133.2,7.1,2015
+2015-09,Manitoba,units,thousands,units,68.9,985.2,5.7,2015
+2015-09,New Brunswick,units,thousands,units,62.4,627.1,9.3,2015
+2015-09,Newfoundland and Labrador,units,thousands,units,62.3,446.8,13.8,2015
+2015-09,Nova Scotia,units,thousands,units,62.7,777.0,8.7,2015
+2015-09,Ontario,units,thousands,units,65.4,11302.1,6.8,2015
+2015-09,Prince Edward Island,units,thousands,units,67.6,119.7,9.8,2015
+2015-09,Quebec,units,thousands,units,65.1,6755.0,7.6,2015
+2015-09,Saskatchewan,units,thousands,units,70.2,853.0,5.4,2015
+2015-10,Alberta,units,thousands,units,73.2,3295.1,6.3,2015
+2015-10,British Columbia,units,thousands,units,64.9,3978.7,6.1,2015
+2015-10,Canada,units,thousands,units,66.2,29153.7,7.0,2015
+2015-10,Manitoba,units,thousands,units,68.7,986.3,5.5,2015
+2015-10,New Brunswick,units,thousands,units,62.8,627.2,9.1,2015
+2015-10,Newfoundland and Labrador,units,thousands,units,61.8,446.9,13.1,2015
+2015-10,Nova Scotia,units,thousands,units,62.6,777.3,7.9,2015
+2015-10,Ontario,units,thousands,units,65.4,11312.0,6.8,2015
+2015-10,Prince Edward Island,units,thousands,units,68.4,119.8,10.0,2015
+2015-10,Quebec,units,thousands,units,64.9,6756.8,7.6,2015
+2015-10,Saskatchewan,units,thousands,units,70.5,853.6,6.0,2015
+2015-11,Alberta,units,thousands,units,73.0,3297.0,6.9,2015
+2015-11,British Columbia,units,thousands,units,65.0,3982.4,6.1,2015
+2015-11,Canada,units,thousands,units,66.1,29172.6,7.1,2015
+2015-11,Manitoba,units,thousands,units,68.8,987.5,6.0,2015
+2015-11,New Brunswick,units,thousands,units,62.3,627.3,8.9,2015
+2015-11,Newfoundland and Labrador,units,thousands,units,61.9,447.0,13.6,2015
+2015-11,Nova Scotia,units,thousands,units,62.8,777.6,9.1,2015
+2015-11,Ontario,units,thousands,units,65.3,11321.0,6.8,2015
+2015-11,Prince Edward Island,units,thousands,units,68.4,119.9,10.6,2015
+2015-11,Quebec,units,thousands,units,64.8,6758.6,7.7,2015
+2015-11,Saskatchewan,units,thousands,units,70.5,854.2,5.9,2015
+2015-12,Alberta,units,thousands,units,72.8,3298.9,7.1,2015
+2015-12,British Columbia,units,thousands,units,65.1,3985.8,6.8,2015
+2015-12,Canada,units,thousands,units,66.1,29192.0,7.2,2015
+2015-12,Manitoba,units,thousands,units,68.3,988.8,5.8,2015
+2015-12,New Brunswick,units,thousands,units,62.5,627.7,9.2,2015
+2015-12,Newfoundland and Labrador,units,thousands,units,61.6,447.1,14.1,2015
+2015-12,Nova Scotia,units,thousands,units,62.2,777.9,9.1,2015
+2015-12,Ontario,units,thousands,units,65.4,11330.4,6.8,2015
+2015-12,Prince Edward Island,units,thousands,units,67.6,120.0,10.0,2015
+2015-12,Quebec,units,thousands,units,64.8,6760.8,7.8,2015
+2015-12,Saskatchewan,units,thousands,units,69.9,854.6,5.9,2015
+2016-01,Alberta,units,thousands,units,72.5,3301.4,7.5,2016
+2016-01,British Columbia,units,thousands,units,65.2,3989.8,6.7,2016
+2016-01,Canada,units,thousands,units,66.1,29216.7,7.3,2016
+2016-01,Manitoba,units,thousands,units,67.9,990.3,6.2,2016
+2016-01,New Brunswick,units,thousands,units,62.6,628.2,9.4,2016
+2016-01,Newfoundland and Labrador,units,thousands,units,61.3,447.3,14.6,2016
+2016-01,Nova Scotia,units,thousands,units,61.8,778.6,9.0,2016
+2016-01,Ontario,units,thousands,units,65.5,11341.4,6.7,2016
+2016-01,Prince Edward Island,units,thousands,units,67.2,120.2,10.0,2016
+2016-01,Quebec,units,thousands,units,64.7,6764.1,7.8,2016
+2016-01,Saskatchewan,units,thousands,units,70.1,855.3,6.0,2016
+2016-02,Alberta,units,thousands,units,72.8,3304.7,7.7,2016
+2016-02,British Columbia,units,thousands,units,65.3,3996.4,6.7,2016
+2016-02,Canada,units,thousands,units,66.1,29247.4,7.3,2016
+2016-02,Manitoba,units,thousands,units,68.2,991.7,6.0,2016
+2016-02,New Brunswick,units,thousands,units,62.2,629.0,10.1,2016
+2016-02,Newfoundland and Labrador,units,thousands,units,61.3,447.5,14.4,2016
+2016-02,Nova Scotia,units,thousands,units,62.3,779.3,9.1,2016
+2016-02,Ontario,units,thousands,units,65.4,11355.1,6.7,2016
+2016-02,Prince Edward Island,units,thousands,units,67.9,120.4,10.6,2016
+2016-02,Quebec,units,thousands,units,64.8,6767.3,7.7,2016
+2016-02,Saskatchewan,units,thousands,units,69.5,856.2,6.1,2016
+2016-03,Alberta,units,thousands,units,72.5,3307.0,7.3,2016
+2016-03,British Columbia,units,thousands,units,65.1,4002.4,6.1,2016
+2016-03,Canada,units,thousands,units,66.0,29273.6,7.2,2016
+2016-03,Manitoba,units,thousands,units,68.4,993.0,6.0,2016
+2016-03,New Brunswick,units,thousands,units,62.2,629.4,10.2,2016
+2016-03,Newfoundland and Labrador,units,thousands,units,60.4,447.7,13.4,2016
+2016-03,Nova Scotia,units,thousands,units,62.1,779.6,8.7,2016
+2016-03,Ontario,units,thousands,units,65.5,11367.4,6.9,2016
+2016-03,Prince Edward Island,units,thousands,units,66.9,120.7,10.2,2016
+2016-03,Quebec,units,thousands,units,64.6,6769.6,7.8,2016
+2016-03,Saskatchewan,units,thousands,units,69.7,856.9,6.3,2016
+2016-04,Alberta,units,thousands,units,72.5,3309.1,7.6,2016
+2016-04,British Columbia,units,thousands,units,65.0,4009.8,5.6,2016
+2016-04,Canada,units,thousands,units,66.1,29301.3,7.3,2016
+2016-04,Manitoba,units,thousands,units,68.2,994.3,6.1,2016
+2016-04,New Brunswick,units,thousands,units,62.6,629.5,9.5,2016
+2016-04,Newfoundland and Labrador,units,thousands,units,61.3,447.9,13.0,2016
+2016-04,Nova Scotia,units,thousands,units,61.9,780.0,8.1,2016
+2016-04,Ontario,units,thousands,units,65.6,11380.3,7.1,2016
+2016-04,Prince Edward Island,units,thousands,units,66.7,120.9,10.7,2016
+2016-04,Quebec,units,thousands,units,64.9,6771.7,7.9,2016
+2016-04,Saskatchewan,units,thousands,units,69.8,857.7,6.6,2016
+2016-05,Alberta,units,thousands,units,72.3,3312.6,8.2,2016
+2016-05,British Columbia,units,thousands,units,64.9,4018.6,5.8,2016
+2016-05,Canada,units,thousands,units,66.0,29337.9,7.0,2016
+2016-05,Manitoba,units,thousands,units,68.2,996.2,6.0,2016
+2016-05,New Brunswick,units,thousands,units,62.9,629.7,10.1,2016
+2016-05,Newfoundland and Labrador,units,thousands,units,60.7,448.0,12.3,2016
+2016-05,Nova Scotia,units,thousands,units,61.7,780.8,8.8,2016
+2016-05,Ontario,units,thousands,units,65.4,11396.9,6.5,2016
+2016-05,Prince Edward Island,units,thousands,units,66.2,121.1,10.5,2016
+2016-05,Quebec,units,thousands,units,64.8,6775.5,7.3,2016
+2016-05,Saskatchewan,units,thousands,units,69.6,858.6,6.0,2016
+2016-06,Alberta,units,thousands,units,72.0,3315.4,8.2,2016
+2016-06,British Columbia,units,thousands,units,65.1,4026.1,5.9,2016
+2016-06,Canada,units,thousands,units,65.8,29371.1,6.9,2016
+2016-06,Manitoba,units,thousands,units,68.0,997.7,6.2,2016
+2016-06,New Brunswick,units,thousands,units,63.0,629.8,9.8,2016
+2016-06,Newfoundland and Labrador,units,thousands,units,60.3,448.1,11.9,2016
+2016-06,Nova Scotia,units,thousands,units,61.9,781.3,7.9,2016
+2016-06,Ontario,units,thousands,units,65.2,11412.5,6.4,2016
+2016-06,Prince Edward Island,units,thousands,units,66.1,121.3,10.6,2016
+2016-06,Quebec,units,thousands,units,64.5,6779.5,7.1,2016
+2016-06,Saskatchewan,units,thousands,units,69.7,859.6,6.3,2016
+2016-07,Alberta,units,thousands,units,72.5,3318.5,8.9,2016
+2016-07,British Columbia,units,thousands,units,65.4,4030.6,5.7,2016
+2016-07,Canada,units,thousands,units,65.7,29403.2,6.9,2016
+2016-07,Manitoba,units,thousands,units,68.3,999.2,6.3,2016
+2016-07,New Brunswick,units,thousands,units,63.5,630.1,10.0,2016
+2016-07,Newfoundland and Labrador,units,thousands,units,60.3,448.1,13.0,2016
+2016-07,Nova Scotia,units,thousands,units,61.7,781.8,8.4,2016
+2016-07,Ontario,units,thousands,units,64.8,11428.2,6.3,2016
+2016-07,Prince Edward Island,units,thousands,units,65.8,121.5,9.6,2016
+2016-07,Quebec,units,thousands,units,64.5,6784.7,7.1,2016
+2016-07,Saskatchewan,units,thousands,units,69.7,860.6,6.1,2016
+2016-08,Alberta,units,thousands,units,72.2,3321.4,8.3,2016
+2016-08,British Columbia,units,thousands,units,65.3,4036.7,5.5,2016
+2016-08,Canada,units,thousands,units,65.8,29442.2,6.9,2016
+2016-08,Manitoba,units,thousands,units,67.9,1000.6,6.0,2016
+2016-08,New Brunswick,units,thousands,units,62.9,630.5,9.5,2016
+2016-08,Newfoundland and Labrador,units,thousands,units,60.8,448.1,13.0,2016
+2016-08,Nova Scotia,units,thousands,units,61.9,782.5,8.3,2016
+2016-08,Ontario,units,thousands,units,65.0,11448.2,6.5,2016
+2016-08,Prince Edward Island,units,thousands,units,67.5,121.8,12.2,2016
+2016-08,Quebec,units,thousands,units,64.7,6791.0,6.9,2016
+2016-08,Saskatchewan,units,thousands,units,69.6,861.6,6.3,2016
+2016-09,Alberta,units,thousands,units,72.5,3323.4,8.6,2016
+2016-09,British Columbia,units,thousands,units,65.4,4040.9,6.0,2016
+2016-09,Canada,units,thousands,units,65.9,29471.2,7.0,2016
+2016-09,Manitoba,units,thousands,units,68.2,1001.8,6.4,2016
+2016-09,New Brunswick,units,thousands,units,63.4,630.8,9.9,2016
+2016-09,Newfoundland and Labrador,units,thousands,units,60.9,448.0,13.8,2016
+2016-09,Nova Scotia,units,thousands,units,61.6,783.0,8.0,2016
+2016-09,Ontario,units,thousands,units,64.9,11463.2,6.5,2016
+2016-09,Prince Edward Island,units,thousands,units,67.4,122.0,11.4,2016
+2016-09,Quebec,units,thousands,units,65.0,6795.9,6.8,2016
+2016-09,Saskatchewan,units,thousands,units,70.0,862.2,6.8,2016
+2016-10,Alberta,units,thousands,units,72.6,3325.5,8.6,2016
+2016-10,British Columbia,units,thousands,units,65.6,4044.9,6.1,2016
+2016-10,Canada,units,thousands,units,65.9,29498.0,6.9,2016
+2016-10,Manitoba,units,thousands,units,67.8,1003.0,6.1,2016
+2016-10,New Brunswick,units,thousands,units,63.5,631.0,10.1,2016
+2016-10,Newfoundland and Labrador,units,thousands,units,60.5,448.0,15.1,2016
+2016-10,Nova Scotia,units,thousands,units,61.6,783.4,7.8,2016
+2016-10,Ontario,units,thousands,units,64.9,11477.4,6.4,2016
+2016-10,Prince Edward Island,units,thousands,units,67.2,122.1,11.7,2016
+2016-10,Quebec,units,thousands,units,64.7,6800.0,6.6,2016
+2016-10,Saskatchewan,units,thousands,units,69.9,862.8,7.0,2016
+2016-11,Alberta,units,thousands,units,72.5,3327.3,8.8,2016
+2016-11,British Columbia,units,thousands,units,65.2,4048.8,6.2,2016
+2016-11,Canada,units,thousands,units,65.8,29522.6,6.8,2016
+2016-11,Manitoba,units,thousands,units,67.6,1004.0,5.9,2016
+2016-11,New Brunswick,units,thousands,units,63.1,631.2,9.3,2016
+2016-11,Newfoundland and Labrador,units,thousands,units,60.5,448.0,15.1,2016
+2016-11,Nova Scotia,units,thousands,units,62.1,783.8,8.0,2016
+2016-11,Ontario,units,thousands,units,65.0,11490.2,6.3,2016
+2016-11,Prince Edward Island,units,thousands,units,67.1,122.3,11.0,2016
+2016-11,Quebec,units,thousands,units,64.7,6803.7,6.2,2016
+2016-11,Saskatchewan,units,thousands,units,70.1,863.3,7.1,2016
+2016-12,Alberta,units,thousands,units,72.4,3329.4,8.6,2016
+2016-12,British Columbia,units,thousands,units,65.7,4052.3,6.1,2016
+2016-12,Canada,units,thousands,units,66.0,29546.4,6.9,2016
+2016-12,Manitoba,units,thousands,units,67.6,1005.3,5.9,2016
+2016-12,New Brunswick,units,thousands,units,63.0,631.4,9.2,2016
+2016-12,Newfoundland and Labrador,units,thousands,units,60.3,448.1,15.0,2016
+2016-12,Nova Scotia,units,thousands,units,62.2,784.1,8.5,2016
+2016-12,Ontario,units,thousands,units,65.1,11502.2,6.5,2016
+2016-12,Prince Edward Island,units,thousands,units,67.1,122.5,10.3,2016
+2016-12,Quebec,units,thousands,units,64.9,6807.3,6.5,2016
+2016-12,Saskatchewan,units,thousands,units,69.4,864.0,6.5,2016
+2017-01,Alberta,units,thousands,units,72.6,3332.6,8.5,2017
+2017-01,British Columbia,units,thousands,units,65.9,4056.8,5.6,2017
+2017-01,Canada,units,thousands,units,66.1,29579.4,6.8,2017
+2017-01,Manitoba,units,thousands,units,67.5,1007.0,5.9,2017
+2017-01,New Brunswick,units,thousands,units,62.5,631.7,8.6,2017
+2017-01,Newfoundland and Labrador,units,thousands,units,59.7,448.1,14.6,2017
+2017-01,Nova Scotia,units,thousands,units,62.2,784.6,8.1,2017
+2017-01,Ontario,units,thousands,units,65.4,11518.7,6.5,2017
+2017-01,Prince Edward Island,units,thousands,units,67.3,122.6,9.5,2017
+2017-01,Quebec,units,thousands,units,64.8,6812.4,6.3,2017
+2017-01,Saskatchewan,units,thousands,units,69.5,864.9,6.7,2017
+2017-02,Alberta,units,thousands,units,72.4,3335.7,8.1,2017
+2017-02,British Columbia,units,thousands,units,65.8,4061.4,5.4,2017
+2017-02,Canada,units,thousands,units,66.0,29605.0,6.6,2017
+2017-02,Manitoba,units,thousands,units,67.6,1008.0,5.8,2017
+2017-02,New Brunswick,units,thousands,units,62.3,631.8,8.6,2017
+2017-02,Newfoundland and Labrador,units,thousands,units,59.5,448.0,14.8,2017
+2017-02,Nova Scotia,units,thousands,units,62.0,785.1,8.4,2017
+2017-02,Ontario,units,thousands,units,65.3,11530.6,6.3,2017
+2017-02,Prince Edward Island,units,thousands,units,67.4,122.8,10.1,2017
+2017-02,Quebec,units,thousands,units,64.8,6815.9,6.3,2017
+2017-02,Saskatchewan,units,thousands,units,69.9,865.6,6.1,2017
+2017-03,Alberta,units,thousands,units,72.7,3339.0,8.6,2017
+2017-03,British Columbia,units,thousands,units,66.1,4066.8,5.6,2017
+2017-03,Canada,units,thousands,units,66.1,29635.7,6.7,2017
+2017-03,Manitoba,units,thousands,units,67.6,1009.4,5.7,2017
+2017-03,New Brunswick,units,thousands,units,62.2,632.0,8.5,2017
+2017-03,Newfoundland and Labrador,units,thousands,units,59.9,447.9,15.5,2017
+2017-03,Nova Scotia,units,thousands,units,62.6,785.7,9.1,2017
+2017-03,Ontario,units,thousands,units,65.2,11544.9,6.4,2017
+2017-03,Prince Edward Island,units,thousands,units,67.2,123.1,9.8,2017
+2017-03,Quebec,units,thousands,units,64.7,6820.6,6.0,2017
+2017-03,Saskatchewan,units,thousands,units,69.1,866.4,6.3,2017
+2017-04,Alberta,units,thousands,units,72.2,3341.8,8.2,2017
+2017-04,British Columbia,units,thousands,units,66.3,4072.8,5.5,2017
+2017-04,Canada,units,thousands,units,65.9,29667.2,6.5,2017
+2017-04,Manitoba,units,thousands,units,67.4,1010.6,5.4,2017
+2017-04,New Brunswick,units,thousands,units,62.3,632.3,8.9,2017
+2017-04,Newfoundland and Labrador,units,thousands,units,59.7,447.8,14.9,2017
+2017-04,Nova Scotia,units,thousands,units,62.4,786.4,8.9,2017
+2017-04,Ontario,units,thousands,units,65.0,11559.4,5.9,2017
+2017-04,Prince Edward Island,units,thousands,units,67.5,123.5,10.1,2017
+2017-04,Quebec,units,thousands,units,64.9,6825.7,6.2,2017
+2017-04,Saskatchewan,units,thousands,units,69.2,867.1,6.3,2017
+2017-05,Alberta,units,thousands,units,72.2,3345.2,8.3,2017
+2017-05,British Columbia,units,thousands,units,66.5,4079.8,5.4,2017
+2017-05,Canada,units,thousands,units,66.1,29706.8,6.6,2017
+2017-05,Manitoba,units,thousands,units,67.4,1012.3,5.2,2017
+2017-05,New Brunswick,units,thousands,units,62.2,632.7,8.8,2017
+2017-05,Newfoundland and Labrador,units,thousands,units,59.9,447.7,15.3,2017
+2017-05,Nova Scotia,units,thousands,units,62.2,787.0,8.2,2017
+2017-05,Ontario,units,thousands,units,65.4,11578.5,6.4,2017
+2017-05,Prince Edward Island,units,thousands,units,68.0,123.8,10.2,2017
+2017-05,Quebec,units,thousands,units,64.6,6831.8,6.1,2017
+2017-05,Saskatchewan,units,thousands,units,69.7,868.0,6.7,2017
+2017-06,Alberta,units,thousands,units,71.9,3348.1,7.8,2017
+2017-06,British Columbia,units,thousands,units,66.6,4085.6,5.1,2017
+2017-06,Canada,units,thousands,units,66.1,29741.1,6.5,2017
+2017-06,Manitoba,units,thousands,units,67.4,1013.8,5.1,2017
+2017-06,New Brunswick,units,thousands,units,61.9,633.1,8.4,2017
+2017-06,Newfoundland and Labrador,units,thousands,units,59.8,447.7,15.6,2017
+2017-06,Nova Scotia,units,thousands,units,62.2,787.9,8.9,2017
+2017-06,Ontario,units,thousands,units,65.3,11594.9,6.3,2017
+2017-06,Prince Edward Island,units,thousands,units,67.6,124.2,10.1,2017
+2017-06,Quebec,units,thousands,units,65.2,6837.2,6.2,2017
+2017-06,Saskatchewan,units,thousands,units,69.1,868.7,6.4,2017
+2017-07,Alberta,units,thousands,units,71.9,3351.9,8.2,2017
+2017-07,British Columbia,units,thousands,units,66.2,4091.2,5.0,2017
+2017-07,Canada,units,thousands,units,66.1,29778.3,6.3,2017
+2017-07,Manitoba,units,thousands,units,67.5,1015.0,4.8,2017
+2017-07,New Brunswick,units,thousands,units,61.2,633.3,6.9,2017
+2017-07,Newfoundland and Labrador,units,thousands,units,59.0,447.6,15.2,2017
+2017-07,Nova Scotia,units,thousands,units,62.0,788.5,8.1,2017
+2017-07,Ontario,units,thousands,units,65.4,11612.8,6.1,2017
+2017-07,Prince Edward Island,units,thousands,units,66.6,124.3,9.9,2017
+2017-07,Quebec,units,thousands,units,65.1,6844.2,5.7,2017
+2017-07,Saskatchewan,units,thousands,units,69.5,869.6,6.8,2017
+2017-08,Alberta,units,thousands,units,72.0,3356.1,8.4,2017
+2017-08,British Columbia,units,thousands,units,66.4,4097.9,5.0,2017
+2017-08,Canada,units,thousands,units,66.0,29823.9,6.2,2017
+2017-08,Manitoba,units,thousands,units,67.5,1016.4,4.9,2017
+2017-08,New Brunswick,units,thousands,units,61.6,633.6,8.0,2017
+2017-08,Newfoundland and Labrador,units,thousands,units,58.8,447.6,15.1,2017
+2017-08,Nova Scotia,units,thousands,units,62.0,789.3,8.4,2017
+2017-08,Ontario,units,thousands,units,65.0,11634.9,5.5,2017
+2017-08,Prince Edward Island,units,thousands,units,66.5,124.6,9.1,2017
+2017-08,Quebec,units,thousands,units,65.3,6853.2,6.0,2017
+2017-08,Saskatchewan,units,thousands,units,69.1,870.3,6.1,2017
+2017-09,Alberta,units,thousands,units,71.5,3359.2,7.6,2017
+2017-09,British Columbia,units,thousands,units,65.8,4103.5,5.2,2017
+2017-09,Canada,units,thousands,units,65.9,29859.2,6.2,2017
+2017-09,Manitoba,units,thousands,units,67.5,1017.6,5.4,2017
+2017-09,New Brunswick,units,thousands,units,61.5,634.0,8.0,2017
+2017-09,Newfoundland and Labrador,units,thousands,units,58.8,447.6,15.4,2017
+2017-09,Nova Scotia,units,thousands,units,62.2,789.8,8.9,2017
+2017-09,Ontario,units,thousands,units,65.3,11651.7,5.9,2017
+2017-09,Prince Edward Island,units,thousands,units,66.8,124.7,10.4,2017
+2017-09,Quebec,units,thousands,units,65.1,6860.0,5.9,2017
+2017-09,Saskatchewan,units,thousands,units,68.9,871.1,6.2,2017
+2017-10,Alberta,units,thousands,units,71.7,3362.2,7.8,2017
+2017-10,British Columbia,units,thousands,units,65.7,4108.6,5.4,2017
+2017-10,Canada,units,thousands,units,66.1,29892.2,6.4,2017
+2017-10,Manitoba,units,thousands,units,67.5,1018.8,5.1,2017
+2017-10,New Brunswick,units,thousands,units,62.3,634.2,8.4,2017
+2017-10,Newfoundland and Labrador,units,thousands,units,59.1,447.6,15.3,2017
+2017-10,Nova Scotia,units,thousands,units,61.7,790.3,8.6,2017
+2017-10,Ontario,units,thousands,units,65.4,11667.8,5.9,2017
+2017-10,Prince Edward Island,units,thousands,units,66.8,124.9,10.8,2017
+2017-10,Quebec,units,thousands,units,65.4,6866.2,6.1,2017
+2017-10,Saskatchewan,units,thousands,units,68.5,871.7,6.2,2017
+2017-11,Alberta,units,thousands,units,71.8,3365.3,7.4,2017
+2017-11,British Columbia,units,thousands,units,66.1,4113.7,5.0,2017
+2017-11,Canada,units,thousands,units,66.1,29924.9,6.1,2017
+2017-11,Manitoba,units,thousands,units,67.5,1019.7,5.5,2017
+2017-11,New Brunswick,units,thousands,units,62.2,634.4,8.6,2017
+2017-11,Newfoundland and Labrador,units,thousands,units,59.3,447.6,15.3,2017
+2017-11,Nova Scotia,units,thousands,units,61.9,790.8,8.9,2017
+2017-11,Ontario,units,thousands,units,65.6,11684.2,5.8,2017
+2017-11,Prince Edward Island,units,thousands,units,66.7,125.1,9.3,2017
+2017-11,Quebec,units,thousands,units,65.0,6872.0,5.5,2017
+2017-11,Saskatchewan,units,thousands,units,68.8,872.3,6.5,2017
+2017-12,Alberta,units,thousands,units,72.5,3368.5,7.2,2017
+2017-12,British Columbia,units,thousands,units,66.1,4118.6,4.9,2017
+2017-12,Canada,units,thousands,units,66.2,29956.9,6.0,2017
+2017-12,Manitoba,units,thousands,units,67.5,1020.5,5.6,2017
+2017-12,New Brunswick,units,thousands,units,62.4,634.6,8.2,2017
+2017-12,Newfoundland and Labrador,units,thousands,units,59.4,447.5,15.2,2017
+2017-12,Nova Scotia,units,thousands,units,61.8,791.2,8.1,2017
+2017-12,Ontario,units,thousands,units,65.5,11700.6,5.9,2017
+2017-12,Prince Edward Island,units,thousands,units,67.6,125.2,9.9,2017
+2017-12,Quebec,units,thousands,units,65.1,6877.5,5.3,2017
+2017-12,Saskatchewan,units,thousands,units,69.4,872.5,6.7,2017
 2018-01,Alberta,units,thousands,units,72.2,3373.1,6.7,2018
 2018-01,British Columbia,units,thousands,units,65.8,4125.7,4.9,2018
 2018-01,Canada,units,thousands,units,65.8,30000.9,5.9,2018

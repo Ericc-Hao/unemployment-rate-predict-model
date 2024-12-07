@@ -18,9 +18,9 @@ def process_wage_data(base_path, output_path):
     # Drop rows with invalid Effective Date
     minimum_wage_data = minimum_wage_data.dropna(subset=['Effective Date'])
 
-    # Filter out rows where Effective Date is outside 2013-2024 range
-    minimum_wage_data = minimum_wage_data[(minimum_wage_data['Effective Date'].dt.year >= 2013) & 
-                                          (minimum_wage_data['Effective Date'].dt.year <= 2024)]
+    # # Filter out rows where Effective Date is outside 2013-2024 range
+    # minimum_wage_data = minimum_wage_data[(minimum_wage_data['Effective Date'].dt.year >= 2013) & 
+    #                                       (minimum_wage_data['Effective Date'].dt.year <= 2024)]
 
     # Replace 'Jurisdiction' column with 'GEO' and map the names
     jurisdiction_mapping = {
