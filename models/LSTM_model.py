@@ -28,8 +28,11 @@ def preprocess_data():
 
     continuous_columns = ['Participation Rate', 'Population', 'CPI', 'Gross domestic product at market prices', 'Gross fixed capital formation', 'Minimum Wage']
 
-    date_value = df['REF_DATE']
-    date_value = date_value.values.reshape(-1, 1)
+    df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
+    df['month'] = df['REF_DATE'].dt.month
+    df['month_sin'] = np.sin(2 * np.pi * df['month'] / 12)
+    df['month_cos'] = np.cos(2 * np.pi * df['month'] / 12)
+    date_features = ['month_sin', 'month_cos']
     
     scaler_X = RobustScaler()
     continuous_features = df[continuous_columns].astype(float)
@@ -42,9 +45,7 @@ def preprocess_data():
     scaler_Y.fit(label)
     scalered_label = scaler_Y.transform(label)
     
-    #features = np.hstack((scalered_features, encoded_features.values))
-    features = scalered_features
-    #features = np.hstack((scalered_features, date_value))
+    features = features = np.hstack((scalered_features, df[date_features].values))
     label = scalered_label
     
     X_train = features[:-predict_future_step]
@@ -58,12 +59,9 @@ def slice_window(X_train_scaled, y_train_scaled, future_step, window_size):
     X_train = []
     y_train = []
 
-    future_steps = future_step
-    window_size = window_size
-
-    for i in range(window_size, len(X_train_scaled) - future_steps +1):
+    for i in range(window_size, len(X_train_scaled) - future_step +1):
         X_train.append(X_train_scaled[i - window_size:i, :])
-        y_train.append(y_train_scaled[i + future_steps - 1, 0])
+        y_train.append(y_train_scaled[i + future_step - 1, 0])
 
     X_train, y_train = np.array(X_train), np.array(y_train)
     
@@ -78,21 +76,24 @@ class LSTM_model():
         self.batch_size = batch_size
         self.validation_split = validation_split
         self.model = Sequential()
-        self.LSTM = LSTM(30, input_shape=(self.X_train.shape[1], self.X_train.shape[2]), return_sequences=False)
-        self.dropout_layer = Dropout(0.2)
-        self.FC_layer = Dense(1, activation='relu')
+        self.LSTM = layers.Bidirectional(LSTM(64, input_shape=(self.X_train.shape[1], self.X_train.shape[2]), return_sequences=True, kernel_regularizer=tf.keras.regularizers.l2(0.001)))
+        self.LSTM2 = LSTM(32, return_sequences=False, kernel_regularizer=tf.keras.regularizers.l2(0.001))
+        self.dropout_layer = Dropout(0.3)
+        self.FC_layer = Dense(1, activation='linear')
         self.training_loss = []
         self.validation_loss = []
         
     def build(self):
         self.model.add(self.LSTM)
         self.model.add(self.dropout_layer)
+        self.model.add(self.LSTM2)
+        self.model.add(self.dropout_layer)
         self.model.add(self.FC_layer)
-        self.model.compile(optimizer=keras.optimizers.Adam(learning_rate=1e-3), loss=tf.keras.losses.MeanSquaredError())
+        self.model.compile(optimizer=keras.optimizers.Adam(learning_rate=1e-4), loss=tf.keras.losses.MeanSquaredError())
         
     def train(self):
-        early_stopping = EarlyStopping(monitor='val_loss', patience=1, restore_best_weights=True)
-        history = self.model.fit(self.X_train, self.y_train, epochs=self.epoch, batch_size=self.batch_size, validation_split=self.validation_split, verbose=1)
+        early_stopping = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
+        history = self.model.fit(self.X_train, self.y_train, epochs=self.epoch, batch_size=self.batch_size, validation_split=self.validation_split, verbose=1, callbacks=[early_stopping])
         self.training_loss = history.history.get('loss', [])
         self.validation_loss = history.history.get('val_loss', [])
         
@@ -124,8 +125,12 @@ def main():
     window_size = 12
     X_train, y_train = slice_window(X_train, y_train, future_step, window_size)
     
+    print(f"Shape of X_train: {X_train.shape}")
+    print(f"Shape of y_train: {y_train.shape}")
+    print(f"Shape of X_test: {X_test.shape}")
+    
     # define parameters
-    epoch = 30
+    epoch = 100
     batch_size = 8
     validation_split = 0.2
     
