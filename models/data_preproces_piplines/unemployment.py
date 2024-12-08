@@ -6,8 +6,8 @@ def process_unemployment_data(base_path, output_path):
     final_data = pd.DataFrame()
 
     # go through all year folders under the data path
-    for year in ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022', '2023', '2024']:
-        year_path = os.path.join(base_path, year)
+    for year in range(2012, 2025): 
+        year_path = os.path.join(base_path, str(year))
         if not os.path.exists(year_path):
             continue
 

@@ -1,4 +1,136 @@
 REF_DATE,GEO,Participation Rate_SCALAR_FACTOR,Population_SCALAR_FACTOR,Unemployment Rate_SCALAR_FACTOR,Participation Rate,Population,Unemployment Rate,Year
+2012-01,Alberta,units,thousands,units,74.1,3043.6,5.1,2012
+2012-01,British Columbia,units,thousands,units,65.3,3737.2,7.0,2012
+2012-01,Canada,units,thousands,units,66.8,28077.1,7.7,2012
+2012-01,Manitoba,units,thousands,units,69.0,946.3,5.6,2012
+2012-01,New Brunswick,units,thousands,units,63.6,622.8,9.7,2012
+2012-01,Newfoundland and Labrador,units,thousands,units,61.4,442.2,13.8,2012
+2012-01,Nova Scotia,units,thousands,units,64.4,780.0,8.6,2012
+2012-01,Ontario,units,thousands,units,66.4,10912.8,8.1,2012
+2012-01,Prince Edward Island,units,thousands,units,68.6,119.1,12.1,2012
+2012-01,Quebec,units,thousands,units,65.0,6654.4,8.7,2012
+2012-01,Saskatchewan,units,thousands,units,69.5,818.7,4.8,2012
+2012-02,Alberta,units,thousands,units,73.9,3049.8,5.0,2012
+2012-02,British Columbia,units,thousands,units,65.3,3742.4,7.0,2012
+2012-02,Canada,units,thousands,units,66.6,28102.2,7.6,2012
+2012-02,Manitoba,units,thousands,units,68.8,947.4,5.5,2012
+2012-02,New Brunswick,units,thousands,units,63.4,623.0,9.9,2012
+2012-02,Newfoundland and Labrador,units,thousands,units,61.3,442.2,13.3,2012
+2012-02,Nova Scotia,units,thousands,units,64.2,780.0,8.6,2012
+2012-02,Ontario,units,thousands,units,66.1,10921.8,7.9,2012
+2012-02,Prince Edward Island,units,thousands,units,67.4,119.2,10.7,2012
+2012-02,Quebec,units,thousands,units,64.9,6656.6,8.5,2012
+2012-02,Saskatchewan,units,thousands,units,69.4,819.8,5.0,2012
+2012-03,Alberta,units,thousands,units,74.2,3056.3,5.0,2012
+2012-03,British Columbia,units,thousands,units,65.3,3747.1,7.2,2012
+2012-03,Canada,units,thousands,units,66.7,28126.3,7.3,2012
+2012-03,Manitoba,units,thousands,units,69.1,948.1,5.3,2012
+2012-03,New Brunswick,units,thousands,units,62.5,623.0,10.1,2012
+2012-03,Newfoundland and Labrador,units,thousands,units,61.2,442.1,12.8,2012
+2012-03,Nova Scotia,units,thousands,units,64.4,779.8,8.9,2012
+2012-03,Ontario,units,thousands,units,66.3,10930.7,7.7,2012
+2012-03,Prince Edward Island,units,thousands,units,67.5,119.2,10.3,2012
+2012-03,Quebec,units,thousands,units,64.9,6659.3,7.8,2012
+2012-03,Saskatchewan,units,thousands,units,69.2,820.7,5.1,2012
+2012-04,Alberta,units,thousands,units,74.2,3064.0,4.9,2012
+2012-04,British Columbia,units,thousands,units,65.4,3753.7,6.6,2012
+2012-04,Canada,units,thousands,units,67.0,28160.3,7.4,2012
+2012-04,Manitoba,units,thousands,units,69.4,949.3,5.2,2012
+2012-04,New Brunswick,units,thousands,units,63.8,623.3,9.7,2012
+2012-04,Newfoundland and Labrador,units,thousands,units,62.3,442.0,12.5,2012
+2012-04,Nova Scotia,units,thousands,units,64.5,779.7,9.1,2012
+2012-04,Ontario,units,thousands,units,66.6,10943.0,8.0,2012
+2012-04,Prince Edward Island,units,thousands,units,68.6,119.2,11.0,2012
+2012-04,Quebec,units,thousands,units,65.3,6663.6,8.0,2012
+2012-04,Saskatchewan,units,thousands,units,70.4,822.5,5.1,2012
+2012-05,Alberta,units,thousands,units,74.0,3069.9,4.5,2012
+2012-05,British Columbia,units,thousands,units,65.7,3758.9,7.4,2012
+2012-05,Canada,units,thousands,units,67.0,28188.3,7.5,2012
+2012-05,Manitoba,units,thousands,units,69.0,950.2,5.1,2012
+2012-05,New Brunswick,units,thousands,units,64.0,623.5,9.8,2012
+2012-05,Newfoundland and Labrador,units,thousands,units,62.1,442.1,12.6,2012
+2012-05,Nova Scotia,units,thousands,units,64.7,779.9,9.6,2012
+2012-05,Ontario,units,thousands,units,66.4,10953.2,8.2,2012
+2012-05,Prince Edward Island,units,thousands,units,68.8,119.2,11.5,2012
+2012-05,Quebec,units,thousands,units,65.5,6667.4,8.0,2012
+2012-05,Saskatchewan,units,thousands,units,70.0,823.9,4.7,2012
+2012-06,Alberta,units,thousands,units,73.7,3075.6,4.6,2012
+2012-06,British Columbia,units,thousands,units,65.5,3764.6,6.9,2012
+2012-06,Canada,units,thousands,units,66.8,28218.5,7.4,2012
+2012-06,Manitoba,units,thousands,units,68.7,951.1,5.5,2012
+2012-06,New Brunswick,units,thousands,units,63.7,623.6,9.6,2012
+2012-06,Newfoundland and Labrador,units,thousands,units,62.6,442.4,13.4,2012
+2012-06,Nova Scotia,units,thousands,units,64.8,779.8,9.4,2012
+2012-06,Ontario,units,thousands,units,66.3,10965.1,8.1,2012
+2012-06,Prince Edward Island,units,thousands,units,69.8,119.3,12.6,2012
+2012-06,Quebec,units,thousands,units,65.2,6671.9,7.6,2012
+2012-06,Saskatchewan,units,thousands,units,70.0,825.2,5.1,2012
+2012-07,Alberta,units,thousands,units,73.6,3082.8,4.6,2012
+2012-07,British Columbia,units,thousands,units,65.4,3770.9,7.0,2012
+2012-07,Canada,units,thousands,units,66.7,28254.0,7.3,2012
+2012-07,Manitoba,units,thousands,units,68.7,952.5,5.6,2012
+2012-07,New Brunswick,units,thousands,units,64.0,623.9,10.6,2012
+2012-07,Newfoundland and Labrador,units,thousands,units,62.1,442.8,12.9,2012
+2012-07,Nova Scotia,units,thousands,units,65.0,779.8,9.4,2012
+2012-07,Ontario,units,thousands,units,66.4,10978.3,8.0,2012
+2012-07,Prince Edward Island,units,thousands,units,69.2,119.3,10.8,2012
+2012-07,Quebec,units,thousands,units,64.9,6677.1,7.3,2012
+2012-07,Saskatchewan,units,thousands,units,69.9,826.6,4.8,2012
+2012-08,Alberta,units,thousands,units,73.7,3088.6,4.3,2012
+2012-08,British Columbia,units,thousands,units,65.5,3775.7,6.7,2012
+2012-08,Canada,units,thousands,units,66.9,28279.3,7.4,2012
+2012-08,Manitoba,units,thousands,units,69.0,953.1,5.7,2012
+2012-08,New Brunswick,units,thousands,units,64.0,623.9,11.1,2012
+2012-08,Newfoundland and Labrador,units,thousands,units,62.5,443.0,13.5,2012
+2012-08,Nova Scotia,units,thousands,units,65.4,779.8,9.8,2012
+2012-08,Ontario,units,thousands,units,66.4,10987.6,8.1,2012
+2012-08,Prince Edward Island,units,thousands,units,69.6,119.3,12.2,2012
+2012-08,Quebec,units,thousands,units,65.4,6680.7,7.5,2012
+2012-08,Saskatchewan,units,thousands,units,70.4,827.6,4.7,2012
+2012-09,Alberta,units,thousands,units,73.9,3094.5,4.7,2012
+2012-09,British Columbia,units,thousands,units,65.8,3780.4,7.1,2012
+2012-09,Canada,units,thousands,units,67.0,28304.2,7.4,2012
+2012-09,Manitoba,units,thousands,units,69.1,953.9,5.4,2012
+2012-09,New Brunswick,units,thousands,units,63.9,624.1,11.6,2012
+2012-09,Newfoundland and Labrador,units,thousands,units,61.9,443.2,12.6,2012
+2012-09,Nova Scotia,units,thousands,units,65.2,779.9,8.9,2012
+2012-09,Ontario,units,thousands,units,66.5,10996.2,7.9,2012
+2012-09,Prince Edward Island,units,thousands,units,69.0,119.3,11.4,2012
+2012-09,Quebec,units,thousands,units,65.5,6684.0,7.6,2012
+2012-09,Saskatchewan,units,thousands,units,70.2,828.6,4.8,2012
+2012-10,Alberta,units,thousands,units,74.0,3100.4,4.8,2012
+2012-10,British Columbia,units,thousands,units,65.8,3785.0,6.8,2012
+2012-10,Canada,units,thousands,units,67.0,28329.7,7.4,2012
+2012-10,Manitoba,units,thousands,units,68.9,955.1,5.7,2012
+2012-10,New Brunswick,units,thousands,units,63.8,624.2,11.9,2012
+2012-10,Newfoundland and Labrador,units,thousands,units,62.3,443.5,11.9,2012
+2012-10,Nova Scotia,units,thousands,units,65.2,780.0,9.6,2012
+2012-10,Ontario,units,thousands,units,66.6,11005.5,8.2,2012
+2012-10,Prince Edward Island,units,thousands,units,69.5,119.3,11.3,2012
+2012-10,Quebec,units,thousands,units,65.4,6687.2,7.4,2012
+2012-10,Saskatchewan,units,thousands,units,70.5,829.5,4.6,2012
+2012-11,Alberta,units,thousands,units,73.8,3105.8,4.5,2012
+2012-11,British Columbia,units,thousands,units,65.6,3789.7,6.7,2012
+2012-11,Canada,units,thousands,units,67.0,28354.0,7.3,2012
+2012-11,Manitoba,units,thousands,units,69.0,956.2,5.5,2012
+2012-11,New Brunswick,units,thousands,units,63.7,624.3,11.5,2012
+2012-11,Newfoundland and Labrador,units,thousands,units,62.5,443.7,12.4,2012
+2012-11,Nova Scotia,units,thousands,units,64.8,780.0,9.4,2012
+2012-11,Ontario,units,thousands,units,66.5,11014.9,8.0,2012
+2012-11,Prince Edward Island,units,thousands,units,69.5,119.2,11.5,2012
+2012-11,Quebec,units,thousands,units,65.7,6690.1,7.8,2012
+2012-11,Saskatchewan,units,thousands,units,70.7,830.2,4.7,2012
+2012-12,Alberta,units,thousands,units,73.7,3110.9,4.8,2012
+2012-12,British Columbia,units,thousands,units,65.2,3794.3,6.4,2012
+2012-12,Canada,units,thousands,units,67.1,28376.9,7.2,2012
+2012-12,Manitoba,units,thousands,units,69.4,957.0,5.1,2012
+2012-12,New Brunswick,units,thousands,units,63.3,624.3,10.8,2012
+2012-12,Newfoundland and Labrador,units,thousands,units,62.3,443.8,11.8,2012
+2012-12,Nova Scotia,units,thousands,units,64.4,779.7,9.8,2012
+2012-12,Ontario,units,thousands,units,66.8,11023.7,7.8,2012
+2012-12,Prince Edward Island,units,thousands,units,70.4,119.2,10.8,2012
+2012-12,Quebec,units,thousands,units,65.7,6693.0,7.5,2012
+2012-12,Saskatchewan,units,thousands,units,70.6,831.0,4.9,2012
 2013-01,Alberta,units,thousands,units,73.6,3117.7,4.6,2013
 2013-01,British Columbia,units,thousands,units,65.1,3799.0,6.5,2013
 2013-01,Canada,units,thousands,units,66.9,28399.4,7.1,2013

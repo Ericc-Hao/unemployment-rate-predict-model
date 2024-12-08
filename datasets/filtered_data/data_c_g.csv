@@ -1,4 +1,36 @@
 REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed capital formation,GDP_SCALE,GCGF_SCALE,Year
+1981,Alberta,49.8,units,121088.0,40943.0,millions,millions,1981
+1982,Alberta,55.4,units,118052.0,36555.0,millions,millions,1982
+1983,Alberta,58.3,units,117421.0,29889.0,millions,millions,1983
+1984,Alberta,59.8,units,123180.0,26476.0,millions,millions,1984
+1985,Alberta,61.6,units,132159.0,28530.0,millions,millions,1985
+1986,Alberta,63.7,units,128432.0,25456.0,millions,millions,1986
+1987,Alberta,66.3,units,130777.0,26461.0,millions,millions,1987
+1988,Alberta,68.1,units,140853.0,30375.0,millions,millions,1988
+1989,Alberta,70.9,units,142912.0,29337.0,millions,millions,1989
+1990,Alberta,75.0,units,146131.0,31077.0,millions,millions,1990
+1991,Alberta,79.4,units,146777.0,28850.0,millions,millions,1991
+1992,Alberta,80.6,units,147756.0,28383.0,millions,millions,1992
+1993,Alberta,81.4,units,159234.0,31413.0,millions,millions,1993
+1994,Alberta,82.6,units,168049.0,36162.0,millions,millions,1994
+1995,Alberta,84.5,units,173206.0,36027.0,millions,millions,1995
+1996,Alberta,86.4,units,177367.0,38041.0,millions,millions,1996
+1997,Alberta,88.1,units,189477.0,48248.0,millions,millions,1997
+1998,Alberta,89.2,units,198807.0,53435.0,millions,millions,1998
+1999,Alberta,91.4,units,201271.0,50899.0,millions,millions,1999
+2000,Alberta,94.5,units,213656.0,59401.0,millions,millions,2000
+2001,Alberta,96.7,units,217167.0,66071.0,millions,millions,2001
+2002,Alberta,100.0,units,222143.0,65452.0,millions,millions,2002
+2003,Alberta,104.4,units,229834.0,69925.0,millions,millions,2003
+2004,Alberta,105.9,units,242622.0,77011.0,millions,millions,2004
+2005,Alberta,108.1,units,253330.0,93836.0,millions,millions,2005
+2006,Alberta,112.3,units,269426.0,103336.0,millions,millions,2006
+2007,Alberta,117.9,units,274159.0,105515.0,millions,millions,2007
+2008,Alberta,121.6,units,278580.0,107221.0,millions,millions,2008
+2009,Alberta,121.5,units,263141.0,79625.0,millions,millions,2009
+2010,Alberta,122.7,units,276213.0,98129.0,millions,millions,2010
+2011,Alberta,125.7,units,294040.0,108826.0,millions,millions,2011
+2012,Alberta,127.1,units,305530.0,121061.0,millions,millions,2012
 2013,Alberta,128.9,units,322960.0,134491.0,millions,millions,2013
 2014,Alberta,132.2,units,341998.0,140637.0,millions,millions,2014
 2015,Alberta,133.7,units,329332.0,112731.0,millions,millions,2015
@@ -10,6 +42,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Alberta,149.3,units,329067.0,79296.0,millions,millions,2021
 2022,Alberta,158.9,units,348686.0,87281.0,millions,millions,2022
 2023,Alberta,164.1,units,356761.0,85519.0,millions,millions,2023
+1981,British Columbia,51.8,units,114605.0,25713.0,millions,millions,1981
+1982,British Columbia,57.3,units,107268.0,20743.0,millions,millions,1982
+1983,British Columbia,60.4,units,108055.0,20354.0,millions,millions,1983
+1984,British Columbia,62.8,units,109036.0,19658.0,millions,millions,1984
+1985,British Columbia,64.8,units,116722.0,21044.0,millions,millions,1985
+1986,British Columbia,66.7,units,117808.0,19714.0,millions,millions,1986
+1987,British Columbia,68.7,units,125019.0,22440.0,millions,millions,1987
+1988,British Columbia,71.2,units,131926.0,26020.0,millions,millions,1988
+1989,British Columbia,74.4,units,136097.0,30437.0,millions,millions,1989
+1990,British Columbia,78.4,units,138149.0,30801.0,millions,millions,1990
+1991,British Columbia,82.6,units,138594.0,31351.0,millions,millions,1991
+1992,British Columbia,84.8,units,142442.0,32484.0,millions,millions,1992
+1993,British Columbia,87.8,units,149130.0,32735.0,millions,millions,1993
+1994,British Columbia,89.5,units,153049.0,36178.0,millions,millions,1994
+1995,British Columbia,91.6,units,157068.0,34291.0,millions,millions,1995
+1996,British Columbia,92.4,units,161066.0,34312.0,millions,millions,1996
+1997,British Columbia,93.1,units,166449.0,37160.0,millions,millions,1997
+1998,British Columbia,93.4,units,168469.0,34623.0,millions,millions,1998
+1999,British Columbia,94.4,units,174330.0,35126.0,millions,millions,1999
+2000,British Columbia,96.1,units,182264.0,36356.0,millions,millions,2000
+2001,British Columbia,97.7,units,183508.0,39120.0,millions,millions,2001
+2002,British Columbia,100.0,units,190817.0,39487.0,millions,millions,2002
+2003,British Columbia,102.2,units,195226.0,42110.0,millions,millions,2003
+2004,British Columbia,104.2,units,202904.0,48006.0,millions,millions,2004
+2005,British Columbia,106.3,units,212991.0,53468.0,millions,millions,2005
+2006,British Columbia,108.1,units,222403.0,58949.0,millions,millions,2006
+2007,British Columbia,110.0,units,229376.0,60675.0,millions,millions,2007
+2008,British Columbia,112.3,units,231000.0,62373.0,millions,millions,2008
+2009,British Columbia,112.3,units,225497.0,55152.0,millions,millions,2009
+2010,British Columbia,113.8,units,231927.0,58605.0,millions,millions,2010
+2011,British Columbia,116.5,units,238996.0,59184.0,millions,millions,2011
+2012,British Columbia,117.8,units,244610.0,62665.0,millions,millions,2012
 2013,British Columbia,117.7,units,250066.0,61126.0,millions,millions,2013
 2014,British Columbia,118.9,units,259251.0,65205.0,millions,millions,2014
 2015,British Columbia,120.2,units,264523.0,63164.0,millions,millions,2015
@@ -21,6 +85,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,British Columbia,136.1,units,312961.0,85419.0,millions,millions,2021
 2022,British Columbia,145.5,units,325364.0,86148.0,millions,millions,2022
 2023,British Columbia,151.2,units,333100.0,87515.0,millions,millions,2023
+1981,Canada,49.5,units,925154.0,195831.0,millions,millions,1981
+1982,Canada,54.9,units,895862.0,174728.0,millions,millions,1982
+1983,Canada,58.1,units,918816.0,173486.0,millions,millions,1983
+1984,Canada,60.6,units,973013.0,177246.0,millions,millions,1984
+1985,Canada,63.0,units,1019111.0,192295.0,millions,millions,1985
+1986,Canada,65.6,units,1040732.0,199910.0,millions,millions,1986
+1987,Canada,68.5,units,1083110.0,218051.0,millions,millions,1987
+1988,Canada,71.2,units,1130885.0,237952.0,millions,millions,1988
+1989,Canada,74.8,units,1157317.0,250216.0,millions,millions,1989
+1990,Canada,78.4,units,1159666.0,241515.0,millions,millions,1990
+1991,Canada,82.8,units,1135417.0,231315.0,millions,millions,1991
+1992,Canada,84.0,units,1145527.0,224515.0,millions,millions,1992
+1993,Canada,85.6,units,1175972.0,221908.0,millions,millions,1993
+1994,Canada,85.7,units,1228821.0,236779.0,millions,millions,1994
+1995,Canada,87.6,units,1261782.0,233546.0,millions,millions,1995
+1996,Canada,88.9,units,1283093.0,247020.0,millions,millions,1996
+1997,Canada,90.4,units,1338011.0,275872.0,millions,millions,1997
+1998,Canada,91.3,units,1390098.0,284794.0,millions,millions,1998
+1999,Canada,92.9,units,1461563.0,299412.0,millions,millions,1999
+2000,Canada,95.4,units,1536666.0,314575.0,millions,millions,2000
+2001,Canada,97.8,units,1565480.0,329734.0,millions,millions,2001
+2002,Canada,100.0,units,1612433.0,333015.0,millions,millions,2002
+2003,Canada,102.8,units,1641560.0,350401.0,millions,millions,2003
+2004,Canada,104.7,units,1692323.0,379954.0,millions,millions,2004
+2005,Canada,107.0,units,1746654.0,414623.0,millions,millions,2005
+2006,Canada,109.1,units,1792730.0,440664.0,millions,millions,2006
+2007,Canada,111.5,units,1829479.0,454622.0,millions,millions,2007
+2008,Canada,114.1,units,1847690.0,462015.0,millions,millions,2008
+2009,Canada,114.4,units,1793828.0,409740.0,millions,millions,2009
+2010,Canada,116.5,units,1849272.0,456906.0,millions,millions,2010
+2011,Canada,119.9,units,1907287.0,478096.0,millions,millions,2011
+2012,Canada,121.7,units,1940773.0,501456.0,millions,millions,2012
 2013,Canada,122.8,units,1985911.0,508722.0,millions,millions,2013
 2014,Canada,125.2,units,2042976.0,520168.0,millions,millions,2014
 2015,Canada,126.6,units,2056255.0,493068.0,millions,millions,2015
@@ -32,6 +128,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Canada,141.6,units,2255059.0,524821.0,millions,millions,2021
 2022,Canada,151.2,units,2349525.0,518285.0,millions,millions,2022
 2023,Canada,157.1,units,2385443.0,509843.0,millions,millions,2023
+1981,Manitoba,49.0,units,33934.0,5273.0,millions,millions,1981
+1982,Manitoba,53.3,units,33138.0,4282.0,millions,millions,1982
+1983,Manitoba,56.8,units,33414.0,4888.0,millions,millions,1983
+1984,Manitoba,58.9,units,35929.0,5624.0,millions,millions,1984
+1985,Manitoba,61.4,units,38237.0,6219.0,millions,millions,1985
+1986,Manitoba,64.1,units,38421.0,6775.0,millions,millions,1986
+1987,Manitoba,66.8,units,39016.0,6326.0,millions,millions,1987
+1988,Manitoba,69.6,units,38799.0,6528.0,millions,millions,1988
+1989,Manitoba,72.9,units,39785.0,6483.0,millions,millions,1989
+1990,Manitoba,76.2,units,40932.0,6448.0,millions,millions,1990
+1991,Manitoba,80.1,units,39563.0,6024.0,millions,millions,1991
+1992,Manitoba,81.2,units,39849.0,5852.0,millions,millions,1992
+1993,Manitoba,83.4,units,39883.0,6047.0,millions,millions,1993
+1994,Manitoba,84.6,units,41455.0,6226.0,millions,millions,1994
+1995,Manitoba,86.9,units,41478.0,6484.0,millions,millions,1995
+1996,Manitoba,88.8,units,42552.0,7207.0,millions,millions,1996
+1997,Manitoba,90.6,units,44396.0,7953.0,millions,millions,1997
+1998,Manitoba,91.8,units,46381.0,8096.0,millions,millions,1998
+1999,Manitoba,93.6,units,47033.0,8461.0,millions,millions,1999
+2000,Manitoba,95.9,units,49028.0,8354.0,millions,millions,2000
+2001,Manitoba,98.5,units,49552.0,8817.0,millions,millions,2001
+2002,Manitoba,100.0,units,50404.0,8858.0,millions,millions,2002
+2003,Manitoba,101.8,units,51072.0,9070.0,millions,millions,2003
+2004,Manitoba,103.8,units,52336.0,9764.0,millions,millions,2004
+2005,Manitoba,106.6,units,53805.0,10074.0,millions,millions,2005
+2006,Manitoba,108.7,units,55777.0,11114.0,millions,millions,2006
+2007,Manitoba,110.9,units,57204.0,12030.0,millions,millions,2007
+2008,Manitoba,113.4,units,59292.0,13101.0,millions,millions,2008
+2009,Manitoba,114.1,units,59202.0,12356.0,millions,millions,2009
+2010,Manitoba,115.0,units,60653.0,14358.0,millions,millions,2010
+2011,Manitoba,118.4,units,62107.0,14206.0,millions,millions,2011
+2012,Manitoba,120.3,units,63988.0,14977.0,millions,millions,2012
 2013,Manitoba,123.0,units,65845.0,15084.0,millions,millions,2013
 2014,Manitoba,125.3,units,67203.0,15654.0,millions,millions,2014
 2015,Manitoba,126.8,units,68032.0,15789.0,millions,millions,2015
@@ -43,6 +171,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Manitoba,142.0,units,71498.0,14259.0,millions,millions,2021
 2022,Manitoba,153.2,units,74505.0,13902.0,millions,millions,2022
 2023,Manitoba,158.6,units,75764.0,13452.0,millions,millions,2023
+1981,New Brunswick,50.9,units,18338.0,2843.0,millions,millions,1981
+1982,New Brunswick,55.6,units,18432.0,3002.0,millions,millions,1982
+1983,New Brunswick,59.3,units,19796.0,2690.0,millions,millions,1983
+1984,New Brunswick,62.3,units,20239.0,2810.0,millions,millions,1984
+1985,New Brunswick,65.2,units,20983.0,3205.0,millions,millions,1985
+1986,New Brunswick,67.5,units,22406.0,3205.0,millions,millions,1986
+1987,New Brunswick,69.4,units,23562.0,3178.0,millions,millions,1987
+1988,New Brunswick,71.8,units,23640.0,3594.0,millions,millions,1988
+1989,New Brunswick,75.2,units,23691.0,4098.0,millions,millions,1989
+1990,New Brunswick,78.7,units,23452.0,3885.0,millions,millions,1990
+1991,New Brunswick,83.8,units,23383.0,3920.0,millions,millions,1991
+1992,New Brunswick,84.3,units,23704.0,3670.0,millions,millions,1992
+1993,New Brunswick,85.4,units,24443.0,3531.0,millions,millions,1993
+1994,New Brunswick,85.9,units,24942.0,3440.0,millions,millions,1994
+1995,New Brunswick,87.2,units,25787.0,3776.0,millions,millions,1995
+1996,New Brunswick,88.5,units,26056.0,4080.0,millions,millions,1996
+1997,New Brunswick,90.1,units,26296.0,3796.0,millions,millions,1997
+1998,New Brunswick,90.6,units,27196.0,4431.0,millions,millions,1998
+1999,New Brunswick,92.1,units,28899.0,5454.0,millions,millions,1999
+2000,New Brunswick,95.1,units,29501.0,5510.0,millions,millions,2000
+2001,New Brunswick,96.8,units,30042.0,4722.0,millions,millions,2001
+2002,New Brunswick,100.0,units,31470.0,4837.0,millions,millions,2002
+2003,New Brunswick,103.4,units,32255.0,5329.0,millions,millions,2003
+2004,New Brunswick,104.9,units,33073.0,5765.0,millions,millions,2004
+2005,New Brunswick,107.4,units,33335.0,6158.0,millions,millions,2005
+2006,New Brunswick,109.2,units,34021.0,7277.0,millions,millions,2006
+2007,New Brunswick,111.3,units,34342.0,8002.0,millions,millions,2007
+2008,New Brunswick,113.2,units,34606.0,7944.0,millions,millions,2008
+2009,New Brunswick,113.5,units,34105.0,7074.0,millions,millions,2009
+2010,New Brunswick,115.9,units,34783.0,7292.0,millions,millions,2010
+2011,New Brunswick,120.0,units,34876.0,7738.0,millions,millions,2011
+2012,New Brunswick,122.0,units,34507.0,6706.0,millions,millions,2012
 2013,New Brunswick,123.0,units,34414.0,6208.0,millions,millions,2013
 2014,New Brunswick,124.8,units,34454.0,6088.0,millions,millions,2014
 2015,New Brunswick,125.4,units,34679.0,6013.0,millions,millions,2015
@@ -54,6 +214,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,New Brunswick,141.8,units,37271.0,6942.0,millions,millions,2021
 2022,New Brunswick,152.1,units,38027.0,7454.0,millions,millions,2022
 2023,New Brunswick,157.5,units,38636.0,7174.0,millions,millions,2023
+1981,Newfoundland and Labrador,53.1,units,15331.0,2679.0,millions,millions,1981
+1982,Newfoundland and Labrador,58.5,units,15423.0,3100.0,millions,millions,1982
+1983,Newfoundland and Labrador,62.4,units,15945.0,3448.0,millions,millions,1983
+1984,Newfoundland and Labrador,65.2,units,16434.0,3551.0,millions,millions,1984
+1985,Newfoundland and Labrador,67.9,units,16791.0,3559.0,millions,millions,1985
+1986,Newfoundland and Labrador,69.9,units,16830.0,3413.0,millions,millions,1986
+1987,Newfoundland and Labrador,71.9,units,17465.0,3097.0,millions,millions,1987
+1988,Newfoundland and Labrador,73.5,units,18355.0,3334.0,millions,millions,1988
+1989,Newfoundland and Labrador,76.2,units,19044.0,3430.0,millions,millions,1989
+1990,Newfoundland and Labrador,79.5,units,19132.0,3227.0,millions,millions,1990
+1991,Newfoundland and Labrador,84.4,units,19224.0,3394.0,millions,millions,1991
+1992,Newfoundland and Labrador,85.3,units,18840.0,3342.0,millions,millions,1992
+1993,Newfoundland and Labrador,86.7,units,19108.0,3877.0,millions,millions,1993
+1994,Newfoundland and Labrador,87.8,units,19857.0,4385.0,millions,millions,1994
+1995,Newfoundland and Labrador,89.0,units,20496.0,4473.0,millions,millions,1995
+1996,Newfoundland and Labrador,90.4,units,19530.0,3681.0,millions,millions,1996
+1997,Newfoundland and Labrador,92.3,units,19754.0,4130.0,millions,millions,1997
+1998,Newfoundland and Labrador,92.5,units,20733.0,4164.0,millions,millions,1998
+1999,Newfoundland and Labrador,93.8,units,21972.0,5307.0,millions,millions,1999
+2000,Newfoundland and Labrador,96.6,units,23153.0,4734.0,millions,millions,2000
+2001,Newfoundland and Labrador,97.7,units,23708.0,4753.0,millions,millions,2001
+2002,Newfoundland and Labrador,100.0,units,27530.0,4779.0,millions,millions,2002
+2003,Newfoundland and Labrador,102.9,units,29332.0,5068.0,millions,millions,2003
+2004,Newfoundland and Labrador,104.8,units,29126.0,5657.0,millions,millions,2004
+2005,Newfoundland and Labrador,107.6,units,29953.0,6256.0,millions,millions,2005
+2006,Newfoundland and Labrador,109.5,units,31148.0,5808.0,millions,millions,2006
+2007,Newfoundland and Labrador,111.1,units,34658.0,5465.0,millions,millions,2007
+2008,Newfoundland and Labrador,114.3,units,34137.0,6231.0,millions,millions,2008
+2009,Newfoundland and Labrador,114.6,units,30714.0,6001.0,millions,millions,2009
+2010,Newfoundland and Labrador,117.4,units,32386.0,7132.0,millions,millions,2010
+2011,Newfoundland and Labrador,121.4,units,33271.0,8828.0,millions,millions,2011
+2012,Newfoundland and Labrador,123.9,units,31815.0,10744.0,millions,millions,2012
 2013,Newfoundland and Labrador,126.0,units,33486.0,12468.0,millions,millions,2013
 2014,Newfoundland and Labrador,128.4,units,33096.0,12604.0,millions,millions,2014
 2015,Newfoundland and Labrador,129.0,units,32709.0,12344.0,millions,millions,2015
@@ -65,6 +257,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Newfoundland and Labrador,144.7,units,32836.0,7294.0,millions,millions,2021
 2022,Newfoundland and Labrador,153.9,units,32199.0,7461.0,millions,millions,2022
 2023,Newfoundland and Labrador,159.0,units,31358.0,8004.0,millions,millions,2023
+1981,Nova Scotia,50.8,units,22460.0,3895.0,millions,millions,1981
+1982,Nova Scotia,55.6,units,23480.0,4302.0,millions,millions,1982
+1983,Nova Scotia,59.1,units,23926.0,5158.0,millions,millions,1983
+1984,Nova Scotia,61.7,units,25764.0,5057.0,millions,millions,1984
+1985,Nova Scotia,64.5,units,27159.0,4940.0,millions,millions,1985
+1986,Nova Scotia,66.5,units,27727.0,4866.0,millions,millions,1986
+1987,Nova Scotia,68.8,units,28588.0,4886.0,millions,millions,1987
+1988,Nova Scotia,71.2,units,28936.0,5522.0,millions,millions,1988
+1989,Nova Scotia,74.4,units,29614.0,6142.0,millions,millions,1989
+1990,Nova Scotia,78.2,units,29333.0,5824.0,millions,millions,1990
+1991,Nova Scotia,82.9,units,28969.0,5638.0,millions,millions,1991
+1992,Nova Scotia,83.5,units,29335.0,4910.0,millions,millions,1992
+1993,Nova Scotia,84.5,units,29494.0,4942.0,millions,millions,1993
+1994,Nova Scotia,85.5,units,29458.0,5014.0,millions,millions,1994
+1995,Nova Scotia,86.6,units,29812.0,4872.0,millions,millions,1995
+1996,Nova Scotia,88.2,units,29838.0,4897.0,millions,millions,1996
+1997,Nova Scotia,90.0,units,31045.0,5990.0,millions,millions,1997
+1998,Nova Scotia,90.6,units,32202.0,6396.0,millions,millions,1998
+1999,Nova Scotia,92.1,units,33899.0,7634.0,millions,millions,1999
+2000,Nova Scotia,95.3,units,34907.0,7059.0,millions,millions,2000
+2001,Nova Scotia,97.1,units,35961.0,7357.0,millions,millions,2001
+2002,Nova Scotia,100.0,units,37512.0,7625.0,millions,millions,2002
+2003,Nova Scotia,103.4,units,37917.0,7646.0,millions,millions,2003
+2004,Nova Scotia,105.3,units,38209.0,7673.0,millions,millions,2004
+2005,Nova Scotia,108.2,units,38643.0,7906.0,millions,millions,2005
+2006,Nova Scotia,110.4,units,38940.0,7984.0,millions,millions,2006
+2007,Nova Scotia,112.5,units,39439.0,8255.0,millions,millions,2007
+2008,Nova Scotia,115.9,units,40219.0,7702.0,millions,millions,2008
+2009,Nova Scotia,115.7,units,40363.0,8554.0,millions,millions,2009
+2010,Nova Scotia,118.2,units,41458.0,9714.0,millions,millions,2010
+2011,Nova Scotia,122.7,units,41732.0,9385.0,millions,millions,2011
+2012,Nova Scotia,125.1,units,41327.0,8347.0,millions,millions,2012
 2013,Nova Scotia,126.6,units,41189.0,8682.0,millions,millions,2013
 2014,Nova Scotia,128.8,units,41589.0,8223.0,millions,millions,2014
 2015,Nova Scotia,129.3,units,41868.0,8234.0,millions,millions,2015
@@ -76,6 +300,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Nova Scotia,143.5,units,46290.0,10122.0,millions,millions,2021
 2022,Nova Scotia,154.3,units,47888.0,10367.0,millions,millions,2022
 2023,Nova Scotia,160.5,units,48849.0,10158.0,millions,millions,2023
+1981,Ontario,48.2,units,333886.0,54679.0,millions,millions,1981
+1982,Ontario,53.3,units,323290.0,48986.0,millions,millions,1982
+1983,Ontario,56.6,units,339776.0,51936.0,millions,millions,1983
+1984,Ontario,59.4,units,369769.0,56266.0,millions,millions,1984
+1985,Ontario,61.8,units,388621.0,64284.0,millions,millions,1985
+1986,Ontario,64.6,units,402773.0,73839.0,millions,millions,1986
+1987,Ontario,67.8,units,422206.0,82692.0,millions,millions,1987
+1988,Ontario,71.0,units,441390.0,90542.0,millions,millions,1988
+1989,Ontario,75.1,units,456049.0,95555.0,millions,millions,1989
+1990,Ontario,78.7,units,448863.0,87537.0,millions,millions,1990
+1991,Ontario,82.4,units,433824.0,83297.0,millions,millions,1991
+1992,Ontario,83.2,units,439646.0,83093.0,millions,millions,1992
+1993,Ontario,84.7,units,445934.0,76678.0,millions,millions,1993
+1994,Ontario,84.7,units,470175.0,80670.0,millions,millions,1994
+1995,Ontario,86.8,units,485360.0,81701.0,millions,millions,1995
+1996,Ontario,88.2,units,493273.0,89170.0,millions,millions,1996
+1997,Ontario,89.8,units,517141.0,99232.0,millions,millions,1997
+1998,Ontario,90.6,units,540651.0,102397.0,millions,millions,1998
+1999,Ontario,92.4,units,578064.0,111964.0,millions,millions,1999
+2000,Ontario,95.1,units,614668.0,117140.0,millions,millions,2000
+2001,Ontario,98.0,units,625918.0,120668.0,millions,millions,2001
+2002,Ontario,100.0,units,647284.0,121858.0,millions,millions,2002
+2003,Ontario,102.7,units,654453.0,127393.0,millions,millions,2003
+2004,Ontario,104.6,units,672827.0,134645.0,millions,millions,2004
+2005,Ontario,106.9,units,694446.0,142829.0,millions,millions,2005
+2006,Ontario,108.8,units,707467.0,149510.0,millions,millions,2006
+2007,Ontario,110.8,units,713004.0,151752.0,millions,millions,2007
+2008,Ontario,113.3,units,712990.0,150209.0,millions,millions,2008
+2009,Ontario,113.7,units,690852.0,140112.0,millions,millions,2009
+2010,Ontario,116.5,units,711237.0,153347.0,millions,millions,2010
+2011,Ontario,120.1,units,728407.0,156274.0,millions,millions,2011
+2012,Ontario,121.8,units,738001.0,158186.0,millions,millions,2012
 2013,Ontario,123.0,units,748281.0,151463.0,millions,millions,2013
 2014,Ontario,125.9,units,767050.0,158110.0,millions,millions,2014
 2015,Ontario,127.4,units,785866.0,168127.0,millions,millions,2015
@@ -87,6 +343,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Ontario,143.2,units,880652.0,201656.0,millions,millions,2021
 2022,Ontario,152.9,units,916916.0,188205.0,millions,millions,2022
 2023,Ontario,158.7,units,932757.0,183210.0,millions,millions,2023
+1981,Prince Edward Island,52.7,units,2912.0,355.0,millions,millions,1981
+1982,Prince Edward Island,57.8,units,2913.0,348.0,millions,millions,1982
+1983,Prince Edward Island,60.7,units,3202.0,371.0,millions,millions,1983
+1984,Prince Edward Island,63.3,units,3264.0,432.0,millions,millions,1984
+1985,Prince Edward Island,65.6,units,3264.0,451.0,millions,millions,1985
+1986,Prince Edward Island,67.0,units,3418.0,526.0,millions,millions,1986
+1987,Prince Edward Island,69.4,units,3505.0,518.0,millions,millions,1987
+1988,Prince Edward Island,71.9,units,3583.0,609.0,millions,millions,1988
+1989,Prince Edward Island,74.6,units,3686.0,609.0,millions,millions,1989
+1990,Prince Edward Island,78.4,units,3693.0,571.0,millions,millions,1990
+1991,Prince Edward Island,84.3,units,3683.0,679.0,millions,millions,1991
+1992,Prince Edward Island,85.0,units,3793.0,565.0,millions,millions,1992
+1993,Prince Edward Island,86.6,units,3843.0,595.0,millions,millions,1993
+1994,Prince Edward Island,86.4,units,4055.0,688.0,millions,millions,1994
+1995,Prince Edward Island,87.8,units,4313.0,734.0,millions,millions,1995
+1996,Prince Edward Island,89.4,units,4453.0,797.0,millions,millions,1996
+1997,Prince Edward Island,90.5,units,4510.0,653.0,millions,millions,1997
+1998,Prince Edward Island,90.1,units,4682.0,682.0,millions,millions,1998
+1999,Prince Edward Island,91.2,units,4885.0,789.0,millions,millions,1999
+2000,Prince Edward Island,94.9,units,5014.0,845.0,millions,millions,2000
+2001,Prince Edward Island,97.4,units,4943.0,879.0,millions,millions,2001
+2002,Prince Edward Island,100.0,units,5178.0,904.0,millions,millions,2002
+2003,Prince Edward Island,103.5,units,5278.0,948.0,millions,millions,2003
+2004,Prince Edward Island,105.8,units,5452.0,986.0,millions,millions,2004
+2005,Prince Edward Island,109.1,units,5637.0,1061.0,millions,millions,2005
+2006,Prince Edward Island,111.6,units,5788.0,1171.0,millions,millions,2006
+2007,Prince Edward Island,113.6,units,5748.0,1242.0,millions,millions,2007
+2008,Prince Edward Island,117.5,units,5807.0,1124.0,millions,millions,2008
+2009,Prince Edward Island,117.3,units,5842.0,1146.0,millions,millions,2009
+2010,Prince Edward Island,119.5,units,5957.0,1082.0,millions,millions,2010
+2011,Prince Edward Island,123.0,units,6085.0,1209.0,millions,millions,2011
+2012,Prince Edward Island,125.5,units,6148.0,1064.0,millions,millions,2012
 2013,Prince Edward Island,128.0,units,6256.0,1137.0,millions,millions,2013
 2014,Prince Edward Island,130.1,units,6263.0,1037.0,millions,millions,2014
 2015,Prince Edward Island,129.3,units,6351.0,963.0,millions,millions,2015
@@ -98,6 +386,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Prince Edward Island,144.9,units,7552.0,1728.0,millions,millions,2021
 2022,Prince Edward Island,157.8,units,7886.0,1654.0,millions,millions,2022
 2023,Prince Edward Island,162.3,units,8062.0,1510.0,millions,millions,2023
+1981,Quebec,50.2,units,212900.0,29167.0,millions,millions,1981
+1982,Quebec,56.0,units,204969.0,26214.0,millions,millions,1982
+1983,Quebec,59.1,units,208728.0,28282.0,millions,millions,1983
+1984,Quebec,61.5,units,218418.0,31198.0,millions,millions,1984
+1985,Quebec,64.2,units,225645.0,34447.0,millions,millions,1985
+1986,Quebec,67.3,units,228900.0,36808.0,millions,millions,1986
+1987,Quebec,70.2,units,238553.0,41662.0,millions,millions,1987
+1988,Quebec,72.8,units,248110.0,43685.0,millions,millions,1988
+1989,Quebec,75.9,units,248840.0,46312.0,millions,millions,1989
+1990,Quebec,79.2,units,250213.0,46285.0,millions,millions,1990
+1991,Quebec,85.0,units,243839.0,44484.0,millions,millions,1991
+1992,Quebec,86.6,units,244696.0,42633.0,millions,millions,1992
+1993,Quebec,87.7,units,250260.0,42929.0,millions,millions,1993
+1994,Quebec,86.6,units,261742.0,43832.0,millions,millions,1994
+1995,Quebec,88.1,units,267364.0,41366.0,millions,millions,1995
+1996,Quebec,89.5,units,270716.0,45140.0,millions,millions,1996
+1997,Quebec,90.8,units,278353.0,46420.0,millions,millions,1997
+1998,Quebec,92.1,units,287354.0,49742.0,millions,millions,1998
+1999,Quebec,93.5,units,304510.0,53064.0,millions,millions,1999
+2000,Quebec,95.8,units,317989.0,55890.0,millions,millions,2000
+2001,Quebec,98.0,units,323537.0,57435.0,millions,millions,2001
+2002,Quebec,100.0,units,332523.0,60963.0,millions,millions,2002
+2003,Quebec,102.5,units,336517.0,64477.0,millions,millions,2003
+2004,Quebec,104.5,units,344933.0,71234.0,millions,millions,2004
+2005,Quebec,106.9,units,350040.0,72469.0,millions,millions,2005
+2006,Quebec,108.7,units,354268.0,74176.0,millions,millions,2006
+2007,Quebec,110.4,units,362927.0,78819.0,millions,millions,2007
+2008,Quebec,112.7,units,370086.0,80879.0,millions,millions,2008
+2009,Quebec,113.4,units,367169.0,77485.0,millions,millions,2009
+2010,Quebec,114.8,units,374502.0,81123.0,millions,millions,2010
+2011,Quebec,118.3,units,381523.0,84093.0,millions,millions,2011
+2012,Quebec,120.8,units,385706.0,87034.0,millions,millions,2012
 2013,Quebec,121.7,units,390851.0,83920.0,millions,millions,2013
 2014,Quebec,123.4,units,397068.0,78651.0,millions,millions,2014
 2015,Quebec,124.7,units,400611.0,77084.0,millions,millions,2015
@@ -109,6 +429,38 @@ REF_DATE,GEO,CPI,CPI_SCALAR,Gross domestic product at market prices,Gross fixed 
 2021,Quebec,137.8,units,452009.0,99335.0,millions,millions,2021
 2022,Quebec,147.0,units,467245.0,97003.0,millions,millions,2022
 2023,Quebec,153.6,units,470252.0,93397.0,millions,millions,2023
+1981,Saskatchewan,49.5,units,39106.0,8544.0,millions,millions,1981
+1982,Saskatchewan,54.0,units,38137.0,6980.0,millions,millions,1982
+1983,Saskatchewan,57.4,units,39008.0,7636.0,millions,millions,1983
+1984,Saskatchewan,59.8,units,40232.0,7578.0,millions,millions,1984
+1985,Saskatchewan,62.0,units,41334.0,8116.0,millions,millions,1985
+1986,Saskatchewan,63.7,units,43528.0,7535.0,millions,millions,1986
+1987,Saskatchewan,66.8,units,43951.0,8186.0,millions,millions,1987
+1988,Saskatchewan,69.8,units,42277.0,7982.0,millions,millions,1988
+1989,Saskatchewan,72.9,units,42992.0,7280.0,millions,millions,1989
+1990,Saskatchewan,76.0,units,46215.0,7498.0,millions,millions,1990
+1991,Saskatchewan,80.0,units,46569.0,7798.0,millions,millions,1991
+1992,Saskatchewan,80.8,units,44510.0,6973.0,millions,millions,1992
+1993,Saskatchewan,83.3,units,47352.0,6992.0,millions,millions,1993
+1994,Saskatchewan,84.8,units,49205.0,7616.0,millions,millions,1994
+1995,Saskatchewan,86.4,units,49751.0,7973.0,millions,millions,1995
+1996,Saskatchewan,88.1,units,51249.0,9070.0,millions,millions,1996
+1997,Saskatchewan,89.2,units,53452.0,11949.0,millions,millions,1997
+1998,Saskatchewan,90.4,units,55761.0,10599.0,millions,millions,1998
+1999,Saskatchewan,92.0,units,55821.0,10781.0,millions,millions,1999
+2000,Saskatchewan,94.4,units,57274.0,10755.0,millions,millions,2000
+2001,Saskatchewan,97.2,units,56799.0,10752.0,millions,millions,2001
+2002,Saskatchewan,100.0,units,56609.0,10206.0,millions,millions,2002
+2003,Saskatchewan,102.3,units,59193.0,10930.0,millions,millions,2003
+2004,Saskatchewan,104.6,units,62025.0,11097.0,millions,millions,2004
+2005,Saskatchewan,106.9,units,63659.0,12936.0,millions,millions,2005
+2006,Saskatchewan,109.1,units,62716.0,14424.0,millions,millions,2006
+2007,Saskatchewan,112.2,units,65052.0,15503.0,millions,millions,2007
+2008,Saskatchewan,115.9,units,68463.0,18143.0,millions,millions,2008
+2009,Saskatchewan,117.1,units,64812.0,18029.0,millions,millions,2009
+2010,Saskatchewan,118.7,units,67843.0,21026.0,millions,millions,2010
+2011,Saskatchewan,122.0,units,71425.0,23087.0,millions,millions,2011
+2012,Saskatchewan,123.9,units,72645.0,25195.0,millions,millions,2012
 2013,Saskatchewan,125.7,units,77398.0,27176.0,millions,millions,2013
 2014,Saskatchewan,128.7,units,78958.0,28200.0,millions,millions,2014
 2015,Saskatchewan,130.8,units,78293.0,23945.0,millions,millions,2015
