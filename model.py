@@ -16,12 +16,15 @@ from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras.callbacks import EarlyStopping
 
+from data_preproce_piplines.data_process import data_preprocess
+
 predict_future_step = 2
 
 
 # preprocess data
 def preprocess_data():
-    df = pd.read_csv("./datasets/filtered_data/final_merged_data.csv")
+    # df = pd.read_csv("./datasets/filtered_data/final_merged_data.csv")
+    df = data_preprocess()
     #df = data_process()
     df = df[df['GEO'] == 'Canada']
     
