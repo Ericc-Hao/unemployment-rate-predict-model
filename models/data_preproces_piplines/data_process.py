@@ -38,7 +38,7 @@ def data_preprocess():
     data_c_g = pd.merge(cpi_data, gdp_data, on=["REF_DATE", "GEO"], how="inner")
     data_c_g['Year'] = data_c_g['REF_DATE']
 
-    data_c_g.to_csv('./datasets/filtered_data/data_c_g.csv', index=False)
+    # data_c_g.to_csv('./datasets/filtered_data/data_c_g.csv', index=False)
     print(f'mergering data[CPI&GDP]')
 
     # 2) merge cpi & gdp data with unemployee data
@@ -67,11 +67,8 @@ def data_preprocess():
     data_c_g_u.drop(columns=["REF_DATE_y"], inplace=True)
     data_c_g_u.rename(columns={"REF_DATE_x": "REF_DATE"}, inplace=True)
 
-    data_c_g_u.to_csv('./datasets/filtered_data/data_c_g_u.csv', index=False)
+    # data_c_g_u.to_csv('./datasets/filtered_data/data_c_g_u.csv', index=False)
     print(f'mergering data[CPI&GDP&Uncemployemnt]')
-
-
-
 
     # 3) merge cpi & gdp & unemployee data with wage data
     data_c_g_u['REF_DATE'] = pd.to_datetime(data_c_g_u['REF_DATE'], errors='coerce').dt.strftime('%Y-%m')
