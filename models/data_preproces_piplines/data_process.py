@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-from data_preproce_piplines.cpi import process_cpi_data 
-from data_preproce_piplines.gdp import process_gdp_data 
-from data_preproce_piplines.unemployment import process_unemployment_data 
-from data_preproce_piplines.wage import process_wage_data
+from data_preproces_piplines.cpi import process_cpi_data 
+from data_preproces_piplines.gdp import process_gdp_data 
+from data_preproces_piplines.unemployment import process_unemployment_data 
+from data_preproces_piplines.wage import process_wage_data
 
 def data_preprocess():
 

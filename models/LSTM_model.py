@@ -16,23 +16,18 @@ from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras.callbacks import EarlyStopping
 
-from data_preproce_piplines.data_process import data_preprocess
+from data_preproces_piplines.data_process import data_preprocess
 
 predict_future_step = 2
 
 
 # preprocess data
 def preprocess_data():
-    # df = pd.read_csv("./datasets/filtered_data/final_merged_data.csv")
     df = data_preprocess()
-    #df = data_process()
     df = df[df['GEO'] == 'Canada']
-    
-    #categorical_columns = ['GEO']
+
     continuous_columns = ['Participation Rate', 'Population', 'CPI', 'Gross domestic product at market prices', 'Gross fixed capital formation', 'Minimum Wage']
-    #encoded_features = pd.get_dummies(df[categorical_columns], drop_first=False)
-    #province_mapping = dict(enumerate(df[categorical_columns[0]].unique()))
-    
+
     date_value = df['REF_DATE']
     date_value = date_value.values.reshape(-1, 1)
     
