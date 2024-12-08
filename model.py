@@ -13,8 +13,10 @@ import sklearn as sk
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.callbacks import EarlyStopping
 
-#from data_processing_piplines.data_process import data_process
+predict_future_step = 2
 
 
 # preprocess data
@@ -24,7 +26,7 @@ def preprocess_data():
     df = df[df['GEO'] == 'Canada']
     
     #categorical_columns = ['GEO']
-    continuous_columns = ['Participation Rate', 'Population', 'CPI', 'Gross domestic product at market prices', 'Gross fixed capital formation']
+    continuous_columns = ['Participation Rate', 'Population', 'CPI', 'Gross domestic product at market prices', 'Gross fixed capital formation', 'Minimum Wage']
     #encoded_features = pd.get_dummies(df[categorical_columns], drop_first=False)
     #province_mapping = dict(enumerate(df[categorical_columns[0]].unique()))
     
@@ -44,12 +46,13 @@ def preprocess_data():
     
     #features = np.hstack((scalered_features, encoded_features.values))
     features = scalered_features
+    #features = np.hstack((scalered_features, date_value))
     label = scalered_label
     
-    X_train = features[:-4]
-    y_train = label[:-4]
-    X_test = features[-4:]
-    y_test = label[-4:]
+    X_train = features[:-predict_future_step]
+    y_train = label[:-predict_future_step]
+    X_test = features[-predict_future_step:]
+    y_test = label[-predict_future_step:]
     
     return X_train, X_test, y_train, y_test, scaler_Y
     
@@ -77,8 +80,8 @@ class LSTM_model():
         self.batch_size = batch_size
         self.validation_split = validation_split
         self.model = Sequential()
-        self.LSTM = LSTM(25, input_shape=(self.X_train.shape[1], self.X_train.shape[2]), return_sequences=False)
-        self.dropout_layer = Dropout(0.35)
+        self.LSTM = LSTM(30, input_shape=(self.X_train.shape[1], self.X_train.shape[2]), return_sequences=False)
+        self.dropout_layer = Dropout(0.2)
         self.FC_layer = Dense(1, activation='relu')
         self.training_loss = []
         self.validation_loss = []
@@ -87,9 +90,10 @@ class LSTM_model():
         self.model.add(self.LSTM)
         self.model.add(self.dropout_layer)
         self.model.add(self.FC_layer)
-        self.model.compile(optimizer='adam', loss=tf.keras.losses.MeanSquaredError())
+        self.model.compile(optimizer=keras.optimizers.Adam(learning_rate=1e-3), loss=tf.keras.losses.MeanSquaredError())
         
     def train(self):
+        early_stopping = EarlyStopping(monitor='val_loss', patience=1, restore_best_weights=True)
         history = self.model.fit(self.X_train, self.y_train, epochs=self.epoch, batch_size=self.batch_size, validation_split=self.validation_split, verbose=1)
         self.training_loss = history.history.get('loss', [])
         self.validation_loss = history.history.get('val_loss', [])
@@ -118,13 +122,13 @@ def main():
     X_train, X_test, y_train, y_test, scaler_Y = preprocess_data()
     
     # process data through slice window method
-    future_step = 4
-    window_size = 16
+    future_step = predict_future_step
+    window_size = 12
     X_train, y_train = slice_window(X_train, y_train, future_step, window_size)
     
     # define parameters
     epoch = 30
-    batch_size = 16
+    batch_size = 8
     validation_split = 0.2
     
     # load & build model
@@ -134,7 +138,7 @@ def main():
     model.train()
     # predict
     forecast = model.predict(X_train[-future_step:])
-    print(X_train[-future_step:])
+    print(forecast)
     y_pred_future = scaler_Y.inverse_transform(forecast)[:,0]
     y_test = scaler_Y.inverse_transform(y_test)[:,0]
     print(y_pred_future)
