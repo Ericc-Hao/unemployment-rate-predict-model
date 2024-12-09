@@ -9,24 +9,16 @@ pip install -r requirements.txt
 
 ## Running the experiment
 
-Execute both models sequentially:
+Execute Training process
 
 ```bash
-python main.py
+python Training.py
 ```
 
-if you want to run Models Individually, please follow below steps:
-
-Linear Regression:
+Execute Test process
 
 ```bash
-python models/linear.py
-```
-
-LSTM Model:
-
-```bash
-python models/LSTM_model.py
+python Test.py
 ```
 
 ## File Structure
@@ -37,11 +29,12 @@ python models/LSTM_model.py
 │   │   └── [Filtered datasets]
 │   └── raw-data/
 │       └── [Raw datasets downloaded from Statistics Canada]
-├── main.py (Run both models)
+├── Test.py (Testing and validations)
+├── Training.py (Training LSTM and LR models)
 ├── models/
 │   ├── data_preproces_piplines/
 │   │   └── [Scripts for data cleaning and formatting]
-│   ├── linear.py (linear regression model)
-│   └── LSTM_model.py (LSTM model)
+│   ├── [saved training and validation losses during training process of LSTM model]
+│   └── [saved model files]
 └── requirements.txt
 ```

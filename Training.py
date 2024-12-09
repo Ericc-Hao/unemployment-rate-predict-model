@@ -1,17 +1,21 @@
 import os
+import pickle
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from tensorflow.keras.models import Sequential
+import tensorflow as tf
+from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dropout, Dense, Bidirectional, Input
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
-from data_preproces_piplines.data_process import data_preprocess
 from tensorflow.keras.losses import MeanSquaredError
+from tensorflow.keras import optimizers, regularizers
 
+from models.data_preproces_piplines.data_process import data_preprocess
 
 predict_future_step = 2
+
 def preprocess_data():
     # Load and preprocess the data
     df = data_preprocess()
@@ -74,28 +78,38 @@ def slice_window(X_train_scaled, y_train_scaled, future_step, window_size):
     X_train, y_train = np.array(X_train), np.array(y_train)
     return X_train, y_train
 
-class LSTMModel:
+
+class LSTM_model:
     def __init__(self, X_train, y_train, epoch, batch_size, validation_split):
         self.X_train = X_train
         self.y_train = y_train
         self.epoch = epoch
         self.batch_size = batch_size
         self.validation_split = validation_split
+        
         self.model = None
+        self.training_loss = []
+        self.validation_loss = []
 
     def build(self):
         self.model = Sequential()
         self.model.add(Input(shape=(self.X_train.shape[1], self.X_train.shape[2])))
-        self.model.add(Bidirectional(LSTM(64, return_sequences=True, kernel_regularizer='l2')))
+        self.model.add(Bidirectional(LSTM(64, return_sequences=True, kernel_regularizer=regularizers.l2(0.001))))
         self.model.add(Dropout(0.3))
-        self.model.add(LSTM(32, return_sequences=False, kernel_regularizer='l2'))
+        self.model.add(LSTM(32, return_sequences=False, kernel_regularizer=regularizers.l2(0.001)))
         self.model.add(Dropout(0.3))
         self.model.add(Dense(1, activation='linear'))
-        self.model.compile(optimizer='adam', loss=MeanSquaredError())
+        
+        self.model.compile(
+            optimizer=optimizers.Adam(learning_rate=1e-4),
+            loss=MeanSquaredError()
+        )
+        print("LSTM model built successfully.")
 
-    def train(self):
+    def train(self):        
         early_stopping = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
-        self.model.fit(
+        
+        history = self.model.fit(
             self.X_train,
             self.y_train,
             epochs=self.epoch,
@@ -104,8 +118,21 @@ class LSTMModel:
             callbacks=[early_stopping],
             verbose=1,
         )
+        
+        # Store training history
+        self.training_loss = history.history.get('loss', [])
+        self.validation_loss = history.history.get('val_loss', [])
+        
+        # Save the model
+        os.makedirs("models", exist_ok=True)
         self.model.save("models/lstm_model.h5")
-        print("LSTM model trained and saved as lstm_model.h5")
+        with open('models/lstm_model.pkl', 'wb') as f:
+            pickle.dump('models/lstm_model.h5', f)
+        print("LSTM model trained and saved as lstm_model.pkl")
+
+        np.save("models/training_loss.npy", self.training_loss)
+        np.save("models/validation_loss.npy", self.validation_loss)
+        print("Loss history saved as training_loss.npy and validation_loss.npy")
 
 class LinearRegressionModel:
     def __init__(self):
@@ -114,8 +141,10 @@ class LinearRegressionModel:
     def train(self, X, y):
         self.model.fit(X, y)
 
-    def save(self, filename="models/linear_model.npy"):
-        np.save(filename, self.model.coef_)
+    def save(self, filename="models/linear_model.pkl"):
+        os.makedirs("models", exist_ok=True)
+        with open(filename, 'wb') as file:
+            pickle.dump(self.model, file)
         print(f"Linear Regression model coefficients saved to {filename}")
 
 if __name__ == "__main__":
@@ -123,15 +152,20 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test, scaler_Y, df = preprocess_data()
 
     # Train and save LSTM model
+    print(f"\n{'Training LSTM model'.center(50, '-')}")
     window_size = 12
     future_step = 2
     X_train_lstm, y_train_lstm = slice_window(X_train, y_train, future_step, window_size)
-    lstm_model = LSTMModel(X_train_lstm, y_train_lstm, epoch=100, batch_size=8, validation_split=0.2)
+
+    lstm_model = LSTM_model(X_train_lstm, y_train_lstm, epoch=100, batch_size=8, validation_split=0.2)
     lstm_model.build()
     lstm_model.train()
+    print(f"{'Finished Train LSTM model'.center(50, '-')}")
 
+
+    print(f"\n{'Training Linear Regression model'.center(50, '-')}")
     # Train and save Linear Regression model
     linear_model = LinearRegressionModel()
     linear_model.train(X_train, y_train)
-    linear_model.save("models/linear_model.npy")
-    
+    linear_model.save()
+    print(f"{'Finished Train Linear Regression model'.center(50, '-')}")

@@ -1,5 +1,7 @@
 import os
 import numpy as np
+import pickle
+from tabulate import tabulate
 import pandas as pd
 import matplotlib.pyplot as plt
 from tensorflow import keras
@@ -7,7 +9,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.losses import MeanSquaredError
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
-from data_preproces_piplines.data_process import data_preprocess
+
+from models.data_preproces_piplines.data_process import data_preprocess
 
 predict_future_step = 2
 def preprocess_data():
@@ -77,44 +80,75 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test, scaler_Y, df = preprocess_data()
 
     # Test LSTM model
-    if os.path.exists("models/lstm_model.h5"):
-        model = load_model("models/lstm_model.h5")
+    if os.path.exists("models/lstm_model.pkl"):
+        with open("models/lstm_model.pkl", "rb") as f:
+            model_path = pickle.load(f)
+        model = load_model(model_path)
         window_size = 12
         future_step = 2
         X_train_lstm, y_train_lstm = slice_window(X_train, y_train, future_step, window_size)
         forecast_lstm = model.predict(X_train_lstm[-future_step:])
         y_pred_future_lstm = scaler_Y.inverse_transform(forecast_lstm)[:, 0]
         y_test_actual = scaler_Y.inverse_transform(y_test)[:, 0]
-
+        
         # Evaluate LSTM
-        mae = mean_absolute_error(y_test_actual, y_pred_future_lstm)
-        mse = mean_squared_error(y_test_actual, y_pred_future_lstm)
-        print("\nLSTM Model Evaluation:")
-        print(f"Mean Absolute Error: {mae:.4f}")
-        print(f"Mean Squared Error:  {mse:.4f}")
+        lstm_mae = mean_absolute_error(y_test_actual, y_pred_future_lstm)
+        lstm_mse = mean_squared_error(y_test_actual, y_pred_future_lstm)
 
     # Test Linear Regression model
     if os.path.exists("models/linear_model.npy"):
-        coefficients = np.load("models/linear_model.npy")
-        intercept = coefficients[0]
-        forecast_linear = X_test.dot(coefficients.T)
+
+        with open("models/linear_model.pkl", "rb") as f:
+            linear_model = pickle.load(f)
+
+        intercept = linear_model.intercept_
+        coefficients = linear_model.coef_
+        forecast_linear = np.dot(X_test, coefficients.T) + intercept
         y_pred_future_linear = scaler_Y.inverse_transform(forecast_linear)[:, 0]
 
         # Evaluate Linear Regression
-        mae = mean_absolute_error(y_test_actual, y_pred_future_linear)
-        mse = mean_squared_error(y_test_actual, y_pred_future_linear)
-        print("\nLinear Regression Model Evaluation:")
-        print(f"Mean Absolute Error: {mae:.4f}")
-        print(f"Mean Squared Error:  {mse:.4f}")
+        linear_mae = mean_absolute_error(y_test_actual, y_pred_future_linear)
+        linear_mse = mean_squared_error(y_test_actual, y_pred_future_linear)
 
+    # Load the training and validation loss from the LSTM model and print out the table
+    lstm_training_loss = np.load("models/training_loss.npy")
+    lstm_validation_loss = np.load("models/validation_loss.npy")
+    print(f"\n{'LSTM Model Training and Validation Loss'.center(50, '-')}")
+    table_data = [
+        [epoch, f"{train_loss:.4f}", f"{val_loss:.4f}"]
+        for epoch, (train_loss, val_loss) in enumerate(zip(lstm_training_loss, lstm_validation_loss), start=1)
+    ]
+    headers = ["Epoch", "Training Loss", "Validation Loss"]
+    print(tabulate(table_data, headers=headers, tablefmt="pretty"))
+
+    # plot the graph save it to image_folder
+    plt.figure(figsize=(10, 6))
+    plt.plot(lstm_training_loss, label='Training Loss')
+    plt.plot(lstm_validation_loss, label='Validation Loss')
+    plt.title('Loss for LSTM Model')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.xticks(range(1, len(lstm_training_loss) + 1))
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("image_folder/lstm_loss_plot.png")
+    print(f"The LSTM Loss Plot saved to image_folder/lstm_loss_plot.png\n")
+    
+    # Print evaluation metrics linear vs LSTM using tabulate in rand
+    print(f"\n{'Model Evaluation'.center(50, '-')}")
+    table_data = [
+        ["LSTM", round(lstm_mae,4), round(lstm_mse,4)],
+        ["Linear Regression", round(linear_mae,4), round(linear_mse,4)]
+    ]
+    headers = ["Model", "MAE", "MSE"]
+    print(tabulate(table_data, headers=headers, tablefmt="pretty"))
+    
     # Plot predictions
     future_dates = df['REF_DATE'].iloc[-future_step:].values
     plt.figure(figsize=(10, 6))
-    if os.path.exists("models/lstm_model.h5"):
-        plt.plot(future_dates, y_test_actual, marker='o', label='Actual')
-        plt.plot(future_dates, y_pred_future_lstm, marker='x', label='LSTM Predicted')
-    if os.path.exists("models/linear_model.npy"):
-        plt.plot(future_dates, y_pred_future_linear, marker='s', label='Linear Regression Predicted')
+    plt.plot(future_dates, y_test_actual, marker='o', label='Actual')
+    plt.plot(future_dates, y_pred_future_lstm, marker='x', label='LSTM Predicted')
+    plt.plot(future_dates, y_pred_future_linear, marker='s', label='Linear Regression Predicted')
     plt.title('Actual vs Predicted Unemployment Rate')
     plt.xlabel('Date')
     plt.ylabel('Unemployment Rate')
@@ -125,4 +159,13 @@ if __name__ == "__main__":
     # Save the plot to the output folder
     plot_path = os.path.join("image_folder", "predictions_plot.png")
     plt.savefig(plot_path)
-    print(f"Plot saved to {plot_path}")
+
+    print(f"\n{'Future Predictions vs Actual (by Date)'.center(50, '-')}")
+    table_data = [
+        [str(date)[:10], f"{lstm_pred:.2f}", f"{linear_pred:.2f}", f"{actual:.2f}"]
+        for date, lstm_pred, linear_pred, actual in reversed(list(zip(future_dates, y_pred_future_lstm, y_pred_future_linear, y_test_actual)))
+    ]
+    headers = ["Date", "LSTM Predicted", "LR Predicted", "Actual"]
+    print(tabulate(table_data, headers=headers, tablefmt="pretty"))
+    print(f"The Futrue Predictions Plot saved to {plot_path}")
+
