@@ -17,6 +17,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from datetime import datetime
 
 from data_preproces_piplines.data_process import data_preprocess
+import os
 
 predict_future_step = 2
 
@@ -109,30 +110,41 @@ class LSTM_model():
         self.validation_loss = []
         
     def build(self):
-        # Compile the model
-        self.model.compile(
-            optimizer=keras.optimizers.Adam(learning_rate=1e-4), 
-            loss=tf.keras.losses.MeanSquaredError()
-        )
+        if os.path.exists("./LSMT_model.h5"):
+            self.model = keras.models.load_model("./LSMT_model.h5")
+        else:
+            # Compile the model
+            self.model.compile(
+                optimizer=keras.optimizers.Adam(learning_rate=1e-4), 
+                loss=tf.keras.losses.MeanSquaredError()
+            )
         
     def train(self):
-        # Early stopping to prevent overfitting
-        early_stopping = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
+        if os.path.exists("./LSMT_model.h5"):
+            print("Model loaded ...")
         
-        # Train the model
-        history = self.model.fit(
-            self.X_train, 
-            self.y_train, 
-            epochs=self.epoch, 
-            batch_size=self.batch_size, 
-            validation_split=self.validation_split, 
-            verbose=1, 
-            callbacks=[early_stopping]
-        )
-        
-        # Store training history
-        self.training_loss = history.history.get('loss', [])
-        self.validation_loss = history.history.get('val_loss', [])
+        else:
+            # Early stopping to prevent overfitting
+            early_stopping = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
+            
+            # Train the model
+            history = self.model.fit(
+                self.X_train, 
+                self.y_train, 
+                epochs=self.epoch, 
+                batch_size=self.batch_size, 
+                validation_split=self.validation_split, 
+                verbose=1, 
+                callbacks=[early_stopping]
+            )
+            
+            # Store training history
+            self.training_loss = history.history.get('loss', [])
+            self.validation_loss = history.history.get('val_loss', [])
+            
+            # Save the trained model
+            print("Saving trained model to file...")
+            self.model.save("./LSMT_model.h5")
         
     def predict(self, X_train):
         # Generate predictions
