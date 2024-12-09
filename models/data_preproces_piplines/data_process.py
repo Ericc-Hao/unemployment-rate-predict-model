@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 
-from .cpi import process_cpi_data 
-from .gdp import process_gdp_data 
-from .unemployment import process_unemployment_data 
+from .cpi import process_cpi_data
+from .gdp import process_gdp_data
+from .unemployment import process_unemployment_data
 from .wage import process_wage_data
 
 def data_preprocess():
