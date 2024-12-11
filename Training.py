@@ -12,23 +12,14 @@ from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
 from tensorflow.keras.losses import MeanSquaredError
 from tensorflow.keras import optimizers, regularizers
 
-from models.data_preproces_piplines.data_process import data_preprocess
+# from models.data_preproces_piplines.data_process import data_preprocess
+from models.data_preproces_piplines.adjust_data_process import adjust_data_process
 
 predict_future_step = 2
 
-def preprocess_data():
+def adjust_preprocess_data():
     # Load and preprocess the data
-    df = data_preprocess()
-    df = df[df['GEO'] == 'Canada']
-
-    continuous_columns = [
-        'Participation Rate', 
-        'Population', 
-        'CPI', 
-        'Gross domestic product at market prices', 
-        'Gross fixed capital formation', 
-        'Minimum Wage'
-    ]
+    df = adjust_data_process()
 
     # Convert REF_DATE to datetime and extract month
     df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
@@ -41,19 +32,22 @@ def preprocess_data():
     
     # Scale continuous features using RobustScaler
     scaler_X = RobustScaler()
-    continuous_features = df[continuous_columns].astype(float)
+
+    # 只选择数值列进行转换
+    numeric_columns = df.select_dtypes(include=[np.number]).columns
+    continuous_features = df[numeric_columns].astype(float)
     scaler_X.fit(continuous_features)
-    scalered_features = scaler_X.transform(continuous_features)
+    scaled_features = scaler_X.transform(continuous_features)
     
     # Scale the target (Unemployment Rate)
     scaler_Y = RobustScaler()
-    label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
+    label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
     scaler_Y.fit(label)
-    scalered_label = scaler_Y.transform(label)
+    scaled_label = scaler_Y.transform(label)
     
     # Combine scaled features with date_features
-    features = np.hstack((scalered_features, df[date_features].values))
-    label = scalered_label
+    features = np.hstack((scaled_features, df[date_features].values))
+    label = scaled_label
     
     # Split into training and test sets (Shift by predict_future_step)
     X_train = features[:-predict_future_step]
@@ -62,6 +56,57 @@ def preprocess_data():
     y_test = label[-predict_future_step:]
     
     return X_train, X_test, y_train, y_test, scaler_Y, df
+
+
+# def preprocess_data():
+#     # Load and preprocess the data
+#     # df = data_preprocess()
+#     # df = adjust_data_process()
+#     # df = df[df['GEO'] == 'Canada']
+
+#     # continuous_columns = [
+#     #     'Participation Rate', 
+#     #     'Population', 
+#     #     'CPI', 
+#     #     'Gross domestic product at market prices', 
+#     #     'Gross fixed capital formation', 
+#     #     'Minimum Wage'
+#     # ]
+
+#     # Convert REF_DATE to datetime and extract month
+#     df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
+#     df['month'] = df['REF_DATE'].dt.month
+
+#     # Create cyclical monthly features
+#     df['month_sin'] = np.sin(2 * np.pi * df['month'] / 12)
+#     df['month_cos'] = np.cos(2 * np.pi * df['month'] / 12)
+#     date_features = ['month_sin', 'month_cos']
+    
+#     # Scale continuous features using RobustScaler
+#     scaler_X = RobustScaler()
+#     # continuous_features = df[continuous_columns].astype(float)
+#     continuous_features = df.astype(float)
+#     scaler_X.fit(continuous_features)
+#     scalered_features = scaler_X.transform(continuous_features)
+    
+#     # Scale the target (Unemployment Rate)
+#     scaler_Y = RobustScaler()
+#     # label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
+#     label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
+#     scaler_Y.fit(label)
+#     scalered_label = scaler_Y.transform(label)
+    
+#     # Combine scaled features with date_features
+#     features = np.hstack((scalered_features, df[date_features].values))
+#     label = scalered_label
+    
+#     # Split into training and test sets (Shift by predict_future_step)
+#     X_train = features[:-predict_future_step]
+#     y_train = label[:-predict_future_step]
+#     X_test = features[-predict_future_step:]
+#     y_test = label[-predict_future_step:]
+    
+#     return X_train, X_test, y_train, y_test, scaler_Y, df
 
 
 # slice_window function
@@ -149,7 +194,7 @@ class LinearRegressionModel:
 
 if __name__ == "__main__":
     # Preprocess data
-    X_train, X_test, y_train, y_test, scaler_Y, df = preprocess_data()
+    X_train, X_test, y_train, y_test, scaler_Y, df = adjust_preprocess_data()
 
     # Train and save LSTM model
     print(f"\n{'Training LSTM model'.center(50, '-')}")
