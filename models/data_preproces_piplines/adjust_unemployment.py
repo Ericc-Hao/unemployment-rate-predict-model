@@ -6,7 +6,7 @@ def adjust_process_unemployment_data(base_path, output_path):
     final_data = pd.DataFrame()
 
     # go through all year folders under the data path
-    for year in range(2012, 2025): 
+    for year in range(2008, 2025): 
         year_path = os.path.join(base_path, str(year))
         if not os.path.exists(year_path):
             continue
