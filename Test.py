@@ -10,7 +10,7 @@ from tensorflow.keras.losses import MeanSquaredError
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.preprocessing import RobustScaler, MinMaxScaler, StandardScaler
 
-# from models.data_preproces_piplines.data_process import data_preprocess
+from models.data_preproces_piplines.data_process import data_preprocess
 from models.data_preproces_piplines.adjust_data_process import adjust_data_process
 
 
@@ -59,18 +59,17 @@ def adjust_preprocess_data():
 
 # def preprocess_data():
 #     # Load and preprocess the data
-#     # df = data_preprocess()
-#     df = adjust_data_process()
-#     # df = df[df['GEO'] == 'Canada']
+#     df = data_preprocess()
+#     df = df[df['GEO'] == 'Canada']
 
-#     # continuous_columns = [
-#     #     'Participation Rate', 
-#     #     'Population', 
-#     #     'CPI', 
-#     #     'Gross domestic product at market prices', 
-#     #     'Gross fixed capital formation', 
-#     #     'Minimum Wage'
-#     # ]
+#     continuous_columns = [
+#         'Participation Rate', 
+#         'Population', 
+#         'CPI', 
+#         'Gross domestic product at market prices', 
+#         'Gross fixed capital formation', 
+#         'Minimum Wage'
+#     ]
 
 #     # Convert REF_DATE to datetime and extract month
 #     df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
@@ -83,16 +82,14 @@ def adjust_preprocess_data():
     
 #     # Scale continuous features using RobustScaler
 #     scaler_X = RobustScaler()
-#     continuous_features = df.astype(float)
-
-#     # continuous_features = df[continuous_columns].astype(float)
+#     continuous_features = df[continuous_columns].astype(float)
 #     scaler_X.fit(continuous_features)
 #     scalered_features = scaler_X.transform(continuous_features)
     
 #     # Scale the target (Unemployment Rate)
 #     scaler_Y = RobustScaler()
-#     # label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
-#     label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
+#     label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
+#     # label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
 
 #     scaler_Y.fit(label)
 #     scalered_label = scaler_Y.transform(label)
