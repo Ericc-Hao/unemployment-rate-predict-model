@@ -1,44 +1,474 @@
-REF_DATE,New Brunswick_CPI,British Columbia_CPI,Nova Scotia_CPI,Saskatchewan_CPI,Quebec_CPI,Canada_CPI,Prince Edward Island_CPI,Ontario_CPI,Alberta_CPI,Newfoundland and Labrador_CPI,Manitoba_CPI
-1981,50.9,51.8,50.8,49.5,50.2,49.5,52.7,48.2,49.8,53.1,49.0
-1982,55.6,57.3,55.6,54.0,56.0,54.9,57.8,53.3,55.4,58.5,53.3
-1983,59.3,60.4,59.1,57.4,59.1,58.1,60.7,56.6,58.3,62.4,56.8
-1984,62.3,62.8,61.7,59.8,61.5,60.6,63.3,59.4,59.8,65.2,58.9
-1985,65.2,64.8,64.5,62.0,64.2,63.0,65.6,61.8,61.6,67.9,61.4
-1986,67.5,66.7,66.5,63.7,67.3,65.6,67.0,64.6,63.7,69.9,64.1
-1987,69.4,68.7,68.8,66.8,70.2,68.5,69.4,67.8,66.3,71.9,66.8
-1988,71.8,71.2,71.2,69.8,72.8,71.2,71.9,71.0,68.1,73.5,69.6
-1989,75.2,74.4,74.4,72.9,75.9,74.8,74.6,75.1,70.9,76.2,72.9
-1990,78.7,78.4,78.2,76.0,79.2,78.4,78.4,78.7,75.0,79.5,76.2
-1991,83.8,82.6,82.9,80.0,85.0,82.8,84.3,82.4,79.4,84.4,80.1
-1992,84.3,84.8,83.5,80.8,86.6,84.0,85.0,83.2,80.6,85.3,81.2
-1993,85.4,87.8,84.5,83.3,87.7,85.6,86.6,84.7,81.4,86.7,83.4
-1994,85.9,89.5,85.5,84.8,86.6,85.7,86.4,84.7,82.6,87.8,84.6
-1995,87.2,91.6,86.6,86.4,88.1,87.6,87.8,86.8,84.5,89.0,86.9
-1996,88.5,92.4,88.2,88.1,89.5,88.9,89.4,88.2,86.4,90.4,88.8
-1997,90.1,93.1,90.0,89.2,90.8,90.4,90.5,89.8,88.1,92.3,90.6
-1998,90.6,93.4,90.6,90.4,92.1,91.3,90.1,90.6,89.2,92.5,91.8
-1999,92.1,94.4,92.1,92.0,93.5,92.9,91.2,92.4,91.4,93.8,93.6
-2000,95.1,96.1,95.3,94.4,95.8,95.4,94.9,95.1,94.5,96.6,95.9
-2001,96.8,97.7,97.1,97.2,98.0,97.8,97.4,98.0,96.7,97.7,98.5
-2002,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
-2003,103.4,102.2,103.4,102.3,102.5,102.8,103.5,102.7,104.4,102.9,101.8
-2004,104.9,104.2,105.3,104.6,104.5,104.7,105.8,104.6,105.9,104.8,103.8
-2005,107.4,106.3,108.2,106.9,106.9,107.0,109.1,106.9,108.1,107.6,106.6
-2006,109.2,108.1,110.4,109.1,108.7,109.1,111.6,108.8,112.3,109.5,108.7
-2007,111.3,110.0,112.5,112.2,110.4,111.5,113.6,110.8,117.9,111.1,110.9
-2008,113.2,112.3,115.9,115.9,112.7,114.1,117.5,113.3,121.6,114.3,113.4
-2009,113.5,112.3,115.7,117.1,113.4,114.4,117.3,113.7,121.5,114.6,114.1
-2010,115.9,113.8,118.2,118.7,114.8,116.5,119.5,116.5,122.7,117.4,115.0
-2011,120.0,116.5,122.7,122.0,118.3,119.9,123.0,120.1,125.7,121.4,118.4
-2012,122.0,117.8,125.1,123.9,120.8,121.7,125.5,121.8,127.1,123.9,120.3
-2013,123.0,117.7,126.6,125.7,121.7,122.8,128.0,123.0,128.9,126.0,123.0
-2014,124.8,118.9,128.8,128.7,123.4,125.2,130.1,125.9,132.2,128.4,125.3
-2015,125.4,120.2,129.3,130.8,124.7,126.6,129.3,127.4,133.7,129.0,126.8
-2016,128.2,122.4,130.9,132.2,125.6,128.4,130.8,129.7,135.2,132.5,128.4
-2017,131.2,125.0,132.4,134.4,126.9,130.4,133.2,131.9,137.3,135.7,130.5
-2018,134.0,128.4,135.3,137.5,129.0,133.4,136.3,135.0,140.6,137.9,133.8
-2019,136.3,131.4,137.5,139.9,131.7,136.0,137.9,137.5,143.1,139.3,136.8
-2020,136.6,132.4,137.9,140.7,132.8,137.0,137.9,138.4,144.7,139.6,137.5
-2021,141.8,136.1,143.5,144.4,137.8,141.6,144.9,143.2,149.3,144.7,142.0
-2022,152.1,145.5,154.3,153.9,147.0,151.2,157.8,152.9,158.9,153.9,153.2
-2023,157.5,151.2,160.5,160.0,153.6,157.1,162.3,158.7,164.1,159.0,158.6
+REF_DATE,GEO,CPI,CPI_SCALAR
+1981,New Brunswick,50.9,units
+1982,New Brunswick,55.6,units
+1983,New Brunswick,59.3,units
+1984,New Brunswick,62.3,units
+1985,New Brunswick,65.2,units
+1986,New Brunswick,67.5,units
+1987,New Brunswick,69.4,units
+1988,New Brunswick,71.8,units
+1989,New Brunswick,75.2,units
+1990,New Brunswick,78.7,units
+1991,New Brunswick,83.8,units
+1992,New Brunswick,84.3,units
+1993,New Brunswick,85.4,units
+1994,New Brunswick,85.9,units
+1995,New Brunswick,87.2,units
+1996,New Brunswick,88.5,units
+1997,New Brunswick,90.1,units
+1998,New Brunswick,90.6,units
+1999,New Brunswick,92.1,units
+2000,New Brunswick,95.1,units
+2001,New Brunswick,96.8,units
+2002,New Brunswick,100.0,units
+2003,New Brunswick,103.4,units
+2004,New Brunswick,104.9,units
+2005,New Brunswick,107.4,units
+2006,New Brunswick,109.2,units
+2007,New Brunswick,111.3,units
+2008,New Brunswick,113.2,units
+2009,New Brunswick,113.5,units
+2010,New Brunswick,115.9,units
+2011,New Brunswick,120.0,units
+2012,New Brunswick,122.0,units
+2013,New Brunswick,123.0,units
+2014,New Brunswick,124.8,units
+2015,New Brunswick,125.4,units
+2016,New Brunswick,128.2,units
+2017,New Brunswick,131.2,units
+2018,New Brunswick,134.0,units
+2019,New Brunswick,136.3,units
+2020,New Brunswick,136.6,units
+2021,New Brunswick,141.8,units
+2022,New Brunswick,152.1,units
+2023,New Brunswick,157.5,units
+1981,British Columbia,51.8,units
+1982,British Columbia,57.3,units
+1983,British Columbia,60.4,units
+1984,British Columbia,62.8,units
+1985,British Columbia,64.8,units
+1986,British Columbia,66.7,units
+1987,British Columbia,68.7,units
+1988,British Columbia,71.2,units
+1989,British Columbia,74.4,units
+1990,British Columbia,78.4,units
+1991,British Columbia,82.6,units
+1992,British Columbia,84.8,units
+1993,British Columbia,87.8,units
+1994,British Columbia,89.5,units
+1995,British Columbia,91.6,units
+1996,British Columbia,92.4,units
+1997,British Columbia,93.1,units
+1998,British Columbia,93.4,units
+1999,British Columbia,94.4,units
+2000,British Columbia,96.1,units
+2001,British Columbia,97.7,units
+2002,British Columbia,100.0,units
+2003,British Columbia,102.2,units
+2004,British Columbia,104.2,units
+2005,British Columbia,106.3,units
+2006,British Columbia,108.1,units
+2007,British Columbia,110.0,units
+2008,British Columbia,112.3,units
+2009,British Columbia,112.3,units
+2010,British Columbia,113.8,units
+2011,British Columbia,116.5,units
+2012,British Columbia,117.8,units
+2013,British Columbia,117.7,units
+2014,British Columbia,118.9,units
+2015,British Columbia,120.2,units
+2016,British Columbia,122.4,units
+2017,British Columbia,125.0,units
+2018,British Columbia,128.4,units
+2019,British Columbia,131.4,units
+2020,British Columbia,132.4,units
+2021,British Columbia,136.1,units
+2022,British Columbia,145.5,units
+2023,British Columbia,151.2,units
+1981,Nova Scotia,50.8,units
+1982,Nova Scotia,55.6,units
+1983,Nova Scotia,59.1,units
+1984,Nova Scotia,61.7,units
+1985,Nova Scotia,64.5,units
+1986,Nova Scotia,66.5,units
+1987,Nova Scotia,68.8,units
+1988,Nova Scotia,71.2,units
+1989,Nova Scotia,74.4,units
+1990,Nova Scotia,78.2,units
+1991,Nova Scotia,82.9,units
+1992,Nova Scotia,83.5,units
+1993,Nova Scotia,84.5,units
+1994,Nova Scotia,85.5,units
+1995,Nova Scotia,86.6,units
+1996,Nova Scotia,88.2,units
+1997,Nova Scotia,90.0,units
+1998,Nova Scotia,90.6,units
+1999,Nova Scotia,92.1,units
+2000,Nova Scotia,95.3,units
+2001,Nova Scotia,97.1,units
+2002,Nova Scotia,100.0,units
+2003,Nova Scotia,103.4,units
+2004,Nova Scotia,105.3,units
+2005,Nova Scotia,108.2,units
+2006,Nova Scotia,110.4,units
+2007,Nova Scotia,112.5,units
+2008,Nova Scotia,115.9,units
+2009,Nova Scotia,115.7,units
+2010,Nova Scotia,118.2,units
+2011,Nova Scotia,122.7,units
+2012,Nova Scotia,125.1,units
+2013,Nova Scotia,126.6,units
+2014,Nova Scotia,128.8,units
+2015,Nova Scotia,129.3,units
+2016,Nova Scotia,130.9,units
+2017,Nova Scotia,132.4,units
+2018,Nova Scotia,135.3,units
+2019,Nova Scotia,137.5,units
+2020,Nova Scotia,137.9,units
+2021,Nova Scotia,143.5,units
+2022,Nova Scotia,154.3,units
+2023,Nova Scotia,160.5,units
+1981,Saskatchewan,49.5,units
+1982,Saskatchewan,54.0,units
+1983,Saskatchewan,57.4,units
+1984,Saskatchewan,59.8,units
+1985,Saskatchewan,62.0,units
+1986,Saskatchewan,63.7,units
+1987,Saskatchewan,66.8,units
+1988,Saskatchewan,69.8,units
+1989,Saskatchewan,72.9,units
+1990,Saskatchewan,76.0,units
+1991,Saskatchewan,80.0,units
+1992,Saskatchewan,80.8,units
+1993,Saskatchewan,83.3,units
+1994,Saskatchewan,84.8,units
+1995,Saskatchewan,86.4,units
+1996,Saskatchewan,88.1,units
+1997,Saskatchewan,89.2,units
+1998,Saskatchewan,90.4,units
+1999,Saskatchewan,92.0,units
+2000,Saskatchewan,94.4,units
+2001,Saskatchewan,97.2,units
+2002,Saskatchewan,100.0,units
+2003,Saskatchewan,102.3,units
+2004,Saskatchewan,104.6,units
+2005,Saskatchewan,106.9,units
+2006,Saskatchewan,109.1,units
+2007,Saskatchewan,112.2,units
+2008,Saskatchewan,115.9,units
+2009,Saskatchewan,117.1,units
+2010,Saskatchewan,118.7,units
+2011,Saskatchewan,122.0,units
+2012,Saskatchewan,123.9,units
+2013,Saskatchewan,125.7,units
+2014,Saskatchewan,128.7,units
+2015,Saskatchewan,130.8,units
+2016,Saskatchewan,132.2,units
+2017,Saskatchewan,134.4,units
+2018,Saskatchewan,137.5,units
+2019,Saskatchewan,139.9,units
+2020,Saskatchewan,140.7,units
+2021,Saskatchewan,144.4,units
+2022,Saskatchewan,153.9,units
+2023,Saskatchewan,160.0,units
+1981,Quebec,50.2,units
+1982,Quebec,56.0,units
+1983,Quebec,59.1,units
+1984,Quebec,61.5,units
+1985,Quebec,64.2,units
+1986,Quebec,67.3,units
+1987,Quebec,70.2,units
+1988,Quebec,72.8,units
+1989,Quebec,75.9,units
+1990,Quebec,79.2,units
+1991,Quebec,85.0,units
+1992,Quebec,86.6,units
+1993,Quebec,87.7,units
+1994,Quebec,86.6,units
+1995,Quebec,88.1,units
+1996,Quebec,89.5,units
+1997,Quebec,90.8,units
+1998,Quebec,92.1,units
+1999,Quebec,93.5,units
+2000,Quebec,95.8,units
+2001,Quebec,98.0,units
+2002,Quebec,100.0,units
+2003,Quebec,102.5,units
+2004,Quebec,104.5,units
+2005,Quebec,106.9,units
+2006,Quebec,108.7,units
+2007,Quebec,110.4,units
+2008,Quebec,112.7,units
+2009,Quebec,113.4,units
+2010,Quebec,114.8,units
+2011,Quebec,118.3,units
+2012,Quebec,120.8,units
+2013,Quebec,121.7,units
+2014,Quebec,123.4,units
+2015,Quebec,124.7,units
+2016,Quebec,125.6,units
+2017,Quebec,126.9,units
+2018,Quebec,129.0,units
+2019,Quebec,131.7,units
+2020,Quebec,132.8,units
+2021,Quebec,137.8,units
+2022,Quebec,147.0,units
+2023,Quebec,153.6,units
+1981,Canada,49.5,units
+1982,Canada,54.9,units
+1983,Canada,58.1,units
+1984,Canada,60.6,units
+1985,Canada,63.0,units
+1986,Canada,65.6,units
+1987,Canada,68.5,units
+1988,Canada,71.2,units
+1989,Canada,74.8,units
+1990,Canada,78.4,units
+1991,Canada,82.8,units
+1992,Canada,84.0,units
+1993,Canada,85.6,units
+1994,Canada,85.7,units
+1995,Canada,87.6,units
+1996,Canada,88.9,units
+1997,Canada,90.4,units
+1998,Canada,91.3,units
+1999,Canada,92.9,units
+2000,Canada,95.4,units
+2001,Canada,97.8,units
+2002,Canada,100.0,units
+2003,Canada,102.8,units
+2004,Canada,104.7,units
+2005,Canada,107.0,units
+2006,Canada,109.1,units
+2007,Canada,111.5,units
+2008,Canada,114.1,units
+2009,Canada,114.4,units
+2010,Canada,116.5,units
+2011,Canada,119.9,units
+2012,Canada,121.7,units
+2013,Canada,122.8,units
+2014,Canada,125.2,units
+2015,Canada,126.6,units
+2016,Canada,128.4,units
+2017,Canada,130.4,units
+2018,Canada,133.4,units
+2019,Canada,136.0,units
+2020,Canada,137.0,units
+2021,Canada,141.6,units
+2022,Canada,151.2,units
+2023,Canada,157.1,units
+1981,Prince Edward Island,52.7,units
+1982,Prince Edward Island,57.8,units
+1983,Prince Edward Island,60.7,units
+1984,Prince Edward Island,63.3,units
+1985,Prince Edward Island,65.6,units
+1986,Prince Edward Island,67.0,units
+1987,Prince Edward Island,69.4,units
+1988,Prince Edward Island,71.9,units
+1989,Prince Edward Island,74.6,units
+1990,Prince Edward Island,78.4,units
+1991,Prince Edward Island,84.3,units
+1992,Prince Edward Island,85.0,units
+1993,Prince Edward Island,86.6,units
+1994,Prince Edward Island,86.4,units
+1995,Prince Edward Island,87.8,units
+1996,Prince Edward Island,89.4,units
+1997,Prince Edward Island,90.5,units
+1998,Prince Edward Island,90.1,units
+1999,Prince Edward Island,91.2,units
+2000,Prince Edward Island,94.9,units
+2001,Prince Edward Island,97.4,units
+2002,Prince Edward Island,100.0,units
+2003,Prince Edward Island,103.5,units
+2004,Prince Edward Island,105.8,units
+2005,Prince Edward Island,109.1,units
+2006,Prince Edward Island,111.6,units
+2007,Prince Edward Island,113.6,units
+2008,Prince Edward Island,117.5,units
+2009,Prince Edward Island,117.3,units
+2010,Prince Edward Island,119.5,units
+2011,Prince Edward Island,123.0,units
+2012,Prince Edward Island,125.5,units
+2013,Prince Edward Island,128.0,units
+2014,Prince Edward Island,130.1,units
+2015,Prince Edward Island,129.3,units
+2016,Prince Edward Island,130.8,units
+2017,Prince Edward Island,133.2,units
+2018,Prince Edward Island,136.3,units
+2019,Prince Edward Island,137.9,units
+2020,Prince Edward Island,137.9,units
+2021,Prince Edward Island,144.9,units
+2022,Prince Edward Island,157.8,units
+2023,Prince Edward Island,162.3,units
+1981,Ontario,48.2,units
+1982,Ontario,53.3,units
+1983,Ontario,56.6,units
+1984,Ontario,59.4,units
+1985,Ontario,61.8,units
+1986,Ontario,64.6,units
+1987,Ontario,67.8,units
+1988,Ontario,71.0,units
+1989,Ontario,75.1,units
+1990,Ontario,78.7,units
+1991,Ontario,82.4,units
+1992,Ontario,83.2,units
+1993,Ontario,84.7,units
+1994,Ontario,84.7,units
+1995,Ontario,86.8,units
+1996,Ontario,88.2,units
+1997,Ontario,89.8,units
+1998,Ontario,90.6,units
+1999,Ontario,92.4,units
+2000,Ontario,95.1,units
+2001,Ontario,98.0,units
+2002,Ontario,100.0,units
+2003,Ontario,102.7,units
+2004,Ontario,104.6,units
+2005,Ontario,106.9,units
+2006,Ontario,108.8,units
+2007,Ontario,110.8,units
+2008,Ontario,113.3,units
+2009,Ontario,113.7,units
+2010,Ontario,116.5,units
+2011,Ontario,120.1,units
+2012,Ontario,121.8,units
+2013,Ontario,123.0,units
+2014,Ontario,125.9,units
+2015,Ontario,127.4,units
+2016,Ontario,129.7,units
+2017,Ontario,131.9,units
+2018,Ontario,135.0,units
+2019,Ontario,137.5,units
+2020,Ontario,138.4,units
+2021,Ontario,143.2,units
+2022,Ontario,152.9,units
+2023,Ontario,158.7,units
+1981,Alberta,49.8,units
+1982,Alberta,55.4,units
+1983,Alberta,58.3,units
+1984,Alberta,59.8,units
+1985,Alberta,61.6,units
+1986,Alberta,63.7,units
+1987,Alberta,66.3,units
+1988,Alberta,68.1,units
+1989,Alberta,70.9,units
+1990,Alberta,75.0,units
+1991,Alberta,79.4,units
+1992,Alberta,80.6,units
+1993,Alberta,81.4,units
+1994,Alberta,82.6,units
+1995,Alberta,84.5,units
+1996,Alberta,86.4,units
+1997,Alberta,88.1,units
+1998,Alberta,89.2,units
+1999,Alberta,91.4,units
+2000,Alberta,94.5,units
+2001,Alberta,96.7,units
+2002,Alberta,100.0,units
+2003,Alberta,104.4,units
+2004,Alberta,105.9,units
+2005,Alberta,108.1,units
+2006,Alberta,112.3,units
+2007,Alberta,117.9,units
+2008,Alberta,121.6,units
+2009,Alberta,121.5,units
+2010,Alberta,122.7,units
+2011,Alberta,125.7,units
+2012,Alberta,127.1,units
+2013,Alberta,128.9,units
+2014,Alberta,132.2,units
+2015,Alberta,133.7,units
+2016,Alberta,135.2,units
+2017,Alberta,137.3,units
+2018,Alberta,140.6,units
+2019,Alberta,143.1,units
+2020,Alberta,144.7,units
+2021,Alberta,149.3,units
+2022,Alberta,158.9,units
+2023,Alberta,164.1,units
+1981,Newfoundland and Labrador,53.1,units
+1982,Newfoundland and Labrador,58.5,units
+1983,Newfoundland and Labrador,62.4,units
+1984,Newfoundland and Labrador,65.2,units
+1985,Newfoundland and Labrador,67.9,units
+1986,Newfoundland and Labrador,69.9,units
+1987,Newfoundland and Labrador,71.9,units
+1988,Newfoundland and Labrador,73.5,units
+1989,Newfoundland and Labrador,76.2,units
+1990,Newfoundland and Labrador,79.5,units
+1991,Newfoundland and Labrador,84.4,units
+1992,Newfoundland and Labrador,85.3,units
+1993,Newfoundland and Labrador,86.7,units
+1994,Newfoundland and Labrador,87.8,units
+1995,Newfoundland and Labrador,89.0,units
+1996,Newfoundland and Labrador,90.4,units
+1997,Newfoundland and Labrador,92.3,units
+1998,Newfoundland and Labrador,92.5,units
+1999,Newfoundland and Labrador,93.8,units
+2000,Newfoundland and Labrador,96.6,units
+2001,Newfoundland and Labrador,97.7,units
+2002,Newfoundland and Labrador,100.0,units
+2003,Newfoundland and Labrador,102.9,units
+2004,Newfoundland and Labrador,104.8,units
+2005,Newfoundland and Labrador,107.6,units
+2006,Newfoundland and Labrador,109.5,units
+2007,Newfoundland and Labrador,111.1,units
+2008,Newfoundland and Labrador,114.3,units
+2009,Newfoundland and Labrador,114.6,units
+2010,Newfoundland and Labrador,117.4,units
+2011,Newfoundland and Labrador,121.4,units
+2012,Newfoundland and Labrador,123.9,units
+2013,Newfoundland and Labrador,126.0,units
+2014,Newfoundland and Labrador,128.4,units
+2015,Newfoundland and Labrador,129.0,units
+2016,Newfoundland and Labrador,132.5,units
+2017,Newfoundland and Labrador,135.7,units
+2018,Newfoundland and Labrador,137.9,units
+2019,Newfoundland and Labrador,139.3,units
+2020,Newfoundland and Labrador,139.6,units
+2021,Newfoundland and Labrador,144.7,units
+2022,Newfoundland and Labrador,153.9,units
+2023,Newfoundland and Labrador,159.0,units
+1981,Manitoba,49.0,units
+1982,Manitoba,53.3,units
+1983,Manitoba,56.8,units
+1984,Manitoba,58.9,units
+1985,Manitoba,61.4,units
+1986,Manitoba,64.1,units
+1987,Manitoba,66.8,units
+1988,Manitoba,69.6,units
+1989,Manitoba,72.9,units
+1990,Manitoba,76.2,units
+1991,Manitoba,80.1,units
+1992,Manitoba,81.2,units
+1993,Manitoba,83.4,units
+1994,Manitoba,84.6,units
+1995,Manitoba,86.9,units
+1996,Manitoba,88.8,units
+1997,Manitoba,90.6,units
+1998,Manitoba,91.8,units
+1999,Manitoba,93.6,units
+2000,Manitoba,95.9,units
+2001,Manitoba,98.5,units
+2002,Manitoba,100.0,units
+2003,Manitoba,101.8,units
+2004,Manitoba,103.8,units
+2005,Manitoba,106.6,units
+2006,Manitoba,108.7,units
+2007,Manitoba,110.9,units
+2008,Manitoba,113.4,units
+2009,Manitoba,114.1,units
+2010,Manitoba,115.0,units
+2011,Manitoba,118.4,units
+2012,Manitoba,120.3,units
+2013,Manitoba,123.0,units
+2014,Manitoba,125.3,units
+2015,Manitoba,126.8,units
+2016,Manitoba,128.4,units
+2017,Manitoba,130.5,units
+2018,Manitoba,133.8,units
+2019,Manitoba,136.8,units
+2020,Manitoba,137.5,units
+2021,Manitoba,142.0,units
+2022,Manitoba,153.2,units
+2023,Manitoba,158.6,units

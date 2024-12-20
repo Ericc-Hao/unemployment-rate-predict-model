@@ -30,16 +30,17 @@ def adjust_preprocess_data():
     date_features = ['month_sin', 'month_cos']
     
     # Scale continuous features using RobustScaler
-    scaler_X = RobustScaler()
+    # scaler_X = RobustScaler()
+    scaler_X = StandardScaler()
 
-    # 只选择数值列进行转换
     numeric_columns = df.select_dtypes(include=[np.number]).columns
     continuous_features = df[numeric_columns].astype(float)
     scaler_X.fit(continuous_features)
     scaled_features = scaler_X.transform(continuous_features)
     
     # Scale the target (Unemployment Rate)
-    scaler_Y = RobustScaler()
+    # scaler_Y = RobustScaler()
+    scaler_Y = StandardScaler()
     label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
     scaler_Y.fit(label)
     scaled_label = scaler_Y.transform(label)
@@ -57,54 +58,56 @@ def adjust_preprocess_data():
     return X_train, X_test, y_train, y_test, scaler_Y, df
 
 
-# def preprocess_data():
-#     # Load and preprocess the data
-#     df = data_preprocess()
-#     df = df[df['GEO'] == 'Canada']
+def preprocess_data():
+    # Load and preprocess the data
+    df = data_preprocess()
+    df = df[df['GEO'] == 'Canada']
 
-#     continuous_columns = [
-#         'Participation Rate', 
-#         'Population', 
-#         'CPI', 
-#         'Gross domestic product at market prices', 
-#         'Gross fixed capital formation', 
-#         'Minimum Wage'
-#     ]
+    continuous_columns = [
+        'Participation Rate', 
+        'Population', 
+        'CPI', 
+        'Gross domestic product at market prices', 
+        'Gross fixed capital formation', 
+        'Minimum Wage'
+    ]
 
-#     # Convert REF_DATE to datetime and extract month
-#     df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
-#     df['month'] = df['REF_DATE'].dt.month
+    # Convert REF_DATE to datetime and extract month
+    df['REF_DATE'] = pd.to_datetime(df['REF_DATE'])
+    df['month'] = df['REF_DATE'].dt.month
 
-#     # Create cyclical monthly features
-#     df['month_sin'] = np.sin(2 * np.pi * df['month'] / 12)
-#     df['month_cos'] = np.cos(2 * np.pi * df['month'] / 12)
-#     date_features = ['month_sin', 'month_cos']
+    # Create cyclical monthly features
+    df['month_sin'] = np.sin(2 * np.pi * df['month'] / 12)
+    df['month_cos'] = np.cos(2 * np.pi * df['month'] / 12)
+    date_features = ['month_sin', 'month_cos']
     
-#     # Scale continuous features using RobustScaler
-#     scaler_X = RobustScaler()
-#     continuous_features = df[continuous_columns].astype(float)
-#     scaler_X.fit(continuous_features)
-#     scalered_features = scaler_X.transform(continuous_features)
+    # Scale continuous features using RobustScaler
+    # scaler_X = RobustScaler()
+    scaler_X = StandardScaler()
+    continuous_features = df[continuous_columns].astype(float)
+    scaler_X.fit(continuous_features)
+    scalered_features = scaler_X.transform(continuous_features)
     
-#     # Scale the target (Unemployment Rate)
-#     scaler_Y = RobustScaler()
-#     label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
-#     # label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
+    # Scale the target (Unemployment Rate)
+    # scaler_Y = RobustScaler()
+    scaler_Y = StandardScaler()
+    label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
+    # label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
 
-#     scaler_Y.fit(label)
-#     scalered_label = scaler_Y.transform(label)
+    scaler_Y.fit(label)
+    scalered_label = scaler_Y.transform(label)
     
-#     # Combine scaled features with date_features
-#     features = np.hstack((scalered_features, df[date_features].values))
-#     label = scalered_label
+    # Combine scaled features with date_features
+    features = np.hstack((scalered_features, df[date_features].values))
+    label = scalered_label
     
-#     # Split into training and test sets (Shift by predict_future_step)
-#     X_train = features[:-predict_future_step]
-#     y_train = label[:-predict_future_step]
-#     X_test = features[-predict_future_step:]
-#     y_test = label[-predict_future_step:]
+    # Split into training and test sets (Shift by predict_future_step)
+    X_train = features[:-predict_future_step]
+    y_train = label[:-predict_future_step]
+    X_test = features[-predict_future_step:]
+    y_test = label[-predict_future_step:]
     
-#     return X_train, X_test, y_train, y_test, scaler_Y, df
+    return X_train, X_test, y_train, y_test, scaler_Y, df
 
 
 # slice_window function
@@ -123,7 +126,9 @@ def slice_window(X_train_scaled, y_train_scaled, future_step, window_size):
 
 if __name__ == "__main__":
     # Preprocess data
-    X_train, X_test, y_train, y_test, scaler_Y, df = adjust_preprocess_data()
+    X_train, X_test, y_train, y_test, scaler_Y, df = preprocess_data()
+    # X_train, X_test, y_train, y_test, scaler_Y, df = adjust_preprocess_data()
+
 
     # Test LSTM model
     if os.path.exists("models/lstm_model.pkl"):

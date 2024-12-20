@@ -32,8 +32,8 @@ def adjust_preprocess_data():
     
     # Scale continuous features using RobustScaler
     scaler_X = RobustScaler()
+    # scaler_X = StandardScaler()
 
-    # 只选择数值列进行转换
     numeric_columns = df.select_dtypes(include=[np.number]).columns
     continuous_features = df[numeric_columns].astype(float)
     scaler_X.fit(continuous_features)
@@ -41,6 +41,7 @@ def adjust_preprocess_data():
     
     # Scale the target (Unemployment Rate)
     scaler_Y = RobustScaler()
+    # scaler_Y = StandardScaler()
     label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
     scaler_Y.fit(label)
     scaled_label = scaler_Y.transform(label)
@@ -82,14 +83,16 @@ def preprocess_data():
     date_features = ['month_sin', 'month_cos']
     
     # Scale continuous features using RobustScaler
-    scaler_X = RobustScaler()
+    # scaler_X = RobustScaler()
+    scaler_X = StandardScaler()
     continuous_features = df[continuous_columns].astype(float)
     # continuous_features = df.astype(float)
     scaler_X.fit(continuous_features)
     scalered_features = scaler_X.transform(continuous_features)
     
     # Scale the target (Unemployment Rate)
-    scaler_Y = RobustScaler()
+    # scaler_Y = RobustScaler()
+    scaler_Y = StandardScaler()
     label = df['Unemployment Rate'].astype(float).values.reshape(-1, 1)
     # label = df['Canada-Unemployment rate'].astype(float).values.reshape(-1, 1)
     scaler_Y.fit(label)
@@ -145,7 +148,7 @@ class LSTM_model:
         self.model.add(Dense(1, activation='linear'))
         
         self.model.compile(
-            optimizer=optimizers.Adam(learning_rate=1e-4),
+            optimizer=optimizers.Adam(learning_rate=0.0001),
             loss=MeanSquaredError()
         )
         print("LSTM model built successfully.")
@@ -193,7 +196,9 @@ class LinearRegressionModel:
 
 if __name__ == "__main__":
     # Preprocess data
-    X_train, X_test, y_train, y_test, scaler_Y, df = adjust_preprocess_data()
+    X_train, X_test, y_train, y_test, scaler_Y, df = preprocess_data()
+    # X_train, X_test, y_train, y_test, scaler_Y, df = adjust_preprocess_data()
+
 
     # Train and save LSTM model
     print(f"\n{'Training LSTM model'.center(50, '-')}")
